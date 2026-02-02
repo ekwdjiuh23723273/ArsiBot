@@ -30,8 +30,8 @@
     "shift": "12",
     "models": "12",
     "reason": "12",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "timestamp": "2026-02-02T18:46:46.893Z"
   }
