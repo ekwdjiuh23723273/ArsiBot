@@ -27,21 +27,6 @@ module.exports = (client) => {
     }
   });
 
-  //TESTING-----------------------------
-  client.once(Events.ClientReady, async () => {
-  const guild = client.guilds.cache.get("1416359796948467755");
-  if (!guild) return;
-
-  const cmds = await guild.commands.fetch();
-  const leaveCmd = cmds.find(c => c.name === "leave");
-  if (leaveCmd) {
-    await leaveCmd.delete();
-    console.log("Old guild /leave deleted ✅");
-  }
-});
-
-//----------------------
-
   // HANDLE SLASH COMMAND
   client.on(Events.InteractionCreate, async interaction => {
     if (!interaction.isChatInputCommand()) return;
@@ -212,4 +197,5 @@ module.exports = (client) => {
   });
 
 };
+
 
