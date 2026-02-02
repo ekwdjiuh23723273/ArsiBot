@@ -20,7 +20,7 @@
     "reason": "none",
     "status": "Approved",
     "approverId": "995962476283842592",
-    "claimedBy": null,
+    "claimedBy": "995962476283842592",
     "timestamp": "2026-02-02T18:36:39.457Z"
   }
 ]
