@@ -213,13 +213,13 @@ module.exports = (client) => {
       (ch) => ch.name === "🛏️leave-requests🛏️"
     );
 
+    const leave = leaves.find((l) => l.userId === userId && l.date === date);
+
     // Only allow specific roles for approve/decline
     if ((action === "approve" || action === "decline") &&
         !interaction.member.roles.cache.some((r) => allowedRoles.includes(r.id))) {
       return interaction.reply({ content: "You cannot approve/decline ❌", ephemeral: true });
     }
-
-    const leave = leaves.find((l) => l.userId === userId && l.date === date);
 
     if (action === "approve") {
       await user.send(`Your leave for ${date} has been approved ✅`);
@@ -261,21 +261,22 @@ module.exports = (client) => {
       await interaction.update({ content: "Leave declined ❌", embeds: [], components: [] });
     }
 
-  if (action === "claim") {
-  embed
-    .setFooter({ text: `Status: Claimed by ${interaction.user.username}` })
-    .setColor("Yellow"); // <-- this makes the embed yellow when claimed
+    if (action === "claim") {
+      embed
+        .setFooter({ text: `Status: Claimed by ${interaction.user.username}` })
+        .setColor("Yellow");
 
-  if (leave) {
-    leave.claimedBy = interaction.user.id;
-    await saveLeaves();
-  }
+      if (leave) {
+        leave.claimedBy = interaction.user.id;
+        await saveLeaves();
+      }
 
-  await interaction.update({ embeds: [embed], components: [] });
-}
+      await interaction.update({ embeds: [embed], components: [] });
+    }
+  });
 
   // ----------------- WEEKLY REPORT -----------------
-  cron.schedule("0 8 * * 1", async () => { // 03:00 EST = 08:00 UTC
+  cron.schedule("0 8 * * 1", async () => {
     const approvalChannel = client.channels.cache.find((ch) => ch.name === "leave-approval");
     if (!approvalChannel) return;
 
@@ -306,4 +307,3 @@ module.exports = (client) => {
     approvalChannel.send({ embeds: [reportEmbed] });
   });
 };
-
