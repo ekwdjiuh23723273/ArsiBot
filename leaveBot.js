@@ -29,7 +29,7 @@ module.exports = (client) => {
 
   //TESTING-----------------------------
   client.once(Events.ClientReady, async () => {
-  const guild = client.guilds.cache.get("YOUR_GUILD_ID");
+  const guild = client.guilds.cache.get("1416359796948467755");
   if (!guild) return;
 
   const cmds = await guild.commands.fetch();
@@ -212,3 +212,4 @@ module.exports = (client) => {
   });
 
 };
+
