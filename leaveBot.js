@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const cron = require("node-cron");
+const { Octokit } = require("@octokit/rest");
 const {
   SlashCommandBuilder,
   ActionRowBuilder,
@@ -13,10 +14,17 @@ const {
   Events,
 } = require("discord.js");
 
+// ----------------- CONFIG -----------------
 const DATA_FILE = path.join(__dirname, "leaves.json");
 const allowedRoles = ["1416521000798912677", "1416520509914615949"];
 
-// Load or initialize leave data
+const GITHUB_OWNER = "ekwdjiuh23723273";
+const GITHUB_REPO = "ArsiBot";
+const GITHUB_PATH = "leaves.json";
+
+const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
+
+// ----------------- LOAD LEAVES -----------------
 let leaves = [];
 if (fs.existsSync(DATA_FILE)) {
   leaves = JSON.parse(fs.readFileSync(DATA_FILE));
@@ -24,20 +32,47 @@ if (fs.existsSync(DATA_FILE)) {
   fs.writeFileSync(DATA_FILE, JSON.stringify(leaves, null, 2));
 }
 
-// Save function
-function saveLeaves() {
-  fs.writeFileSync(DATA_FILE, JSON.stringify(leaves, null, 2));
+// ----------------- SAVE FUNCTION -----------------
+async function updateLeavesOnGitHub(leaves) {
+  try {
+    const { data: fileData } = await octokit.repos.getContent({
+      owner: GITHUB_OWNER,
+      repo: GITHUB_REPO,
+      path: GITHUB_PATH,
+    });
+
+    const content = Buffer.from(JSON.stringify(leaves, null, 2)).toString("base64");
+
+    await octokit.repos.createOrUpdateFileContents({
+      owner: GITHUB_OWNER,
+      repo: GITHUB_REPO,
+      path: GITHUB_PATH,
+      message: "Update leaves.json",
+      content,
+      sha: fileData.sha,
+    });
+
+    console.log("leaves.json synced to GitHub ✅");
+  } catch (err) {
+    console.error("Failed to sync leaves.json to GitHub:", err);
+  }
 }
 
+async function saveLeaves() {
+  fs.writeFileSync(DATA_FILE, JSON.stringify(leaves, null, 2));
+  await updateLeavesOnGitHub(leaves);
+}
+
+// ----------------- MODULE EXPORT -----------------
 module.exports = (client) => {
-  // REGISTER GLOBAL SLASH COMMAND
+  // ----------------- REGISTER SLASH COMMAND -----------------
   client.once(Events.ClientReady, async () => {
     try {
       const commands = [
         new SlashCommandBuilder()
           .setName("leave")
           .setDescription("Submit a leave request"),
-      ].map(cmd => cmd.toJSON());
+      ].map((cmd) => cmd.toJSON());
 
       await client.application.commands.set(commands);
       console.log("Global /leave command registered ✅");
@@ -46,8 +81,8 @@ module.exports = (client) => {
     }
   });
 
-  // HANDLE SLASH COMMAND
-  client.on(Events.InteractionCreate, async interaction => {
+  // ----------------- HANDLE SLASH COMMAND -----------------
+  client.on(Events.InteractionCreate, async (interaction) => {
     if (!interaction.isChatInputCommand()) return;
     if (interaction.commandName !== "leave") return;
 
@@ -96,8 +131,8 @@ module.exports = (client) => {
     await interaction.showModal(modal);
   });
 
-  // HANDLE MODAL SUBMIT
-  client.on(Events.InteractionCreate, async interaction => {
+  // ----------------- HANDLE MODAL SUBMIT -----------------
+  client.on(Events.InteractionCreate, async (interaction) => {
     if (!interaction.isModalSubmit()) return;
     if (interaction.customId !== "leaveModal") return;
 
@@ -105,19 +140,16 @@ module.exports = (client) => {
     const dates = interaction.fields
       .getTextInputValue("dates")
       .split(",")
-      .map(d => d.trim());
+      .map((d) => d.trim());
 
     const shift = interaction.fields.getTextInputValue("shift");
     const models = interaction.fields.getTextInputValue("models");
     const reason = interaction.fields.getTextInputValue("reason");
 
-    await interaction.reply({
-      content: "Leave request submitted ✅",
-      ephemeral: true,
-    });
+    await interaction.reply({ content: "Leave request submitted ✅", ephemeral: true });
 
     const approvalChannel = interaction.guild.channels.cache.find(
-      ch => ch.name === "leave-approval"
+      (ch) => ch.name === "leave-approval"
     );
 
     if (!approvalChannel) {
@@ -149,12 +181,8 @@ module.exports = (client) => {
           .setStyle(ButtonStyle.Danger)
       );
 
-      await approvalChannel.send({
-        embeds: [embed],
-        components: [buttons],
-      });
+      await approvalChannel.send({ embeds: [embed], components: [buttons] });
 
-      // Save to JSON
       leaves.push({
         userId: interaction.user.id,
         name,
@@ -167,33 +195,31 @@ module.exports = (client) => {
         claimedBy: null,
         timestamp: new Date().toISOString(),
       });
-      saveLeaves();
+
+      await saveLeaves();
     }
   });
 
-  // HANDLE BUTTONS
-  client.on(Events.InteractionCreate, async interaction => {
+  // ----------------- HANDLE BUTTONS -----------------
+  client.on(Events.InteractionCreate, async (interaction) => {
     if (!interaction.isButton()) return;
 
     const [action, userId, date] = interaction.customId.split("_");
     const user = await client.users.fetch(userId).catch(() => null);
-    if (!user) {
-      return interaction.reply({ content: "User not found ❌", ephemeral: true });
-    }
-
-    // Only roles allowed for approve/decline
-    if ((action === "approve" || action === "decline") &&
-        !interaction.member.roles.cache.some(r => allowedRoles.includes(r.id))) {
-      return interaction.reply({ content: "You cannot approve/decline ❌", ephemeral: true });
-    }
+    if (!user) return interaction.reply({ content: "User not found ❌", ephemeral: true });
 
     const embed = EmbedBuilder.from(interaction.message.embeds[0]);
     const leaveChannel = interaction.guild.channels.cache.find(
-      ch => ch.name === "🛏️leave-requests🛏️"
+      (ch) => ch.name === "🛏️leave-requests🛏️"
     );
 
-    // Find leave in JSON
-    const leave = leaves.find(l => l.userId === userId && l.date === date);
+    // Only allow specific roles for approve/decline
+    if ((action === "approve" || action === "decline") &&
+        !interaction.member.roles.cache.some((r) => allowedRoles.includes(r.id))) {
+      return interaction.reply({ content: "You cannot approve/decline ❌", ephemeral: true });
+    }
+
+    const leave = leaves.find((l) => l.userId === userId && l.date === date);
 
     if (action === "approve") {
       await user.send(`Your leave for ${date} has been approved ✅`);
@@ -206,15 +232,12 @@ module.exports = (client) => {
           .setStyle(ButtonStyle.Primary)
       );
 
-      if (leaveChannel) {
-        await leaveChannel.send({ embeds: [embed], components: [claimRow] });
-      }
+      if (leaveChannel) await leaveChannel.send({ embeds: [embed], components: [claimRow] });
 
-      // Update JSON
       if (leave) {
         leave.status = "Approved";
         leave.approverId = interaction.user.id;
-        saveLeaves();
+        await saveLeaves();
       }
 
       await interaction.update({ content: "Leave approved ✅", embeds: [], components: [] });
@@ -227,46 +250,38 @@ module.exports = (client) => {
 
       embed.setColor("Red").setFooter({ text: "Status: Declined" });
 
-      if (leaveChannel) {
-        await leaveChannel.send({ embeds: [embed], components: [] });
-      }
+      if (leaveChannel) await leaveChannel.send({ embeds: [embed], components: [] });
 
-      // Update JSON
       if (leave) {
         leave.status = "Declined";
         leave.approverId = interaction.user.id;
-        saveLeaves();
+        await saveLeaves();
       }
 
       await interaction.update({ content: "Leave declined ❌", embeds: [], components: [] });
     }
 
     if (action === "claim") {
-      embed.setFooter({
-        text: `Status: Claimed by ${interaction.user.username}`,
-      });
+      embed.setFooter({ text: `Status: Claimed by ${interaction.user.username}` });
 
       if (leave) {
         leave.claimedBy = interaction.user.id;
-        saveLeaves();
+        await saveLeaves();
       }
 
-      await interaction.update({
-        embeds: [embed],
-        components: [],
-      });
+      await interaction.update({ embeds: [embed], components: [] });
     }
   });
 
-  // WEEKLY REPORT EVERY MONDAY 03:00 EST
-  cron.schedule("0 8 * * 1", async () => { // 8:00 UTC = 03:00 EST
-    const approvalChannel = client.channels.cache.find(ch => ch.name === "leave-approval");
+  // ----------------- WEEKLY REPORT -----------------
+  cron.schedule("0 8 * * 1", async () => { // 03:00 EST = 08:00 UTC
+    const approvalChannel = client.channels.cache.find((ch) => ch.name === "leave-approval");
     if (!approvalChannel) return;
 
     const now = new Date();
     const sevenDaysAgo = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000);
 
-    const lastWeekLeaves = leaves.filter(l => new Date(l.timestamp) >= sevenDaysAgo);
+    const lastWeekLeaves = leaves.filter((l) => new Date(l.timestamp) >= sevenDaysAgo);
 
     if (lastWeekLeaves.length === 0) {
       approvalChannel.send("No leave requests in the last 7 days.");
@@ -278,7 +293,7 @@ module.exports = (client) => {
       .setColor("Blue")
       .setTimestamp();
 
-    lastWeekLeaves.forEach(l => {
+    lastWeekLeaves.forEach((l) => {
       reportEmbed.addFields({
         name: `${l.name} - ${l.date}`,
         value: `Status: ${l.status}\nShift: ${l.shift}\nModels: ${l.models}\nClaimed by: ${
