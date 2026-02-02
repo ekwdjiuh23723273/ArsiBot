@@ -10,5 +10,17 @@
     "approverId": "995962476283842592",
     "claimedBy": "995962476283842592",
     "timestamp": "2026-02-02T18:34:49.049Z"
+  },
+  {
+    "userId": "995962476283842592",
+    "name": "none",
+    "date": "none",
+    "shift": "none",
+    "models": "none",
+    "reason": "none",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "timestamp": "2026-02-02T18:36:39.457Z"
   }
 ]
