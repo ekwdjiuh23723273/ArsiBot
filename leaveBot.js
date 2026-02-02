@@ -261,17 +261,18 @@ module.exports = (client) => {
       await interaction.update({ content: "Leave declined ❌", embeds: [], components: [] });
     }
 
-    if (action === "claim") {
-      embed.setFooter({ text: `Status: Claimed by ${interaction.user.username}` });
+  if (action === "claim") {
+  embed
+    .setFooter({ text: `Status: Claimed by ${interaction.user.username}` })
+    .setColor("Yellow"); // <-- this makes the embed yellow when claimed
 
-      if (leave) {
-        leave.claimedBy = interaction.user.id;
-        await saveLeaves();
-      }
+  if (leave) {
+    leave.claimedBy = interaction.user.id;
+    await saveLeaves();
+  }
 
-      await interaction.update({ embeds: [embed], components: [] });
-    }
-  });
+  await interaction.update({ embeds: [embed], components: [] });
+}
 
   // ----------------- WEEKLY REPORT -----------------
   cron.schedule("0 8 * * 1", async () => { // 03:00 EST = 08:00 UTC
@@ -305,3 +306,4 @@ module.exports = (client) => {
     approvalChannel.send({ embeds: [reportEmbed] });
   });
 };
+
