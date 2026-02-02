@@ -1,3 +1,6 @@
+const fs = require("fs");
+const path = require("path");
+const cron = require("node-cron");
 const {
   SlashCommandBuilder,
   ActionRowBuilder,
@@ -9,6 +12,22 @@ const {
   EmbedBuilder,
   Events,
 } = require("discord.js");
+
+const DATA_FILE = path.join(__dirname, "leaves.json");
+const allowedRoles = ["1416521000798912677", "1416520509914615949"];
+
+// Load or initialize leave data
+let leaves = [];
+if (fs.existsSync(DATA_FILE)) {
+  leaves = JSON.parse(fs.readFileSync(DATA_FILE));
+} else {
+  fs.writeFileSync(DATA_FILE, JSON.stringify(leaves, null, 2));
+}
+
+// Save function
+function saveLeaves() {
+  fs.writeFileSync(DATA_FILE, JSON.stringify(leaves, null, 2));
+}
 
 module.exports = (client) => {
   // REGISTER GLOBAL SLASH COMMAND
@@ -44,7 +63,7 @@ module.exports = (client) => {
 
     const dateInput = new TextInputBuilder()
       .setCustomId("dates")
-      .setLabel("Date(s) (comma separated)")
+      .setLabel("Date(s) (comma separated, MM/DD/YYYY)")
       .setStyle(TextInputStyle.Short)
       .setRequired(true);
 
@@ -97,12 +116,12 @@ module.exports = (client) => {
       ephemeral: true,
     });
 
-    const leaveChannel = interaction.guild.channels.cache.find(
-      ch => ch.name === "🛏️leave-requests🛏️"
+    const approvalChannel = interaction.guild.channels.cache.find(
+      ch => ch.name === "leave-approval"
     );
 
-    if (!leaveChannel) {
-      console.log("leave-requests channel not found");
+    if (!approvalChannel) {
+      console.log("leave-approval channel not found");
       return;
     }
 
@@ -130,10 +149,25 @@ module.exports = (client) => {
           .setStyle(ButtonStyle.Danger)
       );
 
-      await leaveChannel.send({
+      await approvalChannel.send({
         embeds: [embed],
         components: [buttons],
       });
+
+      // Save to JSON
+      leaves.push({
+        userId: interaction.user.id,
+        name,
+        date,
+        shift,
+        models,
+        reason,
+        status: "Pending",
+        approverId: null,
+        claimedBy: null,
+        timestamp: new Date().toISOString(),
+      });
+      saveLeaves();
     }
   });
 
@@ -147,14 +181,23 @@ module.exports = (client) => {
       return interaction.reply({ content: "User not found ❌", ephemeral: true });
     }
 
+    // Only roles allowed for approve/decline
+    if ((action === "approve" || action === "decline") &&
+        !interaction.member.roles.cache.some(r => allowedRoles.includes(r.id))) {
+      return interaction.reply({ content: "You cannot approve/decline ❌", ephemeral: true });
+    }
+
     const embed = EmbedBuilder.from(interaction.message.embeds[0]);
+    const leaveChannel = interaction.guild.channels.cache.find(
+      ch => ch.name === "🛏️leave-requests🛏️"
+    );
+
+    // Find leave in JSON
+    const leave = leaves.find(l => l.userId === userId && l.date === date);
 
     if (action === "approve") {
       await user.send(`Your leave for ${date} has been approved ✅`);
-
-      embed
-        .setColor("Green")
-        .setFooter({ text: "Status: Approved" });
+      embed.setColor("Green").setFooter({ text: "Status: Approved" });
 
       const claimRow = new ActionRowBuilder().addComponents(
         new ButtonBuilder()
@@ -163,10 +206,18 @@ module.exports = (client) => {
           .setStyle(ButtonStyle.Primary)
       );
 
-      await interaction.update({
-        embeds: [embed],
-        components: [claimRow],
-      });
+      if (leaveChannel) {
+        await leaveChannel.send({ embeds: [embed], components: [claimRow] });
+      }
+
+      // Update JSON
+      if (leave) {
+        leave.status = "Approved";
+        leave.approverId = interaction.user.id;
+        saveLeaves();
+      }
+
+      await interaction.update({ content: "Leave approved ✅", embeds: [], components: [] });
     }
 
     if (action === "decline") {
@@ -174,20 +225,31 @@ module.exports = (client) => {
         `Your leave for ${date} has not been authorized ❌. Taking the day off will result in a fine.`
       );
 
-      embed
-        .setColor("Red")
-        .setFooter({ text: "Status: Declined" });
+      embed.setColor("Red").setFooter({ text: "Status: Declined" });
 
-      await interaction.update({
-        embeds: [embed],
-        components: [],
-      });
+      if (leaveChannel) {
+        await leaveChannel.send({ embeds: [embed], components: [] });
+      }
+
+      // Update JSON
+      if (leave) {
+        leave.status = "Declined";
+        leave.approverId = interaction.user.id;
+        saveLeaves();
+      }
+
+      await interaction.update({ content: "Leave declined ❌", embeds: [], components: [] });
     }
 
     if (action === "claim") {
       embed.setFooter({
         text: `Status: Claimed by ${interaction.user.username}`,
       });
+
+      if (leave) {
+        leave.claimedBy = interaction.user.id;
+        saveLeaves();
+      }
 
       await interaction.update({
         embeds: [embed],
@@ -196,6 +258,35 @@ module.exports = (client) => {
     }
   });
 
+  // WEEKLY REPORT EVERY MONDAY 03:00 EST
+  cron.schedule("0 8 * * 1", async () => { // 8:00 UTC = 03:00 EST
+    const approvalChannel = client.channels.cache.find(ch => ch.name === "leave-approval");
+    if (!approvalChannel) return;
+
+    const now = new Date();
+    const sevenDaysAgo = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000);
+
+    const lastWeekLeaves = leaves.filter(l => new Date(l.timestamp) >= sevenDaysAgo);
+
+    if (lastWeekLeaves.length === 0) {
+      approvalChannel.send("No leave requests in the last 7 days.");
+      return;
+    }
+
+    const reportEmbed = new EmbedBuilder()
+      .setTitle("Weekly Leave Report")
+      .setColor("Blue")
+      .setTimestamp();
+
+    lastWeekLeaves.forEach(l => {
+      reportEmbed.addFields({
+        name: `${l.name} - ${l.date}`,
+        value: `Status: ${l.status}\nShift: ${l.shift}\nModels: ${l.models}\nClaimed by: ${
+          l.claimedBy ? `<@${l.claimedBy}>` : "None"
+        }\nApproved by: ${l.approverId ? `<@${l.approverId}>` : "None"}`,
+      });
+    });
+
+    approvalChannel.send({ embeds: [reportEmbed] });
+  });
 };
-
-
