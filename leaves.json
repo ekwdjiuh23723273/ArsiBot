@@ -130,5 +130,17 @@
     "approverId": "995962476283842592",
     "claimedBy": null,
     "timestamp": "2026-02-03T11:09:15.830Z"
+  },
+  {
+    "userId": "1271349076230930474",
+    "name": "Christine",
+    "date": "02/07/2026",
+    "shift": "7:00PM -3:00AM",
+    "models": "Kat",
+    "reason": "Already requested this leave but requesting again because Trish cant cover anymore",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "timestamp": "2026-02-03T11:54:54.613Z"
   }
 ]
