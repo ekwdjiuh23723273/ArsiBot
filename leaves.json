@@ -126,8 +126,8 @@
     "shift": "Test",
     "models": "Test",
     "reason": "Test",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Declined",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "timestamp": "2026-02-03T11:09:15.830Z"
   }
