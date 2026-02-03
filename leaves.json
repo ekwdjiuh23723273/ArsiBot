@@ -70,5 +70,17 @@
     "approverId": "995962476283842592",
     "claimedBy": "1095288546610397236",
     "timestamp": "2026-02-03T09:11:31.379Z"
+  },
+  {
+    "userId": "457453484636110883",
+    "name": "Ivann",
+    "date": "02/05/2026",
+    "shift": "Graveyard",
+    "models": "Sara",
+    "reason": "Monthly extra off request.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "timestamp": "2026-02-03T10:08:25.164Z"
   }
 ]
