@@ -66,8 +66,8 @@
     "shift": "Day shift",
     "models": "Sara",
     "reason": "will travel to another city and meet my girlfriend's parents for the first time.",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "timestamp": "2026-02-03T09:11:31.379Z"
   }
