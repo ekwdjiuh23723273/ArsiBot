@@ -80,7 +80,7 @@
     "reason": "Monthly extra off request.",
     "status": "Pending",
     "approverId": null,
-    "claimedBy": null,
+    "claimedBy": "1287624675249356896",
     "timestamp": "2026-02-03T10:08:25.164Z"
   },
   {
@@ -150,8 +150,8 @@
     "shift": "1",
     "models": "1",
     "reason": "1",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "timestamp": "2026-02-03T16:41:58.815Z"
   }
