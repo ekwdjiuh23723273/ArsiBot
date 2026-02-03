@@ -46,5 +46,17 @@
     "approverId": "1336657724733128756",
     "claimedBy": "1336657724733128756",
     "timestamp": "2026-02-03T00:24:54.938Z"
+  },
+  {
+    "userId": "1215704080828080156",
+    "name": "Flacko",
+    "date": "2/13/25",
+    "shift": "Day shift",
+    "models": "Sara",
+    "reason": "will travel to another city and meet my girlfriend's parents for the first time.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "timestamp": "2026-02-03T09:11:30.109Z"
   }
 ]
