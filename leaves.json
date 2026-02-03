@@ -44,7 +44,7 @@
     "reason": "Im sick",
     "status": "Approved",
     "approverId": "1336657724733128756",
-    "claimedBy": null,
+    "claimedBy": "1336657724733128756",
     "timestamp": "2026-02-03T00:24:54.938Z"
   }
 ]
