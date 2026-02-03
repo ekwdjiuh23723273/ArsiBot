@@ -142,5 +142,17 @@
     "approverId": "760475790248116256",
     "claimedBy": "760475790248116256",
     "timestamp": "2026-02-03T11:54:54.613Z"
+  },
+  {
+    "userId": "995962476283842592",
+    "name": "Dawood",
+    "date": "02/06/2026",
+    "shift": "Day shift",
+    "models": "ALl",
+    "reason": "none fo your business",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "timestamp": "2026-02-03T16:22:39.633Z"
   }
 ]
