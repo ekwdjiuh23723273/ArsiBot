@@ -178,5 +178,17 @@
     "approverId": null,
     "claimedBy": null,
     "timestamp": "2026-02-03T17:46:56.309Z"
+  },
+  {
+    "userId": "752622347433017415",
+    "name": "Trish",
+    "date": "02/06/2026",
+    "shift": "11am till 7pm EST",
+    "models": "Lexi",
+    "reason": "need to prepare for an exam the next day :(",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "timestamp": "2026-02-03T17:55:24.382Z"
   }
 ]
