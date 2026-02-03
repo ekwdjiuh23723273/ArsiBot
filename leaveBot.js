@@ -226,7 +226,7 @@ module.exports = (client) => {
 
       await approvalChannel.send({
         content: approvalRoleIds.map((id) => `<@&${id}>`).join(" "),
-        allowedMentions: { parse: ["roles"], roles: approvalRoleIds },
+        allowedMentions: { roles: approvalRoleIds },
         embeds: [embed],
         components: [buttons],
       });
@@ -286,7 +286,7 @@ module.exports = (client) => {
       if (leaveChannel) {
         await leaveChannel.send({
           content: claimRoleMentions,
-          allowedMentions: { parse: ["roles"], roles: claimRoleIds },
+          allowedMentions: { roles: claimRoleIds },
           embeds: [embed],
           components: [claimRow],
         });
