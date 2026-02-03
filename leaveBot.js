@@ -183,6 +183,7 @@ module.exports = (client) => {
 
       await approvalChannel.send({
         content: "<@&1416520509914615949> <@&1416521000798912677>",
+        allowedMentions: { roles: ["1416520509914615949", "1416521000798912677"] },
         embeds: [embed],
         components: [buttons],
       });
@@ -226,7 +227,8 @@ module.exports = (client) => {
     }
 
     if (action === "approve") {
-      await user.send(`Your leave for ${date} has been approved ✅`);
+      await interaction.deferUpdate();
+      await user.send(`Your leave for ${date} has been approved ✅`).catch(() => null);
       embed.setColor("Green").setFooter({ text: "Status: Approved" });
 
       const claimRow = new ActionRowBuilder().addComponents(
@@ -239,6 +241,7 @@ module.exports = (client) => {
       if (leaveChannel) {
         await leaveChannel.send({
           content: "<@&1416542249667264616>",
+          allowedMentions: { roles: ["1416542249667264616"] },
           embeds: [embed],
           components: [claimRow],
         });
@@ -250,13 +253,16 @@ module.exports = (client) => {
         await saveLeaves();
       }
 
-      await interaction.update({ content: "Leave approved ✅", embeds: [], components: [] });
+      await interaction.editReply({ content: "Leave approved ✅", embeds: [], components: [] });
     }
 
     if (action === "decline") {
-      await user.send(
-        `Your leave for ${date} has not been authorized ❌. Taking the day off will result in a fine.`
-      );
+      await interaction.deferUpdate();
+      await user
+        .send(
+          `Your leave for ${date} has not been authorized ❌. Taking the day off will result in a fine.`
+        )
+        .catch(() => null);
 
       embed.setColor("Red").setFooter({ text: "Status: Declined" });
 
@@ -268,7 +274,7 @@ module.exports = (client) => {
         await saveLeaves();
       }
 
-      await interaction.update({ content: "Leave declined ❌", embeds: [], components: [] });
+      await interaction.editReply({ content: "Leave declined ❌", embeds: [], components: [] });
     }
 
     if (action === "claim") {
