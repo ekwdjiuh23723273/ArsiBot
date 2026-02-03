@@ -138,8 +138,8 @@
     "shift": "7:00PM -3:00AM",
     "models": "Kat",
     "reason": "Already requested this leave but requesting again because Trish cant cover anymore",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "760475790248116256",
     "claimedBy": null,
     "timestamp": "2026-02-03T11:54:54.613Z"
   }
