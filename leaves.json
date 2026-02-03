@@ -34,5 +34,17 @@
     "approverId": "995962476283842592",
     "claimedBy": "995962476283842592",
     "timestamp": "2026-02-02T18:46:46.893Z"
+  },
+  {
+    "userId": "1271349076230930474",
+    "name": "Christine",
+    "date": "02/02/2026",
+    "shift": "7:00- 3:00AM",
+    "models": "Kat",
+    "reason": "Im sick",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "timestamp": "2026-02-03T00:24:54.938Z"
   }
 ]
