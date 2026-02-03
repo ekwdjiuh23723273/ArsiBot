@@ -240,7 +240,7 @@ module.exports = (client) => {
 
       if (leaveChannel) {
         await leaveChannel.send({
-          content: claimRoleIds.map((id) => `<@&${id}>`).join(" "),
+          content: claimRoleMentions,
           allowedMentions: { parse: ["roles"], roles: claimRoleIds },
           embeds: [embed],
           components: [claimRow],
