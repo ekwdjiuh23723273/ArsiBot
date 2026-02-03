@@ -42,8 +42,8 @@
     "shift": "7:00- 3:00AM",
     "models": "Kat",
     "reason": "Im sick",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1336657724733128756",
     "claimedBy": null,
     "timestamp": "2026-02-03T00:24:54.938Z"
   }
