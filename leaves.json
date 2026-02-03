@@ -140,7 +140,7 @@
     "reason": "Already requested this leave but requesting again because Trish cant cover anymore",
     "status": "Approved",
     "approverId": "760475790248116256",
-    "claimedBy": null,
+    "claimedBy": "760475790248116256",
     "timestamp": "2026-02-03T11:54:54.613Z"
   }
 ]
