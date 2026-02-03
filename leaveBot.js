@@ -182,8 +182,8 @@ module.exports = (client) => {
       );
 
       await approvalChannel.send({
-        content: "<@&1416520509914615949> <@&1416521000798912677>",
-        allowedMentions: { roles: ["1416520509914615949", "1416521000798912677"] },
+        content: approvalRoleIds.map((id) => `<@&${id}>`).join(" "),
+        allowedMentions: { parse: ["roles"], roles: approvalRoleIds },
         embeds: [embed],
         components: [buttons],
       });
@@ -240,8 +240,8 @@ module.exports = (client) => {
 
       if (leaveChannel) {
         await leaveChannel.send({
-          content: "<@&1416542249667264616>",
-          allowedMentions: { roles: ["1416542249667264616"] },
+          content: claimRoleIds.map((id) => `<@&${id}>`).join(" "),
+          allowedMentions: { parse: ["roles"], roles: claimRoleIds },
           embeds: [embed],
           components: [claimRow],
         });
