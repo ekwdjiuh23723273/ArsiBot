@@ -18,6 +18,10 @@ const {
 const DATA_FILE = path.join(__dirname, "leaves.json");
 const allowedRoles = ["1416521000798912677", "1416520509914615949"];
 
+const approvalRoleIds = ["1416521000798912677", "1416520509914615949"];
+const claimRoleIds = ["1416542249667264616"];
+const claimRoleMentions = claimRoleIds.map((id) => `<@&${id}>`).join(" ");
+
 const GITHUB_OWNER = "ekwdjiuh23723273";
 const GITHUB_REPO = "ArsiBot";
 const GITHUB_PATH = "leaves.json";
