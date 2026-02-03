@@ -181,7 +181,11 @@ module.exports = (client) => {
           .setStyle(ButtonStyle.Danger)
       );
 
-      await approvalChannel.send({ embeds: [embed], components: [buttons] });
+      await approvalChannel.send({
+        content: "<@&1416520509914615949> <@&1416521000798912677>",
+        embeds: [embed],
+        components: [buttons],
+      });
 
       leaves.push({
         userId: interaction.user.id,
@@ -232,7 +236,13 @@ module.exports = (client) => {
           .setStyle(ButtonStyle.Primary)
       );
 
-      if (leaveChannel) await leaveChannel.send({ embeds: [embed], components: [claimRow] });
+      if (leaveChannel) {
+        await leaveChannel.send({
+          content: "<@&1416542249667264616>",
+          embeds: [embed],
+          components: [claimRow],
+        });
+      }
 
       if (leave) {
         leave.status = "Approved";
