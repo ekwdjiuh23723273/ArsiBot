@@ -94,5 +94,17 @@
     "approverId": null,
     "claimedBy": null,
     "timestamp": "2026-02-03T10:09:36.459Z"
+  },
+  {
+    "userId": "457453484636110883",
+    "name": "Ivann",
+    "date": "02/05/2026",
+    "shift": "Graveyard Full shift",
+    "models": "Sara",
+    "reason": "Exam.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "timestamp": "2026-02-03T10:47:20.981Z"
   }
 ]
