@@ -82,5 +82,17 @@
     "approverId": null,
     "claimedBy": null,
     "timestamp": "2026-02-03T10:08:25.164Z"
+  },
+  {
+    "userId": "457453484636110883",
+    "name": "Ivann",
+    "date": "02/06/2026",
+    "shift": "First Half of Graveyard",
+    "models": "Sara",
+    "reason": "Monthly extra off.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "timestamp": "2026-02-03T10:09:36.459Z"
   }
 ]
