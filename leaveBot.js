@@ -22,6 +22,11 @@ const approvalRoleIds = ["1416521000798912677", "1416520509914615949"];
 const claimRoleIds = ["1416542249667264616"];
 const claimRoleMentions = claimRoleIds.map((id) => `<@&${id}>`).join(" ");
 
+const APPROVAL_CHANNEL_ID = process.env.LEAVE_APPROVAL_CHANNEL_ID || null;
+const LEAVE_REQUESTS_CHANNEL_ID = process.env.LEAVE_REQUESTS_CHANNEL_ID || null;
+const APPROVAL_CHANNEL_NAME = "leave-approval";
+const LEAVE_REQUESTS_CHANNEL_NAME = "🛏️leave-requests🛏️";
+
 const GITHUB_OWNER = "ekwdjiuh23723273";
 const GITHUB_REPO = "ArsiBot";
 const GITHUB_PATH = "leaves.json";
@@ -65,6 +70,33 @@ async function updateLeavesOnGitHub(leaves) {
 async function saveLeaves() {
   fs.writeFileSync(DATA_FILE, JSON.stringify(leaves, null, 2));
   await updateLeavesOnGitHub(leaves);
+}
+
+function normalizeChannelName(name) {
+  return name?.toLowerCase().replace(/[^a-z0-9-]/g, "");
+}
+
+async function findChannel(guild, { id, name, normalizedTarget }) {
+  if (!guild) return null;
+
+  if (id) {
+    const byId = await guild.channels.fetch(id).catch(() => null);
+    if (byId) return byId;
+  }
+
+  if (name) {
+    const byName = guild.channels.cache.find((ch) => ch.name === name);
+    if (byName) return byName;
+  }
+
+  if (normalizedTarget) {
+    const byNormalized = guild.channels.cache.find(
+      (ch) => normalizeChannelName(ch.name) === normalizedTarget
+    );
+    if (byNormalized) return byNormalized;
+  }
+
+  return null;
 }
 
 // ----------------- MODULE EXPORT -----------------
@@ -152,12 +184,19 @@ module.exports = (client) => {
 
     await interaction.reply({ content: "Leave request submitted ✅", ephemeral: true });
 
-    const approvalChannel = interaction.guild.channels.cache.find(
-      (ch) => ch.name === "leave-approval"
-    );
+    const approvalChannel = await findChannel(interaction.guild, {
+      id: APPROVAL_CHANNEL_ID,
+      name: APPROVAL_CHANNEL_NAME,
+      normalizedTarget: "leave-approval",
+    });
 
     if (!approvalChannel) {
       console.log("leave-approval channel not found");
+      await interaction.followUp({
+        content:
+          "Leave request could not be posted: approval channel not found. Set LEAVE_APPROVAL_CHANNEL_ID or rename the channel to leave-approval.",
+        ephemeral: true,
+      });
       return;
     }
 
@@ -218,9 +257,11 @@ module.exports = (client) => {
     if (!user) return interaction.reply({ content: "User not found ❌", ephemeral: true });
 
     const embed = EmbedBuilder.from(interaction.message.embeds[0]);
-    const leaveChannel = interaction.guild.channels.cache.find(
-      (ch) => ch.name === "🛏️leave-requests🛏️"
-    );
+    const leaveChannel = await findChannel(interaction.guild, {
+      id: LEAVE_REQUESTS_CHANNEL_ID,
+      name: LEAVE_REQUESTS_CHANNEL_NAME,
+      normalizedTarget: "leave-requests",
+    });
 
     const leave = leaves.find((l) => l.userId === userId && l.date === date);
 
