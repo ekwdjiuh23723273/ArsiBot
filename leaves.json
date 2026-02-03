@@ -190,5 +190,17 @@
     "approverId": "995962476283842592",
     "claimedBy": "835064035070312459",
     "timestamp": "2026-02-03T17:55:24.382Z"
+  },
+  {
+    "userId": "759040255902482462",
+    "name": "Alex",
+    "date": "02/03/2026",
+    "shift": "Prime time",
+    "models": "Claire and Shea",
+    "reason": "Sent on TG",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "timestamp": "2026-02-03T21:30:12.262Z"
   }
 ]
