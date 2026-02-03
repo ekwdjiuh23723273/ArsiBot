@@ -186,8 +186,8 @@
     "shift": "11am till 7pm EST",
     "models": "Lexi",
     "reason": "need to prepare for an exam the next day :(",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "timestamp": "2026-02-03T17:55:24.382Z"
   }
