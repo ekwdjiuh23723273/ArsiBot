@@ -7,5 +7,6 @@ const client = new Client({
 // load modules
 require("./hypeBot")(client);
 require("./leaveBot")(client);
+require("./raffleBot")(client);
 
 client.login(process.env.BOT_TOKEN);
