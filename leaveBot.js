@@ -104,14 +104,18 @@ module.exports = (client) => {
   // ----------------- REGISTER SLASH COMMAND -----------------
   client.once(Events.ClientReady, async () => {
     try {
-      const commands = [
-        new SlashCommandBuilder()
+      const existing = await client.application.commands.fetch();
+      if (!existing.some((cmd) => cmd.name === "leave")) {
+        const command = new SlashCommandBuilder()
           .setName("leave")
-          .setDescription("Submit a leave request"),
-      ].map((cmd) => cmd.toJSON());
+          .setDescription("Submit a leave request")
+          .toJSON();
 
-      await client.application.commands.set(commands);
-      console.log("Global /leave command registered ✅");
+        await client.application.commands.create(command);
+        console.log("Global /leave command registered ✅");
+      } else {
+        console.log("Global /leave command already registered ✅");
+      }
     } catch (err) {
       console.error("Error registering global command:", err);
     }
