@@ -210,8 +210,8 @@
     "shift": "Day Shift (11 am-7pm EST)",
     "models": "Heather and Emily",
     "reason": "Explained on TG",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "timestamp": "2026-02-04T17:41:50.047Z"
   }
