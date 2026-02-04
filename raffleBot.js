@@ -20,7 +20,14 @@ const EST_TZ = "America/New_York";
 // ----------------- LOAD TICKETS -----------------
 let tix = [];
 if (fs.existsSync(DATA_FILE)) {
-	tix = JSON.parse(fs.readFileSync(DATA_FILE));
+	try {
+		const raw = fs.readFileSync(DATA_FILE, "utf8").trim();
+		tix = raw ? JSON.parse(raw) : [];
+	} catch (err) {
+		console.error("Failed to parse tix.json, resetting file:", err);
+		tix = [];
+		fs.writeFileSync(DATA_FILE, JSON.stringify(tix, null, 2));
+	}
 } else {
 	fs.writeFileSync(DATA_FILE, JSON.stringify(tix, null, 2));
 }
