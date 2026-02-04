@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const cron = require("node-cron");
+const { Octokit } = require("@octokit/rest");
 const {
 	SlashCommandBuilder,
 	ModalBuilder,
@@ -16,6 +17,10 @@ const RAFFLE_CHANNEL_ID = "1451571418138673215";
 const RAFFLE_CHANNEL_NAME = "⭐monthly-raffle-tickets⭐";
 const DATA_FILE = path.join(__dirname, "tix.json");
 const EST_TZ = "America/New_York";
+const GITHUB_OWNER = process.env.RAFFLE_GITHUB_OWNER || null;
+const GITHUB_REPO = process.env.RAFFLE_GITHUB_REPO || null;
+const GITHUB_PATH = process.env.RAFFLE_GITHUB_PATH || "tix.json";
+const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
 
 // ----------------- LOAD TICKETS -----------------
 let tix = [];
@@ -34,6 +39,55 @@ if (fs.existsSync(DATA_FILE)) {
 
 function saveTix() {
 	fs.writeFileSync(DATA_FILE, JSON.stringify(tix, null, 2));
+}
+
+async function updateTixOnGitHub() {
+	if (!GITHUB_OWNER || !GITHUB_REPO || !process.env.GITHUB_TOKEN) return;
+	try {
+		const { data: fileData } = await octokit.repos.getContent({
+			owner: GITHUB_OWNER,
+			repo: GITHUB_REPO,
+			path: GITHUB_PATH,
+		});
+
+		const content = Buffer.from(JSON.stringify(tix, null, 2)).toString("base64");
+
+		await octokit.repos.createOrUpdateFileContents({
+			owner: GITHUB_OWNER,
+			repo: GITHUB_REPO,
+			path: GITHUB_PATH,
+			message: "Update tix.json",
+			content,
+			sha: fileData.sha,
+		});
+	} catch (err) {
+		console.error("Failed to sync tix.json to GitHub:", err);
+	}
+}
+
+async function loadTixFromGitHub() {
+	if (!GITHUB_OWNER || !GITHUB_REPO || !process.env.GITHUB_TOKEN) return;
+	try {
+		const { data: fileData } = await octokit.repos.getContent({
+			owner: GITHUB_OWNER,
+			repo: GITHUB_REPO,
+			path: GITHUB_PATH,
+		});
+
+		const content = Buffer.from(fileData.content, "base64").toString("utf8");
+		const parsed = content.trim() ? JSON.parse(content) : [];
+		if (Array.isArray(parsed)) {
+			tix = parsed;
+			fs.writeFileSync(DATA_FILE, JSON.stringify(tix, null, 2));
+		}
+	} catch (err) {
+		console.error("Failed to load tix.json from GitHub:", err);
+	}
+}
+
+let tixReady = Promise.resolve();
+if (GITHUB_OWNER && GITHUB_REPO && process.env.GITHUB_TOKEN) {
+	tixReady = loadTixFromGitHub();
 }
 
 function getEstParts(date) {
@@ -179,6 +233,8 @@ module.exports = (client) => {
 		if (!interaction.isChatInputCommand()) return;
 		if (interaction.commandName !== "raffletix") return;
 
+		await tixReady;
+
 		const yearMonth = getEstYearMonth(new Date());
 		const entries = tix.filter((entry) => {
 			if (entry.yearMonth) return entry.yearMonth === yearMonth;
@@ -241,6 +297,8 @@ module.exports = (client) => {
 		if (!interaction.isModalSubmit()) return;
 		if (interaction.customId !== "submittixModal") return;
 
+		await tixReady;
+
 		const chatterName = interaction.fields.getTextInputValue("chatter").trim();
 		const modelName = interaction.fields.getTextInputValue("model").trim();
 		const fanName = interaction.fields.getTextInputValue("fan").trim();
@@ -301,6 +359,7 @@ module.exports = (client) => {
 			timestamp: new Date().toISOString(),
 		});
 		saveTix();
+		await updateTixOnGitHub();
 
 		const embed = new EmbedBuilder()
 			.setTitle("Raffle Ticket Submission")
@@ -329,6 +388,7 @@ module.exports = (client) => {
 	cron.schedule(
 		"0 0 1 * *",
 		async () => {
+			await tixReady;
 			const { year, month } = getPrevEstYearMonth(new Date());
 			const targetYearMonth = `${year}-${String(month).padStart(2, "0")}`;
 
