@@ -222,8 +222,8 @@
     "shift": "Day Shift (11am-7pm EST)",
     "models": "Claire, Shea",
     "reason": "Will be visiting an industrial plant for my thesis",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1336657724733128756",
     "claimedBy": null,
     "timestamp": "2026-02-04T20:18:43.339Z"
   }
