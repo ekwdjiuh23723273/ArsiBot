@@ -25,5 +25,14 @@
     "tickets": 1,
     "yearMonth": "2026-02",
     "timestamp": "2026-02-05T07:13:33.279Z"
+  },
+  {
+    "chatterName": "John",
+    "modelName": "Sara",
+    "fanName": "TeeTee@fergaliciousted",
+    "amount": 510,
+    "tickets": 1,
+    "yearMonth": "2026-02",
+    "timestamp": "2026-02-05T13:55:55.785Z"
   }
 ]
