@@ -246,8 +246,8 @@
     "shift": "Prime Time (2AM-3AM)",
     "models": "Lexi",
     "reason": "I just need someone to cover for me last hour of my shift (2AM), I have to go to my old Bank to close one of my old accounts, it's important, thank you for understanding!",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "timestamp": "2026-02-05T09:41:06.977Z"
   }
