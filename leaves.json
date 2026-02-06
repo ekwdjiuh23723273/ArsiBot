@@ -258,8 +258,8 @@
     "shift": "11:00 AM - 7:00 PM",
     "models": "Claire & Shea",
     "reason": "Explain in TG",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "760475790248116256",
     "claimedBy": null,
     "timestamp": "2026-02-06T11:37:10.233Z"
   }
