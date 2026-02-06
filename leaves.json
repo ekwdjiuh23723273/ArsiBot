@@ -270,8 +270,8 @@
     "shift": "Prime time 7:00PM - 3:00AM",
     "models": "Claire and Shea",
     "reason": "Food poisoning",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "timestamp": "2026-02-06T22:14:27.054Z"
   }
