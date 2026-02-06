@@ -262,5 +262,17 @@
     "approverId": "760475790248116256",
     "claimedBy": "1095288546610397236",
     "timestamp": "2026-02-06T11:37:10.233Z"
+  },
+  {
+    "userId": "759040255902482462",
+    "name": "Alex",
+    "date": "02/06/2026",
+    "shift": "Prime time 7:00PM - 3:00AM",
+    "models": "Claire and Shea",
+    "reason": "Food poisoning",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "timestamp": "2026-02-06T22:14:27.054Z"
   }
 ]
