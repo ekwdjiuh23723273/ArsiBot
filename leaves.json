@@ -274,5 +274,17 @@
     "approverId": "995962476283842592",
     "claimedBy": "1095288546610397236",
     "timestamp": "2026-02-06T22:14:27.054Z"
+  },
+  {
+    "userId": "995962476283842592",
+    "name": "none of your business",
+    "date": "02/07/2026",
+    "shift": "Prime Time",
+    "models": "Team F(sextpanther+fanvue+fansly)",
+    "reason": "N/A",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "timestamp": "2026-02-07T03:39:28.847Z"
   }
 ]
