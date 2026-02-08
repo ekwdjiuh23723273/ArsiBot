@@ -286,5 +286,17 @@
     "approverId": "995962476283842592",
     "claimedBy": "1399539430963937436",
     "timestamp": "2026-02-07T03:39:28.847Z"
+  },
+  {
+    "userId": "752622347433017415",
+    "name": "trish",
+    "date": "02/08/2026",
+    "shift": "11pm till 7am",
+    "models": "lexi",
+    "reason": "very light headed rn,.. i dont think i can make it later… need to rest",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "timestamp": "2026-02-08T09:40:48.808Z"
   }
 ]
