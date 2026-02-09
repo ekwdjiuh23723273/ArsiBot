@@ -298,5 +298,17 @@
     "approverId": "760475790248116256",
     "claimedBy": "1095288546610397236",
     "timestamp": "2026-02-08T09:40:48.808Z"
+  },
+  {
+    "userId": "910073115067973642",
+    "name": "Ives",
+    "date": "02/09/2026",
+    "shift": "Day Shift 11am-7pm",
+    "models": "Fansly, Fanvue, Sextpanther",
+    "reason": "Have to settle a dispute tomorrow at court. Have to prepare. Any help would be appreciated.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "timestamp": "2026-02-09T12:40:56.875Z"
   }
 ]
