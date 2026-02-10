@@ -418,5 +418,17 @@
     "approverId": null,
     "claimedBy": null,
     "timestamp": "2026-02-10T23:51:27.511Z"
+  },
+  {
+    "userId": "1271349076230930474",
+    "name": "Christine",
+    "date": "02/14/2026",
+    "shift": "PT 11:00PM - 3:00AM",
+    "models": "Kat",
+    "reason": "I have to travel back home",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "timestamp": "2026-02-10T23:52:44.597Z"
   }
 ]
