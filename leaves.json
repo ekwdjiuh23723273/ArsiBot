@@ -394,5 +394,17 @@
     "approverId": null,
     "claimedBy": null,
     "timestamp": "2026-02-10T16:22:56.094Z"
+  },
+  {
+    "userId": "1463086333273833631",
+    "name": "Ritchelle",
+    "date": "02/11/2026",
+    "shift": "11am to 7pm",
+    "models": "Heather and Emily",
+    "reason": "stated it on TG, tsym",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "timestamp": "2026-02-10T16:24:50.153Z"
   }
 ]
