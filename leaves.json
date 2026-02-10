@@ -310,5 +310,17 @@
     "approverId": "341255017006628865",
     "claimedBy": null,
     "timestamp": "2026-02-09T12:40:56.875Z"
+  },
+  {
+    "userId": "1384640380150091816",
+    "name": "Kurt",
+    "date": "02/10/2026",
+    "shift": "Day Shift (11:00 AM - 7:00 PM EST)",
+    "models": "Claire, Shea",
+    "reason": "Caught the flu. Really bad headache. I’m sorry",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "timestamp": "2026-02-10T11:20:33.555Z"
   }
 ]
