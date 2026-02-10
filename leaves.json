@@ -342,8 +342,8 @@
     "shift": "11am - 7pm",
     "models": "Kat",
     "reason": "need to go and see the doctor. i have not felt good since saturday and i really need to go and see a doctor cause i feel it’s getting worse. im so sorry for this. can anyone help pls?",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1336657724733128756",
     "claimedBy": null,
     "timestamp": "2026-02-10T13:52:02.626Z"
   }
