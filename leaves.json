@@ -382,5 +382,17 @@
     "approverId": null,
     "claimedBy": null,
     "timestamp": "2026-02-10T16:22:55.151Z"
+  },
+  {
+    "userId": "790639122284412938",
+    "name": "Martina",
+    "date": "03/11/2026",
+    "shift": "3:00am-11:00am EST",
+    "models": "Claire and Shea",
+    "reason": "reason already sent in tg, any help is appreciated, thank you!",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "timestamp": "2026-02-10T16:22:56.094Z"
   }
 ]
