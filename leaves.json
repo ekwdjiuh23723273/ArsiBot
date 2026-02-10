@@ -406,5 +406,17 @@
     "approverId": "1336657724733128756",
     "claimedBy": null,
     "timestamp": "2026-02-10T16:24:50.153Z"
+  },
+  {
+    "userId": "1271349076230930474",
+    "name": "Christine",
+    "date": "02/14/2026",
+    "shift": "PT 7:00PM to 11:00AM",
+    "models": "Kat",
+    "reason": "i have to travel back to cebu",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "timestamp": "2026-02-10T23:51:27.511Z"
   }
 ]
