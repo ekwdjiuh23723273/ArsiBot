@@ -318,8 +318,8 @@
     "shift": "Day Shift (11:00 AM - 7:00 PM EST)",
     "models": "Claire, Shea",
     "reason": "Caught the flu. Really bad headache. I’m sorry",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "timestamp": "2026-02-10T11:20:33.555Z"
   }
