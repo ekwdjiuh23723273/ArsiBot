@@ -117,7 +117,8 @@ function getPrevEstYearMonth(date) {
 }
 
 function formatMonthYear(year, month) {
-	const d = new Date(Date.UTC(year, month - 1, 1));
+	// Use mid-month at noon UTC to avoid timezone rollover to previous month
+	const d = new Date(Date.UTC(year, month - 1, 15, 12, 0, 0));
 	return new Intl.DateTimeFormat("en-US", {
 		timeZone: EST_TZ,
 		month: "long",
