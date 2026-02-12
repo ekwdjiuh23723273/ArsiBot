@@ -478,5 +478,17 @@
     "approverId": null,
     "claimedBy": null,
     "timestamp": "2026-02-12T03:09:47.947Z"
+  },
+  {
+    "userId": "243608963390636032",
+    "name": "Io",
+    "date": "02/18/2026",
+    "shift": "Day Shift",
+    "models": "Kylie B Paid, Kylie B Free, Eeviee Paid, Eeviee Free",
+    "reason": "2nd year birthday Celebration of my son/Christening",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "timestamp": "2026-02-12T03:09:49.490Z"
   }
 ]
