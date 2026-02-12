@@ -442,5 +442,17 @@
     "approverId": "995962476283842592",
     "claimedBy": null,
     "timestamp": "2026-02-12T03:01:46.994Z"
+  },
+  {
+    "userId": "1287624675249356896",
+    "name": "John",
+    "date": "02/12/2026",
+    "shift": "7:00 PM - 11:00AM",
+    "models": "Sara",
+    "reason": "Secret 🍻",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "timestamp": "2026-02-12T03:05:57.064Z"
   }
 ]
