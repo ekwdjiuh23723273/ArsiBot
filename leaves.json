@@ -522,8 +522,8 @@
     "shift": "11:30 PM - 3:00 AM",
     "models": "Claire and Shea",
     "reason": "got the flu, feeling under the weather today",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "760475790248116256",
     "claimedBy": null,
     "timestamp": "2026-02-12T04:27:20.795Z"
   }
