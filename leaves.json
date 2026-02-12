@@ -454,5 +454,17 @@
     "approverId": null,
     "claimedBy": null,
     "timestamp": "2026-02-12T03:05:57.064Z"
+  },
+  {
+    "userId": "1215704080828080156",
+    "name": "Flacko",
+    "date": "05/14/26 05/15/26",
+    "shift": "Day shift",
+    "models": "Sara",
+    "reason": "Will travel to vietnam🔜",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "timestamp": "2026-02-12T03:07:17.772Z"
   }
 ]
