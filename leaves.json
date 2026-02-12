@@ -498,8 +498,8 @@
     "shift": "Flacko",
     "models": "Sara",
     "reason": "Will travel to vietnam 🎱",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "timestamp": "2026-02-12T03:11:32.607Z"
   },
