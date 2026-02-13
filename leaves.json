@@ -546,8 +546,8 @@
     "shift": "05:00 PM- 7:00 PM",
     "models": "Kylie C Paid/Free",
     "reason": "I already explained the reasons on TG.",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "341255017006628865",
     "claimedBy": null,
     "timestamp": "2026-02-13T10:51:56.702Z"
   }
