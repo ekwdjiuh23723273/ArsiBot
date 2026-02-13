@@ -538,5 +538,17 @@
     "approverId": "760475790248116256",
     "claimedBy": null,
     "timestamp": "2026-02-12T05:34:15.478Z"
+  },
+  {
+    "userId": "1420059309412323613",
+    "name": "ARC",
+    "date": "02/13/2026",
+    "shift": "05:00 PM- 7:00 PM",
+    "models": "Kylie C Paid/Free",
+    "reason": "I already explained the reasons on TG.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "timestamp": "2026-02-13T10:51:56.702Z"
   }
 ]
