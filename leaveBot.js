@@ -199,7 +199,7 @@ module.exports = (client) => {
     if (stickyNoteMessageId) {
       await channel.messages.delete(stickyNoteMessageId).catch(() => null);
     }
-    const sent = await channel.send({ content: STICKY_NOTE_TEXT });
+    const sent = await channel.send({ content: STICKY_NOTE_TEXT, allowedMentions: { roles: [] } });
     stickyNoteMessageId = sent.id;
   }
 
