@@ -28,6 +28,7 @@ const APPROVAL_CHANNEL_NAME = "leave-approval";
 const LEAVE_REQUESTS_CHANNEL_NAME = "🛏️leave-requests🛏️";
 const COVER_TZ = "America/New_York";
 const WEEKLY_REPORT_CHANNEL_ID = "1467641541433757969";
+const STICKY_NOTE_CHANNEL_ID = "1467626250196746565";
 
 const GITHUB_OWNER = "ekwdjiuh23723273";
 const GITHUB_REPO = "ArsiBot";
@@ -162,8 +163,46 @@ async function findChannel(guild, { id, name, normalizedTarget }) {
   return null;
 }
 
+const STICKY_NOTE_TEXT =
+  "how to request leave:\n" +
+  "**how to request leave:**\n" +
+  "go to **<#1467626250196746565>** and type **/leave**. fill the form and submit. management will approve or decline it. you will get a DM once reviewed.\n\n" +
+  "**date format:**\n" +
+  "use **MM/DD/YYYY** (example: `02/15/2026`).\n" +
+  "multiple dates can be separated with commas.\n\n" +
+  "**shift format (important):**\n" +
+  "you MUST include a start time so reminders work. examples:\n" +
+  "`9am day shift`\n" +
+  "`2pm to 10pm`\n" +
+  "`14:00 shift`\n" +
+  "`night shift, starts 7pm`\n" +
+  "for partial cover: `2pm to 6pm cover`\n\n" +
+  "**claiming shifts:**\n" +
+  "when approved, <@&1416542249667264616> will be pinged in **<#1467626250196746565>**. click **Claim** to take the shift.";
+
 // ----------------- MODULE EXPORT -----------------
 module.exports = (client) => {
+  let stickyNoteMessageId = null;
+
+  async function getLeaveRequestsChannel() {
+    const guild = client.guilds.cache.first();
+    const id = LEAVE_REQUESTS_CHANNEL_ID || STICKY_NOTE_CHANNEL_ID;
+    return findChannel(guild, {
+      id,
+      name: LEAVE_REQUESTS_CHANNEL_NAME,
+      normalizedTarget: "leave-requests",
+    });
+  }
+
+  async function refreshStickyNote(channel) {
+    if (!channel) return;
+    if (stickyNoteMessageId) {
+      await channel.messages.delete(stickyNoteMessageId).catch(() => null);
+    }
+    const sent = await channel.send({ content: STICKY_NOTE_TEXT });
+    stickyNoteMessageId = sent.id;
+  }
+
   // ----------------- REGISTER SLASH COMMAND -----------------
   client.once(Events.ClientReady, async () => {
     try {
@@ -194,6 +233,9 @@ module.exports = (client) => {
     } catch (err) {
       console.error("Error registering global command:", err);
     }
+
+    const leaveChannel = await getLeaveRequestsChannel();
+    await refreshStickyNote(leaveChannel);
   });
 
   // ----------------- HANDLE SLASH COMMAND -----------------
@@ -380,6 +422,14 @@ module.exports = (client) => {
 
       await saveLeaves();
     }
+  });
+
+  // ----------------- STICKY NOTE -----------------
+  client.on(Events.MessageCreate, async (message) => {
+    if (message.author?.id === client.user?.id) return;
+    const leaveChannel = await getLeaveRequestsChannel();
+    if (!leaveChannel || message.channel.id !== leaveChannel.id) return;
+    await refreshStickyNote(leaveChannel);
   });
 
   // ----------------- HANDLE BUTTONS -----------------
