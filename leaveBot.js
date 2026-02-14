@@ -27,6 +27,7 @@ const LEAVE_REQUESTS_CHANNEL_ID = process.env.LEAVE_REQUESTS_CHANNEL_ID || null;
 const APPROVAL_CHANNEL_NAME = "leave-approval";
 const LEAVE_REQUESTS_CHANNEL_NAME = "🛏️leave-requests🛏️";
 const COVER_TZ = "America/New_York";
+const WEEKLY_REPORT_CHANNEL_ID = "1467641541433757969";
 
 const GITHUB_OWNER = "ekwdjiuh23723273";
 const GITHUB_REPO = "ArsiBot";
@@ -405,8 +406,10 @@ module.exports = (client) => {
 
   // ----------------- WEEKLY REPORT -----------------
   cron.schedule("0 8 * * 1", async () => {
-    const approvalChannel = client.channels.cache.find((ch) => ch.name === "leave-approval");
-    if (!approvalChannel) return;
+    const reportChannel = await findChannel(client.guilds.cache.first(), {
+      id: WEEKLY_REPORT_CHANNEL_ID,
+    });
+    if (!reportChannel) return;
 
     const now = new Date();
     const sevenDaysAgo = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000);
@@ -414,7 +417,7 @@ module.exports = (client) => {
     const lastWeekLeaves = leaves.filter((l) => new Date(l.timestamp) >= sevenDaysAgo);
 
     if (lastWeekLeaves.length === 0) {
-      approvalChannel.send("No leave requests in the last 7 days.");
+      reportChannel.send("No leave requests in the last 7 days.");
       return;
     }
 
@@ -432,7 +435,7 @@ module.exports = (client) => {
       });
     });
 
-    approvalChannel.send({ embeds: [reportEmbed] });
+    reportChannel.send({ embeds: [reportEmbed] });
   });
 
   // ----------------- COVER TIME REMINDERS -----------------
