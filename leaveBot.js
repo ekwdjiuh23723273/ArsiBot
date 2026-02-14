@@ -204,17 +204,26 @@ module.exports = (client) => {
       const approved = leaves
         .map((leave) => {
           const dateParts = parseDateMdY(leave.date);
+          if (!dateParts) return null;
           const shiftStart = parseShiftStart(leave.shift);
-          if (!dateParts || !shiftStart) return null;
-          const coverTime = makeDateInTimeZone(
-            dateParts.year,
-            dateParts.month,
-            dateParts.day,
-            shiftStart.hour,
-            shiftStart.minute,
-            COVER_TZ
-          );
-          return { leave, coverTime };
+          const coverTime = shiftStart
+            ? makeDateInTimeZone(
+                dateParts.year,
+                dateParts.month,
+                dateParts.day,
+                shiftStart.hour,
+                shiftStart.minute,
+                COVER_TZ
+              )
+            : makeDateInTimeZone(
+                dateParts.year,
+                dateParts.month,
+                dateParts.day,
+                23,
+                59,
+                COVER_TZ
+              );
+          return { leave, coverTime, shiftStart };
         })
         .filter((entry) => entry && entry.leave.status === "Approved" && now < entry.coverTime)
         .sort((a, b) => a.coverTime - b.coverTime);
@@ -229,9 +238,11 @@ module.exports = (client) => {
         .setColor("Blue")
         .setTimestamp();
 
-      approved.forEach(({ leave, coverTime }) => {
+      approved.forEach(({ leave, coverTime, shiftStart }) => {
         const claimedBy = leave.claimedBy ? `<@${leave.claimedBy}>` : "Unclaimed";
-        const timeLabel = coverTime.toLocaleString("en-US", { timeZone: COVER_TZ });
+        const timeLabel = shiftStart
+          ? coverTime.toLocaleString("en-US", { timeZone: COVER_TZ })
+          : "Time TBD";
         embed.addFields({
           name: `${leave.name} - ${leave.date}`,
           value: `Shift: ${leave.shift}\nCover time: ${timeLabel} ET\nModels: ${leave.models}\nCover: ${claimedBy}`,
