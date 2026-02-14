@@ -562,5 +562,17 @@
     "approverId": "995962476283842592",
     "claimedBy": "1271349076230930474",
     "timestamp": "2026-02-14T13:49:15.723Z"
+  },
+  {
+    "userId": "756170719485755417",
+    "name": "Andre",
+    "date": "12/14/26",
+    "shift": "PT 7:00PM to 11:00AM",
+    "models": "Kat",
+    "reason": "woke up with severe headache",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "timestamp": "2026-02-14T19:48:13.593Z"
   }
 ]
