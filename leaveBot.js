@@ -467,17 +467,17 @@ module.exports = (client) => {
         const reminderTime = new Date(coverTime.getTime() - 12 * 60 * 60 * 1000);
         if (now < reminderTime || now >= coverTime) continue;
 
-        const user = await client.users.fetch(leave.userId).catch(() => null);
-        if (!user) continue;
+        const claimer = await client.users.fetch(leave.claimedBy).catch(() => null);
+        if (!claimer) continue;
 
         const message =
           `⏰ Reminder: your cover time is in 12 hours for ${leave.date} (${leave.shift}).`;
 
         if (leaveChannel) {
-          await leaveChannel.send({ content: `<@${leave.userId}> ${message}` });
+          await leaveChannel.send({ content: `<@${leave.claimedBy}> ${message}` });
         }
 
-        await user.send(message).catch(() => null);
+        await claimer.send(message).catch(() => null);
 
         leave.reminderSentAt = new Date().toISOString();
         await saveLeaves();
