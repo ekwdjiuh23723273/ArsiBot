@@ -26,6 +26,7 @@ const APPROVAL_CHANNEL_ID = process.env.LEAVE_APPROVAL_CHANNEL_ID || null;
 const LEAVE_REQUESTS_CHANNEL_ID = process.env.LEAVE_REQUESTS_CHANNEL_ID || null;
 const APPROVAL_CHANNEL_NAME = "leave-approval";
 const LEAVE_REQUESTS_CHANNEL_NAME = "🛏️leave-requests🛏️";
+const COVER_TZ = "America/New_York";
 
 const GITHUB_OWNER = "ekwdjiuh23723273";
 const GITHUB_REPO = "ArsiBot";
@@ -74,6 +75,67 @@ async function saveLeaves() {
 
 function normalizeChannelName(name) {
   return name?.toLowerCase().replace(/[^a-z0-9-]/g, "");
+}
+
+function parseDateMdY(dateStr) {
+  const parts = dateStr.split("/").map((p) => p.trim());
+  if (parts.length !== 3) return null;
+  const month = Number(parts[0]);
+  const day = Number(parts[1]);
+  let year = Number(parts[2]);
+  if (!Number.isFinite(month) || !Number.isFinite(day) || !Number.isFinite(year)) return null;
+  if (year < 100) year += 2000;
+  if (month < 1 || month > 12 || day < 1 || day > 31) return null;
+  return { year, month, day };
+}
+
+function parseShiftStart(shiftText) {
+  if (!shiftText) return null;
+  const match = shiftText.match(/(\d{1,2})(?::(\d{2}))?\s*(am|pm)?/i);
+  if (!match) return null;
+  let hour = Number(match[1]);
+  const minute = Number(match[2] || 0);
+  const ampm = match[3]?.toLowerCase();
+
+  if (!Number.isFinite(hour) || !Number.isFinite(minute)) return null;
+  if (minute < 0 || minute > 59 || hour < 0 || hour > 23) return null;
+
+  if (ampm) {
+    if (hour < 1 || hour > 12) return null;
+    if (ampm === "pm" && hour < 12) hour += 12;
+    if (ampm === "am" && hour === 12) hour = 0;
+  }
+
+  return { hour, minute };
+}
+
+function getTimeZoneOffset(date, timeZone) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone,
+    hour12: false,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+  }).formatToParts(date);
+  const map = Object.fromEntries(parts.map((p) => [p.type, p.value]));
+  const asUtc = Date.UTC(
+    Number(map.year),
+    Number(map.month) - 1,
+    Number(map.day),
+    Number(map.hour),
+    Number(map.minute),
+    Number(map.second)
+  );
+  return asUtc - date.getTime();
+}
+
+function makeDateInTimeZone(year, month, day, hour, minute, timeZone) {
+  const utcGuess = new Date(Date.UTC(year, month - 1, day, hour, minute, 0));
+  const offsetMs = getTimeZoneOffset(utcGuess, timeZone);
+  return new Date(utcGuess.getTime() - offsetMs);
 }
 
 async function findChannel(guild, { id, name, normalizedTarget }) {
@@ -245,6 +307,7 @@ module.exports = (client) => {
         status: "Pending",
         approverId: null,
         claimedBy: null,
+        reminderSentAt: null,
         timestamp: new Date().toISOString(),
       });
 
@@ -371,4 +434,55 @@ module.exports = (client) => {
 
     approvalChannel.send({ embeds: [reportEmbed] });
   });
+
+  // ----------------- COVER TIME REMINDERS -----------------
+  cron.schedule(
+    "*/5 * * * *",
+    async () => {
+      const leaveChannel = await findChannel(client.guilds.cache.first(), {
+        id: LEAVE_REQUESTS_CHANNEL_ID,
+        name: LEAVE_REQUESTS_CHANNEL_NAME,
+        normalizedTarget: "leave-requests",
+      });
+
+      const now = new Date();
+
+      for (const leave of leaves) {
+        if (leave.status !== "Approved" || !leave.claimedBy) continue;
+        if (leave.reminderSentAt) continue;
+
+        const dateParts = parseDateMdY(leave.date);
+        const shiftStart = parseShiftStart(leave.shift);
+        if (!dateParts || !shiftStart) continue;
+
+        const coverTime = makeDateInTimeZone(
+          dateParts.year,
+          dateParts.month,
+          dateParts.day,
+          shiftStart.hour,
+          shiftStart.minute,
+          COVER_TZ
+        );
+
+        const reminderTime = new Date(coverTime.getTime() - 12 * 60 * 60 * 1000);
+        if (now < reminderTime || now >= coverTime) continue;
+
+        const user = await client.users.fetch(leave.userId).catch(() => null);
+        if (!user) continue;
+
+        const message =
+          `⏰ Reminder: your cover time is in 12 hours for ${leave.date} (${leave.shift}).`;
+
+        if (leaveChannel) {
+          await leaveChannel.send({ content: `<@${leave.userId}> ${message}` });
+        }
+
+        await user.send(message).catch(() => null);
+
+        leave.reminderSentAt = new Date().toISOString();
+        await saveLeaves();
+      }
+    },
+    { timezone: COVER_TZ }
+  );
 };
