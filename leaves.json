@@ -1,579 +1,607 @@
-[
-  {
-    "userId": "995962476283842592",
-    "name": "arc",
-    "date": "12/12/2025",
-    "shift": "Day shift",
-    "models": "Maj",
-    "reason": "Arsi's orgy",
-    "status": "Approved",
-    "approverId": "995962476283842592",
-    "claimedBy": "995962476283842592",
-    "timestamp": "2026-02-02T18:34:49.049Z"
-  },
-  {
-    "userId": "995962476283842592",
-    "name": "none",
-    "date": "none",
-    "shift": "none",
-    "models": "none",
-    "reason": "none",
-    "status": "Approved",
-    "approverId": "995962476283842592",
-    "claimedBy": "995962476283842592",
-    "timestamp": "2026-02-02T18:36:39.457Z"
-  },
-  {
-    "userId": "995962476283842592",
-    "name": "12",
-    "date": "12",
-    "shift": "12",
-    "models": "12",
-    "reason": "12",
-    "status": "Declined",
-    "approverId": "995962476283842592",
-    "claimedBy": "995962476283842592",
-    "timestamp": "2026-02-02T18:46:46.893Z"
-  },
-  {
-    "userId": "1271349076230930474",
-    "name": "Christine",
-    "date": "02/02/2026",
-    "shift": "7:00- 3:00AM",
-    "models": "Kat",
-    "reason": "Im sick",
-    "status": "Approved",
-    "approverId": "1336657724733128756",
-    "claimedBy": "1336657724733128756",
-    "timestamp": "2026-02-03T00:24:54.938Z"
-  },
-  {
-    "userId": "1215704080828080156",
-    "name": "Flacko",
-    "date": "2/13/25",
-    "shift": "Day shift",
-    "models": "Sara",
-    "reason": "will travel to another city and meet my girlfriend's parents for the first time.",
-    "status": "Approved",
-    "approverId": "995962476283842592",
-    "claimedBy": "1095288546610397236",
-    "timestamp": "2026-02-03T09:11:30.109Z"
-  },
-  {
-    "userId": "1215704080828080156",
-    "name": "Flacko",
-    "date": "2/14/25",
-    "shift": "Day shift",
-    "models": "Sara",
-    "reason": "will travel to another city and meet my girlfriend's parents for the first time.",
-    "status": "Approved",
-    "approverId": "995962476283842592",
-    "claimedBy": "1095288546610397236",
-    "timestamp": "2026-02-03T09:11:31.379Z"
-  },
-  {
-    "userId": "457453484636110883",
-    "name": "Ivann",
-    "date": "02/05/2026",
-    "shift": "Graveyard",
-    "models": "Sara",
-    "reason": "Monthly extra off request.",
-    "status": "Pending",
-    "approverId": null,
-    "claimedBy": "1287624675249356896",
-    "timestamp": "2026-02-03T10:08:25.164Z"
-  },
-  {
-    "userId": "457453484636110883",
-    "name": "Ivann",
-    "date": "02/06/2026",
-    "shift": "First Half of Graveyard",
-    "models": "Sara",
-    "reason": "Monthly extra off.",
-    "status": "Pending",
-    "approverId": null,
-    "claimedBy": null,
-    "timestamp": "2026-02-03T10:09:36.459Z"
-  },
-  {
-    "userId": "457453484636110883",
-    "name": "Ivann",
-    "date": "02/05/2026",
-    "shift": "Graveyard Full shift",
-    "models": "Sara",
-    "reason": "Exam.",
-    "status": "Pending",
-    "approverId": null,
-    "claimedBy": null,
-    "timestamp": "2026-02-03T10:47:20.981Z"
-  },
-  {
-    "userId": "457453484636110883",
-    "name": "Ivann",
-    "date": "02/06/2026",
-    "shift": "Graveyard first Half shift",
-    "models": "Sara",
-    "reason": "Exam",
-    "status": "Pending",
-    "approverId": null,
-    "claimedBy": null,
-    "timestamp": "2026-02-03T10:47:50.490Z"
-  },
-  {
-    "userId": "995962476283842592",
-    "name": "Testing",
-    "date": "Test",
-    "shift": "Test",
-    "models": "Test",
-    "reason": "Test",
-    "status": "Declined",
-    "approverId": "995962476283842592",
-    "claimedBy": null,
-    "timestamp": "2026-02-03T11:09:15.830Z"
-  },
-  {
-    "userId": "1271349076230930474",
-    "name": "Christine",
-    "date": "02/07/2026",
-    "shift": "7:00PM -3:00AM",
-    "models": "Kat",
-    "reason": "Already requested this leave but requesting again because Trish cant cover anymore",
-    "status": "Approved",
-    "approverId": "760475790248116256",
-    "claimedBy": "760475790248116256",
-    "timestamp": "2026-02-03T11:54:54.613Z"
-  },
-  {
-    "userId": "995962476283842592",
-    "name": "1",
-    "date": "1",
-    "shift": "1",
-    "models": "1",
-    "reason": "1",
-    "status": "Approved",
-    "approverId": "995962476283842592",
-    "claimedBy": null,
-    "timestamp": "2026-02-03T16:41:58.815Z"
-  },
-  {
-    "userId": "995962476283842592",
-    "name": "12",
-    "date": "2",
-    "shift": "1",
-    "models": "1",
-    "reason": "1",
-    "status": "Pending",
-    "approverId": null,
-    "claimedBy": null,
-    "timestamp": "2026-02-03T16:45:20.436Z"
-  },
-  {
-    "userId": "995962476283842592",
-    "name": "12",
-    "date": "12",
-    "shift": "12",
-    "models": "12",
-    "reason": "12",
-    "status": "Pending",
-    "approverId": null,
-    "claimedBy": null,
-    "timestamp": "2026-02-03T17:46:56.309Z"
-  },
-  {
-    "userId": "752622347433017415",
-    "name": "Trish",
-    "date": "02/06/2026",
-    "shift": "11am till 7pm EST",
-    "models": "Lexi",
-    "reason": "need to prepare for an exam the next day :(",
-    "status": "Approved",
-    "approverId": "995962476283842592",
-    "claimedBy": "835064035070312459",
-    "timestamp": "2026-02-03T17:55:24.382Z"
-  },
-  {
-    "userId": "759040255902482462",
-    "name": "Alex",
-    "date": "02/03/2026",
-    "shift": "Prime time",
-    "models": "Claire and Shea",
-    "reason": "Sent on TG",
-    "status": "Approved",
-    "approverId": "995962476283842592",
-    "claimedBy": "263708200338063373",
-    "timestamp": "2026-02-03T21:30:12.262Z"
-  },
-  {
-    "userId": "1463086333273833631",
-    "name": "Ritchelle",
-    "date": "02/04/2026",
-    "shift": "Day Shift (11 am-7pm EST)",
-    "models": "Heather and Emily",
-    "reason": "Explained on TG",
-    "status": "Approved",
-    "approverId": "995962476283842592",
-    "claimedBy": "995962476283842592",
-    "timestamp": "2026-02-04T17:41:50.047Z"
-  },
-  {
-    "userId": "1384640380150091816",
-    "name": "Kurt",
-    "date": "07/02/2026",
-    "shift": "Day Shift (11am-7pm EST)",
-    "models": "Claire, Shea",
-    "reason": "Will be visiting an industrial plant for my thesis",
-    "status": "Approved",
-    "approverId": "1336657724733128756",
-    "claimedBy": "835064035070312459",
-    "timestamp": "2026-02-04T20:18:43.339Z"
-  },
-  {
-    "userId": "718539997573283861",
-    "name": "Sam",
-    "date": "02/21/2026",
-    "shift": "G.Y",
-    "models": "Kylie Cruz 2, Kylie Cruz",
-    "reason": "Bestfriend's Birthday that we've been planning for a long time. Wouldn't miss it for anything",
-    "status": "Approved",
-    "approverId": "995962476283842592",
-    "claimedBy": "752622347433017415",
-    "timestamp": "2026-02-05T05:44:31.769Z"
-  },
-  {
-    "userId": "835064035070312459",
-    "name": "Aljosa",
-    "date": "2/5/2026",
-    "shift": "Prime Time (2AM-3AM)",
-    "models": "Lexi",
-    "reason": "I just need someone to cover for me last hour of my shift (2AM), I have to go to my old Bank to close one of my old accounts, it's important, thank you for understanding!",
-    "status": "Approved",
-    "approverId": "995962476283842592",
-    "claimedBy": "1431161818096861237",
-    "timestamp": "2026-02-05T09:41:06.977Z"
-  },
-  {
-    "userId": "1137778224890400840",
-    "name": "Dani",
-    "date": "02/06/2026",
-    "shift": "11:00 AM - 7:00 PM",
-    "models": "Claire & Shea",
-    "reason": "Explain in TG",
-    "status": "Approved",
-    "approverId": "760475790248116256",
-    "claimedBy": "1095288546610397236",
-    "timestamp": "2026-02-06T11:37:10.233Z"
-  },
-  {
-    "userId": "759040255902482462",
-    "name": "Alex",
-    "date": "02/06/2026",
-    "shift": "Prime time 7:00PM - 3:00AM",
-    "models": "Claire and Shea",
-    "reason": "Food poisoning",
-    "status": "Approved",
-    "approverId": "995962476283842592",
-    "claimedBy": "1095288546610397236",
-    "timestamp": "2026-02-06T22:14:27.054Z"
-  },
-  {
-    "userId": "995962476283842592",
-    "name": "none of your business",
-    "date": "02/07/2026",
-    "shift": "Prime Time",
-    "models": "Team F(sextpanther+fanvue+fansly)",
-    "reason": "N/A",
-    "status": "Approved",
-    "approverId": "995962476283842592",
-    "claimedBy": "1399539430963937436",
-    "timestamp": "2026-02-07T03:39:28.847Z"
-  },
-  {
-    "userId": "752622347433017415",
-    "name": "trish",
-    "date": "02/08/2026",
-    "shift": "11pm till 7am",
-    "models": "lexi",
-    "reason": "very light headed rn,.. i dont think i can make it later… need to rest",
-    "status": "Approved",
-    "approverId": "760475790248116256",
-    "claimedBy": "1095288546610397236",
-    "timestamp": "2026-02-08T09:40:48.808Z"
-  },
-  {
-    "userId": "910073115067973642",
-    "name": "Ives",
-    "date": "02/09/2026",
-    "shift": "Day Shift 11am-7pm",
-    "models": "Fansly, Fanvue, Sextpanther",
-    "reason": "Have to settle a dispute tomorrow at court. Have to prepare. Any help would be appreciated.",
-    "status": "Approved",
-    "approverId": "341255017006628865",
-    "claimedBy": null,
-    "timestamp": "2026-02-09T12:40:56.875Z"
-  },
-  {
-    "userId": "1384640380150091816",
-    "name": "Kurt",
-    "date": "02/10/2026",
-    "shift": "Day Shift (11:00 AM - 7:00 PM EST)",
-    "models": "Claire, Shea",
-    "reason": "Caught the flu. Really bad headache. I’m sorry",
-    "status": "Approved",
-    "approverId": "995962476283842592",
-    "claimedBy": "1238740965846548531",
-    "timestamp": "2026-02-10T11:20:33.555Z"
-  },
-  {
-    "userId": "484354534379094017",
-    "name": "Marijoy",
-    "date": "02/10/2026",
-    "shift": "7PM - 3AM EST",
-    "models": "Fansly, Fanvue, Sexpanther",
-    "reason": "i still need to monitor my daughter since she’s sick. i’d really appreciate it if someone could cover for me. thank you so much!",
-    "status": "Approved",
-    "approverId": "760475790248116256",
-    "claimedBy": "953291810728468501",
-    "timestamp": "2026-02-10T12:52:07.917Z"
-  },
-  {
-    "userId": "689385159320928298",
-    "name": "Radu",
-    "date": "02/10/2026",
-    "shift": "11am - 7pm",
-    "models": "Kat",
-    "reason": "need to go and see the doctor. i have not felt good since saturday and i really need to go and see a doctor cause i feel it’s getting worse. im so sorry for this. can anyone help pls?",
-    "status": "Approved",
-    "approverId": "1336657724733128756",
-    "claimedBy": null,
-    "timestamp": "2026-02-10T13:52:02.626Z"
-  },
-  {
-    "userId": "790639122284412938",
-    "name": "Martina",
-    "date": "03/08/2026",
-    "shift": "3:00am-11:00am EST",
-    "models": "Claire and Shea",
-    "reason": "reason already sent in tg, any help is appreciated, thank you!",
-    "status": "Approved",
-    "approverId": "995962476283842592",
-    "claimedBy": "752622347433017415",
-    "timestamp": "2026-02-10T16:22:52.714Z"
-  },
-  {
-    "userId": "790639122284412938",
-    "name": "Martina",
-    "date": "03/09/2026",
-    "shift": "3:00am-11:00am EST",
-    "models": "Claire and Shea",
-    "reason": "reason already sent in tg, any help is appreciated, thank you!",
-    "status": "Approved",
-    "approverId": "995962476283842592",
-    "claimedBy": "752622347433017415",
-    "timestamp": "2026-02-10T16:22:54.136Z"
-  },
-  {
-    "userId": "790639122284412938",
-    "name": "Martina",
-    "date": "03/10/2026",
-    "shift": "3:00am-11:00am EST",
-    "models": "Claire and Shea",
-    "reason": "reason already sent in tg, any help is appreciated, thank you!",
-    "status": "Approved",
-    "approverId": "995962476283842592",
-    "claimedBy": "759040255902482462",
-    "timestamp": "2026-02-10T16:22:55.151Z"
-  },
-  {
-    "userId": "790639122284412938",
-    "name": "Martina",
-    "date": "03/11/2026",
-    "shift": "3:00am-11:00am EST",
-    "models": "Claire and Shea",
-    "reason": "reason already sent in tg, any help is appreciated, thank you!",
-    "status": "Approved",
-    "approverId": "995962476283842592",
-    "claimedBy": "752622347433017415",
-    "timestamp": "2026-02-10T16:22:56.094Z"
-  },
-  {
-    "userId": "1463086333273833631",
-    "name": "Ritchelle",
-    "date": "02/11/2026",
-    "shift": "11am to 7pm",
-    "models": "Heather and Emily",
-    "reason": "stated it on TG, tsym",
-    "status": "Declined",
-    "approverId": "1336657724733128756",
-    "claimedBy": null,
-    "timestamp": "2026-02-10T16:24:50.153Z"
-  },
-  {
-    "userId": "1271349076230930474",
-    "name": "Christine",
-    "date": "02/14/2026",
-    "shift": "PT 7:00PM to 11:00AM",
-    "models": "Kat",
-    "reason": "i have to travel back to cebu",
-    "status": "Approved",
-    "approverId": "760475790248116256",
-    "claimedBy": "756170719485755417",
-    "timestamp": "2026-02-10T23:51:27.511Z",
-    "reminderSentAt": "2026-02-14T22:35:01.749Z"
-  },
-  {
-    "userId": "1271349076230930474",
-    "name": "Christine",
-    "date": "02/14/2026",
-    "shift": "PT 11:00PM - 3:00AM",
-    "models": "Kat",
-    "reason": "I have to travel back home",
-    "status": "Pending",
-    "approverId": null,
-    "claimedBy": null,
-    "timestamp": "2026-02-10T23:52:44.597Z"
-  },
-  {
-    "userId": "1287624675249356896",
-    "name": "John",
-    "date": "02/12/2026",
-    "shift": "02/12/2026",
-    "models": "Sara",
-    "reason": "Secret",
-    "status": "Approved",
-    "approverId": "995962476283842592",
-    "claimedBy": "752622347433017415",
-    "timestamp": "2026-02-12T03:01:46.994Z"
-  },
-  {
-    "userId": "1287624675249356896",
-    "name": "John",
-    "date": "02/12/2026",
-    "shift": "7:00 PM - 11:00AM",
-    "models": "Sara",
-    "reason": "Secret 🍻",
-    "status": "Pending",
-    "approverId": null,
-    "claimedBy": null,
-    "timestamp": "2026-02-12T03:05:57.064Z"
-  },
-  {
-    "userId": "1215704080828080156",
-    "name": "Flacko",
-    "date": "05/14/26 05/15/26",
-    "shift": "Day shift",
-    "models": "Sara",
-    "reason": "Will travel to vietnam🔜",
-    "status": "Declined",
-    "approverId": "995962476283842592",
-    "claimedBy": null,
-    "timestamp": "2026-02-12T03:07:17.772Z"
-  },
-  {
-    "userId": "243608963390636032",
-    "name": "Io",
-    "date": "02/17/2026",
-    "shift": "Day Shift",
-    "models": "Kylie B Paid, Kylie B Free, Eeviee Paid, Eeviee Free",
-    "reason": "2nd year birthday Celebration of my son/Christening",
-    "status": "Approved",
-    "approverId": "760475790248116256",
-    "claimedBy": "752622347433017415",
-    "timestamp": "2026-02-12T03:09:47.947Z"
-  },
-  {
-    "userId": "243608963390636032",
-    "name": "Io",
-    "date": "02/18/2026",
-    "shift": "Day Shift",
-    "models": "Kylie B Paid, Kylie B Free, Eeviee Paid, Eeviee Free",
-    "reason": "2nd year birthday Celebration of my son/Christening",
-    "status": "Approved",
-    "approverId": "760475790248116256",
-    "claimedBy": "1271349076230930474",
-    "timestamp": "2026-02-12T03:09:49.490Z"
-  },
-  {
-    "userId": "1215704080828080156",
-    "name": "Flacko",
-    "date": "05/14/2026",
-    "shift": "Flacko",
-    "models": "Sara",
-    "reason": "Will travel to vietnam 🎱",
-    "status": "Approved",
-    "approverId": "995962476283842592",
-    "claimedBy": "752622347433017415",
-    "timestamp": "2026-02-12T03:11:32.607Z"
-  },
-  {
-    "userId": "1215704080828080156",
-    "name": "Flacko",
-    "date": "05/15/2026",
-    "shift": "Flacko",
-    "models": "Sara",
-    "reason": "Will travel to vietnam 🎱",
-    "status": "Approved",
-    "approverId": "995962476283842592",
-    "claimedBy": "1095288546610397236",
-    "timestamp": "2026-02-12T03:11:33.784Z"
-  },
-  {
-    "userId": "759040255902482462",
-    "name": "Alex",
-    "date": "02/11/2026",
-    "shift": "11:30 PM - 3:00 AM",
-    "models": "Claire and Shea",
-    "reason": "got the flu, feeling under the weather today",
-    "status": "Approved",
-    "approverId": "760475790248116256",
-    "claimedBy": "1095288546610397236",
-    "timestamp": "2026-02-12T04:27:20.795Z"
-  },
-  {
-    "userId": "1384640380150091816",
-    "name": "Kurt",
-    "date": "02/12/2026",
-    "shift": "Day Shift (11:00 AM - 7:00 PM EST)",
-    "models": "Claire, Shea",
-    "reason": "Will visit the hospital and get some rest. Been unwell for over a week now. I'm sorry",
-    "status": "Approved",
-    "approverId": "760475790248116256",
-    "claimedBy": "341255017006628865",
-    "timestamp": "2026-02-12T05:34:15.478Z"
-  },
-  {
-    "userId": "1420059309412323613",
-    "name": "ARC",
-    "date": "02/13/2026",
-    "shift": "05:00 PM- 7:00 PM",
-    "models": "Kylie C Paid/Free",
-    "reason": "I already explained the reasons on TG.",
-    "status": "Approved",
-    "approverId": "341255017006628865",
-    "claimedBy": "1399539430963937436",
-    "timestamp": "2026-02-13T10:51:56.702Z"
-  },
-  {
-    "userId": "953291810728468501",
-    "name": "Jamina",
-    "date": "02/21/2026",
-    "shift": "GY",
-    "models": "Fansly, Fanvue, Sextpanther",
-    "reason": "sister's birthday",
-    "status": "Approved",
-    "approverId": "995962476283842592",
-    "claimedBy": "1271349076230930474",
-    "timestamp": "2026-02-14T13:49:15.723Z"
-  },
-  {
-    "userId": "756170719485755417",
-    "name": "Andre",
-    "date": "2/14/26",
-    "shift": "PT 7:00PM to 11:00AM",
-    "models": "Kat",
-    "reason": "woke up with severe headache",
-    "status": "Approved",
-    "approverId": "995962476283842592",
-    "claimedBy": null,
-    "timestamp": "2026-02-14T19:48:13.593Z"
+const fs = require("fs");
+const path = require("path");
+const cron = require("node-cron");
+const { Octokit } = require("@octokit/rest");
+const {
+  SlashCommandBuilder,
+  ActionRowBuilder,
+  ButtonBuilder,
+  ButtonStyle,
+  ModalBuilder,
+  TextInputBuilder,
+  TextInputStyle,
+  EmbedBuilder,
+  Events,
+} = require("discord.js");
+
+// ----------------- CONFIG -----------------
+const DATA_FILE = path.join(__dirname, "leaves.json");
+const allowedRoles = ["1416521000798912677", "1416520509914615949"];
+
+const approvalRoleIds = ["1416521000798912677", "1416520509914615949"];
+const claimRoleIds = ["1416542249667264616"];
+const claimRoleMentions = claimRoleIds.map((id) => `<@&${id}>`).join(" ");
+
+const APPROVAL_CHANNEL_ID = process.env.LEAVE_APPROVAL_CHANNEL_ID || null;
+const LEAVE_REQUESTS_CHANNEL_ID = process.env.LEAVE_REQUESTS_CHANNEL_ID || null;
+const APPROVAL_CHANNEL_NAME = "leave-approval";
+const LEAVE_REQUESTS_CHANNEL_NAME = "🛏️leave-requests🛏️";
+const COVER_TZ = "America/New_York";
+const WEEKLY_REPORT_CHANNEL_ID = "1467641541433757969";
+const STICKY_NOTE_CHANNEL_ID = "1467626250196746565";
+
+const GITHUB_OWNER = "ekwdjiuh23723273";
+const GITHUB_REPO = "ArsiBot";
+const GITHUB_PATH = "leaves.json";
+
+const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
+
+// ----------------- LOAD LEAVES -----------------
+let leaves = [];
+if (fs.existsSync(DATA_FILE)) {
+  leaves = JSON.parse(fs.readFileSync(DATA_FILE));
+} else {
+  fs.writeFileSync(DATA_FILE, JSON.stringify(leaves, null, 2));
+}
+
+// ----------------- SAVE FUNCTION -----------------
+async function updateLeavesOnGitHub(leaves) {
+  try {
+    const { data: fileData } = await octokit.repos.getContent({
+      owner: GITHUB_OWNER,
+      repo: GITHUB_REPO,
+      path: GITHUB_PATH,
+    });
+
+    const content = Buffer.from(JSON.stringify(leaves, null, 2)).toString("base64");
+
+    await octokit.repos.createOrUpdateFileContents({
+      owner: GITHUB_OWNER,
+      repo: GITHUB_REPO,
+      path: GITHUB_PATH,
+      message: "Update leaves.json",
+      content,
+      sha: fileData.sha,
+    });
+
+    console.log("leaves.json synced to GitHub ✅");
+  } catch (err) {
+    console.error("Failed to sync leaves.json to GitHub:", err);
   }
-]
+}
+
+async function saveLeaves() {
+  fs.writeFileSync(DATA_FILE, JSON.stringify(leaves, null, 2));
+  await updateLeavesOnGitHub(leaves);
+}
+
+function normalizeChannelName(name) {
+  return name?.toLowerCase().replace(/[^a-z0-9-]/g, "");
+}
+
+function parseDateMdY(dateStr) {
+  const parts = dateStr.split("/").map((p) => p.trim());
+  if (parts.length !== 3) return null;
+  const month = Number(parts[0]);
+  const day = Number(parts[1]);
+  let year = Number(parts[2]);
+  if (!Number.isFinite(month) || !Number.isFinite(day) || !Number.isFinite(year)) return null;
+  if (year < 100) year += 2000;
+  if (month < 1 || month > 12 || day < 1 || day > 31) return null;
+  return { year, month, day };
+}
+
+function parseShiftStart(shiftText) {
+  if (!shiftText) return null;
+  const match = shiftText.match(/(\d{1,2})(?::(\d{2}))?\s*(am|pm)?/i);
+  if (!match) return null;
+  let hour = Number(match[1]);
+  const minute = Number(match[2] || 0);
+  const ampm = match[3]?.toLowerCase();
+
+  if (!Number.isFinite(hour) || !Number.isFinite(minute)) return null;
+  if (minute < 0 || minute > 59 || hour < 0 || hour > 23) return null;
+
+  if (ampm) {
+    if (hour < 1 || hour > 12) return null;
+    if (ampm === "pm" && hour < 12) hour += 12;
+    if (ampm === "am" && hour === 12) hour = 0;
+  }
+
+  return { hour, minute };
+}
+
+function getTimeZoneOffset(date, timeZone) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone,
+    hour12: false,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+  }).formatToParts(date);
+  const map = Object.fromEntries(parts.map((p) => [p.type, p.value]));
+  const asUtc = Date.UTC(
+    Number(map.year),
+    Number(map.month) - 1,
+    Number(map.day),
+    Number(map.hour),
+    Number(map.minute),
+    Number(map.second)
+  );
+  return asUtc - date.getTime();
+}
+
+function makeDateInTimeZone(year, month, day, hour, minute, timeZone) {
+  const utcGuess = new Date(Date.UTC(year, month - 1, day, hour, minute, 0));
+  const offsetMs = getTimeZoneOffset(utcGuess, timeZone);
+  return new Date(utcGuess.getTime() - offsetMs);
+}
+
+async function findChannel(guild, { id, name, normalizedTarget }) {
+  if (!guild) return null;
+
+  if (id) {
+    const byId = await guild.channels.fetch(id).catch(() => null);
+    if (byId) return byId;
+  }
+
+  if (name) {
+    const byName = guild.channels.cache.find((ch) => ch.name === name);
+    if (byName) return byName;
+  }
+
+  if (normalizedTarget) {
+    const byNormalized = guild.channels.cache.find(
+      (ch) => normalizeChannelName(ch.name) === normalizedTarget
+    );
+    if (byNormalized) return byNormalized;
+  }
+
+  return null;
+}
+
+const STICKY_NOTE_TEXT =
+  "how to request leave:\n" +
+  "**how to request leave:**\n" +
+  "go to **<#1467626250196746565>** and type **/leave**. fill the form and submit. management will approve or decline it. you will get a DM once reviewed.\n\n" +
+  "**date format:**\n" +
+  "use **MM/DD/YYYY** (example: `02/15/2026`).\n" +
+  "multiple dates can be separated with commas.\n\n" +
+  "**shift format (important):**\n" +
+  "you MUST include a start time so reminders work. examples:\n" +
+  "`9am day shift`\n" +
+  "`2pm to 10pm`\n" +
+  "`14:00 shift`\n" +
+  "`night shift, starts 7pm`\n" +
+  "for partial cover: `2pm to 6pm cover`\n\n" +
+  "**claiming shifts:**\n" +
+  "when approved, <@&1416542249667264616> will be pinged in **<#1467626250196746565>**. click **Claim** to take the shift.";
+
+// ----------------- MODULE EXPORT -----------------
+module.exports = (client) => {
+  let stickyNoteMessageId = null;
+
+  async function getLeaveRequestsChannel() {
+    const guild = client.guilds.cache.first();
+    const id = LEAVE_REQUESTS_CHANNEL_ID || STICKY_NOTE_CHANNEL_ID;
+    return findChannel(guild, {
+      id,
+      name: LEAVE_REQUESTS_CHANNEL_NAME,
+      normalizedTarget: "leave-requests",
+    });
+  }
+
+  async function refreshStickyNote(channel) {
+    if (!channel) return;
+    if (stickyNoteMessageId) {
+      await channel.messages.delete(stickyNoteMessageId).catch(() => null);
+    }
+    const sent = await channel.send({ content: STICKY_NOTE_TEXT });
+    stickyNoteMessageId = sent.id;
+  }
+
+  // ----------------- REGISTER SLASH COMMAND -----------------
+  client.once(Events.ClientReady, async () => {
+    try {
+      const existing = await client.application.commands.fetch();
+      if (!existing.some((cmd) => cmd.name === "leave")) {
+        const command = new SlashCommandBuilder()
+          .setName("leave")
+          .setDescription("Submit a leave request")
+          .toJSON();
+
+        await client.application.commands.create(command);
+        console.log("Global /leave command registered ✅");
+      } else {
+        console.log("Global /leave command already registered ✅");
+      }
+
+      if (!existing.some((cmd) => cmd.name === "coverage")) {
+        const command = new SlashCommandBuilder()
+          .setName("coverage")
+          .setDescription("Show approved leave coverage status")
+          .toJSON();
+
+        await client.application.commands.create(command);
+        console.log("Global /coverage command registered ✅");
+      } else {
+        console.log("Global /coverage command already registered ✅");
+      }
+    } catch (err) {
+      console.error("Error registering global command:", err);
+    }
+
+    const leaveChannel = await getLeaveRequestsChannel();
+    await refreshStickyNote(leaveChannel);
+  });
+
+  // ----------------- HANDLE SLASH COMMAND -----------------
+  client.on(Events.InteractionCreate, async (interaction) => {
+    if (!interaction.isChatInputCommand()) return;
+    if (interaction.commandName === "coverage") {
+      const now = new Date();
+      const approved = leaves
+        .map((leave) => {
+          const dateParts = parseDateMdY(leave.date);
+          if (!dateParts) return null;
+          const shiftStart = parseShiftStart(leave.shift);
+          const coverTime = shiftStart
+            ? makeDateInTimeZone(
+                dateParts.year,
+                dateParts.month,
+                dateParts.day,
+                shiftStart.hour,
+                shiftStart.minute,
+                COVER_TZ
+              )
+            : makeDateInTimeZone(
+                dateParts.year,
+                dateParts.month,
+                dateParts.day,
+                23,
+                59,
+                COVER_TZ
+              );
+          return { leave, coverTime, shiftStart };
+        })
+        .filter((entry) => entry && entry.leave.status === "Approved" && now < entry.coverTime)
+        .sort((a, b) => a.coverTime - b.coverTime);
+
+      if (approved.length === 0) {
+        await interaction.reply({ content: "No upcoming approved leave shifts.", ephemeral: false });
+        return;
+      }
+
+      const embed = new EmbedBuilder()
+        .setTitle("Coverage Schedule")
+        .setColor("Blue")
+        .setTimestamp();
+
+      approved.forEach(({ leave, coverTime, shiftStart }) => {
+        const claimedBy = leave.claimedBy ? `<@${leave.claimedBy}>` : "Unclaimed";
+        const timeLabel = shiftStart
+          ? coverTime.toLocaleString("en-US", { timeZone: COVER_TZ })
+          : "Time TBD";
+        embed.addFields({
+          name: `${leave.name} - ${leave.date}`,
+          value: `Shift: ${leave.shift}\nCover time: ${timeLabel} ET\nModels: ${leave.models}\nCover: ${claimedBy}`,
+        });
+      });
+
+      await interaction.reply({ embeds: [embed], ephemeral: false });
+      return;
+    }
+
+    if (interaction.commandName !== "leave") return;
+
+    const modal = new ModalBuilder()
+      .setCustomId("leaveModal")
+      .setTitle("Submit Leave Request");
+
+    const nameInput = new TextInputBuilder()
+      .setCustomId("name")
+      .setLabel("Your Name")
+      .setStyle(TextInputStyle.Short)
+      .setRequired(true);
+
+    const dateInput = new TextInputBuilder()
+      .setCustomId("dates")
+      .setLabel("Date(s) (comma separated, MM/DD/YYYY)")
+      .setStyle(TextInputStyle.Short)
+      .setRequired(true);
+
+    const shiftInput = new TextInputBuilder()
+      .setCustomId("shift")
+      .setLabel("Shift")
+      .setStyle(TextInputStyle.Short)
+      .setRequired(true);
+
+    const modelsInput = new TextInputBuilder()
+      .setCustomId("models")
+      .setLabel("Models affected")
+      .setStyle(TextInputStyle.Short)
+      .setRequired(true);
+
+    const reasonInput = new TextInputBuilder()
+      .setCustomId("reason")
+      .setLabel("Reason")
+      .setStyle(TextInputStyle.Paragraph)
+      .setRequired(true);
+
+    modal.addComponents(
+      new ActionRowBuilder().addComponents(nameInput),
+      new ActionRowBuilder().addComponents(dateInput),
+      new ActionRowBuilder().addComponents(shiftInput),
+      new ActionRowBuilder().addComponents(modelsInput),
+      new ActionRowBuilder().addComponents(reasonInput)
+    );
+
+    await interaction.showModal(modal);
+  });
+
+  // ----------------- HANDLE MODAL SUBMIT -----------------
+  client.on(Events.InteractionCreate, async (interaction) => {
+    if (!interaction.isModalSubmit()) return;
+    if (interaction.customId !== "leaveModal") return;
+
+    const name = interaction.fields.getTextInputValue("name");
+    const dates = interaction.fields
+      .getTextInputValue("dates")
+      .split(",")
+      .map((d) => d.trim());
+
+    const shift = interaction.fields.getTextInputValue("shift");
+    const models = interaction.fields.getTextInputValue("models");
+    const reason = interaction.fields.getTextInputValue("reason");
+
+    await interaction.reply({ content: "Leave request submitted ✅", ephemeral: true });
+
+    const approvalChannel = await findChannel(interaction.guild, {
+      id: APPROVAL_CHANNEL_ID,
+      name: APPROVAL_CHANNEL_NAME,
+      normalizedTarget: "leave-approval",
+    });
+
+    if (!approvalChannel) {
+      console.log("leave-approval channel not found");
+      await interaction.followUp({
+        content:
+          "Leave request could not be posted: approval channel not found. Set LEAVE_APPROVAL_CHANNEL_ID or rename the channel to leave-approval.",
+        ephemeral: true,
+      });
+      return;
+    }
+
+    for (const date of dates) {
+      const embed = new EmbedBuilder()
+        .setTitle("Leave Request")
+        .setColor("Yellow")
+        .addFields(
+          { name: "Chatter", value: name, inline: true },
+          { name: "Date", value: date, inline: true },
+          { name: "Shift", value: shift, inline: true },
+          { name: "Models", value: models },
+          { name: "Reason", value: reason }
+        )
+        .setFooter({ text: "Status: Pending" });
+
+      const buttons = new ActionRowBuilder().addComponents(
+        new ButtonBuilder()
+          .setCustomId(`approve_${interaction.user.id}_${date}`)
+          .setLabel("Approve")
+          .setStyle(ButtonStyle.Success),
+        new ButtonBuilder()
+          .setCustomId(`decline_${interaction.user.id}_${date}`)
+          .setLabel("Decline")
+          .setStyle(ButtonStyle.Danger)
+      );
+
+      await approvalChannel.send({
+        content: approvalRoleIds.map((id) => `<@&${id}>`).join(" "),
+        allowedMentions: { roles: approvalRoleIds },
+        embeds: [embed],
+        components: [buttons],
+      });
+
+      leaves.push({
+        userId: interaction.user.id,
+        name,
+        date,
+        shift,
+        models,
+        reason,
+        status: "Pending",
+        approverId: null,
+        claimedBy: null,
+        reminderSentAt: null,
+        timestamp: new Date().toISOString(),
+      });
+
+      await saveLeaves();
+    }
+  });
+
+  // ----------------- STICKY NOTE -----------------
+  client.on(Events.MessageCreate, async (message) => {
+    if (message.author?.id === client.user?.id) return;
+    const leaveChannel = await getLeaveRequestsChannel();
+    if (!leaveChannel || message.channel.id !== leaveChannel.id) return;
+    await refreshStickyNote(leaveChannel);
+  });
+
+  // ----------------- HANDLE BUTTONS -----------------
+  client.on(Events.InteractionCreate, async (interaction) => {
+    if (!interaction.isButton()) return;
+
+    const [action, userId, date] = interaction.customId.split("_");
+    const user = await client.users.fetch(userId).catch(() => null);
+    if (!user) return interaction.reply({ content: "User not found ❌", ephemeral: true });
+
+    const embed = EmbedBuilder.from(interaction.message.embeds[0]);
+    const leaveChannel = await findChannel(interaction.guild, {
+      id: LEAVE_REQUESTS_CHANNEL_ID,
+      name: LEAVE_REQUESTS_CHANNEL_NAME,
+      normalizedTarget: "leave-requests",
+    });
+
+    const leave = leaves.find((l) => l.userId === userId && l.date === date);
+
+    // Only allow specific roles for approve/decline
+    if ((action === "approve" || action === "decline") &&
+        !interaction.member.roles.cache.some((r) => allowedRoles.includes(r.id))) {
+      return interaction.reply({ content: "You cannot approve/decline ❌", ephemeral: true });
+    }
+
+    if (action === "approve") {
+      await interaction.deferUpdate();
+      await user.send(`Your leave for ${date} has been approved ✅`).catch(() => null);
+      embed.setColor("Green").setFooter({ text: "Status: Approved" });
+
+      const claimRow = new ActionRowBuilder().addComponents(
+        new ButtonBuilder()
+          .setCustomId(`claim_${userId}_${date}`)
+          .setLabel("Claim")
+          .setStyle(ButtonStyle.Primary)
+      );
+
+      if (leaveChannel) {
+        await leaveChannel.send({
+          content: claimRoleMentions,
+          allowedMentions: { roles: claimRoleIds },
+          embeds: [embed],
+          components: [claimRow],
+        });
+      }
+
+      if (leave) {
+        leave.status = "Approved";
+        leave.approverId = interaction.user.id;
+        await saveLeaves();
+      }
+
+      await interaction.editReply({ content: "Leave approved ✅", embeds: [], components: [] });
+    }
+
+    if (action === "decline") {
+      await interaction.deferUpdate();
+      await user
+        .send(
+          `Your leave for ${date} has not been authorized ❌. Taking the day off will result in a fine.`
+        )
+        .catch(() => null);
+
+      embed.setColor("Red").setFooter({ text: "Status: Declined" });
+
+      if (leaveChannel) await leaveChannel.send({ embeds: [embed], components: [] });
+
+      if (leave) {
+        leave.status = "Declined";
+        leave.approverId = interaction.user.id;
+        await saveLeaves();
+      }
+
+      await interaction.editReply({ content: "Leave declined ❌", embeds: [], components: [] });
+    }
+
+    if (action === "claim") {
+      embed
+        .setFooter({ text: `Status: Claimed by ${interaction.user.username}` })
+        .setColor("Yellow");
+
+      if (leave) {
+        leave.claimedBy = interaction.user.id;
+        await saveLeaves();
+      }
+
+      await interaction.update({ embeds: [embed], components: [] });
+    }
+  });
+
+  // ----------------- WEEKLY REPORT -----------------
+  cron.schedule("0 8 * * 1", async () => {
+    const reportChannel = await findChannel(client.guilds.cache.first(), {
+      id: WEEKLY_REPORT_CHANNEL_ID,
+    });
+    if (!reportChannel) return;
+
+    const now = new Date();
+    const sevenDaysAgo = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000);
+
+    const lastWeekLeaves = leaves.filter((l) => new Date(l.timestamp) >= sevenDaysAgo);
+
+    if (lastWeekLeaves.length === 0) {
+      reportChannel.send("No leave requests in the last 7 days.");
+      return;
+    }
+
+    const reportEmbed = new EmbedBuilder()
+      .setTitle("Weekly Leave Report")
+      .setColor("Blue")
+      .setTimestamp();
+
+    lastWeekLeaves.forEach((l) => {
+      reportEmbed.addFields({
+        name: `${l.name} - ${l.date}`,
+        value: `Status: ${l.status}\nShift: ${l.shift}\nModels: ${l.models}\nClaimed by: ${
+          l.claimedBy ? `<@${l.claimedBy}>` : "None"
+        }\nApproved by: ${l.approverId ? `<@${l.approverId}>` : "None"}`,
+      });
+    });
+
+    reportChannel.send({ embeds: [reportEmbed] });
+  });
+
+  // ----------------- COVER TIME REMINDERS -----------------
+  cron.schedule(
+    "*/5 * * * *",
+    async () => {
+      const leaveChannel = await findChannel(client.guilds.cache.first(), {
+        id: LEAVE_REQUESTS_CHANNEL_ID,
+        name: LEAVE_REQUESTS_CHANNEL_NAME,
+        normalizedTarget: "leave-requests",
+      });
+
+      const now = new Date();
+
+      for (const leave of leaves) {
+        if (leave.status !== "Approved" || !leave.claimedBy) continue;
+        if (leave.reminderSentAt) continue;
+
+        const dateParts = parseDateMdY(leave.date);
+        const shiftStart = parseShiftStart(leave.shift);
+        if (!dateParts || !shiftStart) continue;
+
+        const coverTime = makeDateInTimeZone(
+          dateParts.year,
+          dateParts.month,
+          dateParts.day,
+          shiftStart.hour,
+          shiftStart.minute,
+          COVER_TZ
+        );
+
+        const reminderTime = new Date(coverTime.getTime() - 12 * 60 * 60 * 1000);
+        if (now < reminderTime || now >= coverTime) continue;
+
+        const claimer = await client.users.fetch(leave.claimedBy).catch(() => null);
+        if (!claimer) continue;
+
+        const message =
+          `⏰ Reminder: your cover time is in 12 hours for ${leave.date} (${leave.shift}). Models: ${leave.models}.`;
+
+        if (leaveChannel) {
+          await leaveChannel.send({ content: `<@${leave.claimedBy}> ${message}` });
+        }
+
+        await claimer.send(message).catch(() => null);
+
+        leave.reminderSentAt = new Date().toISOString();
+        await saveLeaves();
+      }
+    },
+    { timezone: COVER_TZ }
+  );
+};
