@@ -165,21 +165,21 @@ async function findChannel(guild, { id, name, normalizedTarget }) {
 
 const STICKY_NOTE_TEXT =
   "how to request leave:\n" +
-  "**how to request leave:**\n" +
+  "## **how to request leave:**\n" +
   "go to **<#1467626250196746565>** and type **/leave**. fill the form and submit. management will approve or decline it. you will get a DM once reviewed.\n\n" +
-  "**date format:**\n" +
+  "## **date format:**\n" +
   "use **MM/DD/YYYY** (example: `02/15/2026`).\n" +
   "multiple dates can be separated with commas.\n\n" +
-  "**shift format (important):**\n" +
+  "## **shift format (important):**\n" +
   "you MUST include a start time so reminders work. examples:\n" +
   "`9am day shift`\n" +
   "`2pm to 10pm`\n" +
   "`14:00 shift`\n" +
   "`night shift, starts 7pm`\n" +
   "for partial cover: `2pm to 6pm cover`\n\n" +
-  "**claiming shifts:**\n" +
+  "## **claiming shifts:**\n" +
   "when approved, <@&1416542249667264616> will be pinged in **<#1467626250196746565>**. click **Claim** to take the shift.\n\n"+
-  "Any requests not following this format will be DECLINED";
+  "# Any requests not following this format will be DECLINED";
 
 // ----------------- MODULE EXPORT -----------------
 module.exports = (client) => {
@@ -606,4 +606,5 @@ module.exports = (client) => {
     { timezone: COVER_TZ }
   );
 };
+
 
