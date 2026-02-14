@@ -178,7 +178,8 @@ const STICKY_NOTE_TEXT =
   "`night shift, starts 7pm`\n" +
   "for partial cover: `2pm to 6pm cover`\n\n" +
   "**claiming shifts:**\n" +
-  "when approved, <@&1416542249667264616> will be pinged in **<#1467626250196746565>**. click **Claim** to take the shift.";
+  "when approved, <@&1416542249667264616> will be pinged in **<#1467626250196746565>**. click **Claim** to take the shift.\n\n"+
+  "Any requests not following this format will be DECLINED";
 
 // ----------------- MODULE EXPORT -----------------
 module.exports = (client) => {
@@ -605,3 +606,4 @@ module.exports = (client) => {
     { timezone: COVER_TZ }
   );
 };
+
