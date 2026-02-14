@@ -471,7 +471,7 @@ module.exports = (client) => {
         if (!claimer) continue;
 
         const message =
-          `⏰ Reminder: your cover time is in 12 hours for ${leave.date} (${leave.shift}).`;
+          `⏰ Reminder: your cover time is in 12 hours for ${leave.date} (${leave.shift}). Models: ${leave.models}.`;
 
         if (leaveChannel) {
           await leaveChannel.send({ content: `<@${leave.claimedBy}> ${message}` });
