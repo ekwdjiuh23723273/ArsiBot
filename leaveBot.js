@@ -179,6 +179,18 @@ module.exports = (client) => {
       } else {
         console.log("Global /leave command already registered ✅");
       }
+
+      if (!existing.some((cmd) => cmd.name === "coverage")) {
+        const command = new SlashCommandBuilder()
+          .setName("coverage")
+          .setDescription("Show approved leave coverage status")
+          .toJSON();
+
+        await client.application.commands.create(command);
+        console.log("Global /coverage command registered ✅");
+      } else {
+        console.log("Global /coverage command already registered ✅");
+      }
     } catch (err) {
       console.error("Error registering global command:", err);
     }
@@ -187,6 +199,49 @@ module.exports = (client) => {
   // ----------------- HANDLE SLASH COMMAND -----------------
   client.on(Events.InteractionCreate, async (interaction) => {
     if (!interaction.isChatInputCommand()) return;
+    if (interaction.commandName === "coverage") {
+      const now = new Date();
+      const approved = leaves
+        .map((leave) => {
+          const dateParts = parseDateMdY(leave.date);
+          const shiftStart = parseShiftStart(leave.shift);
+          if (!dateParts || !shiftStart) return null;
+          const coverTime = makeDateInTimeZone(
+            dateParts.year,
+            dateParts.month,
+            dateParts.day,
+            shiftStart.hour,
+            shiftStart.minute,
+            COVER_TZ
+          );
+          return { leave, coverTime };
+        })
+        .filter((entry) => entry && entry.leave.status === "Approved" && now < entry.coverTime)
+        .sort((a, b) => a.coverTime - b.coverTime);
+
+      if (approved.length === 0) {
+        await interaction.reply({ content: "No upcoming approved leave shifts.", ephemeral: false });
+        return;
+      }
+
+      const embed = new EmbedBuilder()
+        .setTitle("Coverage Schedule")
+        .setColor("Blue")
+        .setTimestamp();
+
+      approved.forEach(({ leave, coverTime }) => {
+        const claimedBy = leave.claimedBy ? `<@${leave.claimedBy}>` : "Unclaimed";
+        const timeLabel = coverTime.toLocaleString("en-US", { timeZone: COVER_TZ });
+        embed.addFields({
+          name: `${leave.name} - ${leave.date}`,
+          value: `Shift: ${leave.shift}\nCover time: ${timeLabel} ET\nModels: ${leave.models}\nCover: ${claimedBy}`,
+        });
+      });
+
+      await interaction.reply({ embeds: [embed], ephemeral: false });
+      return;
+    }
+
     if (interaction.commandName !== "leave") return;
 
     const modal = new ModalBuilder()
