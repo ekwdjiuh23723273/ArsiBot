@@ -596,8 +596,8 @@
     "shift": "11 AM to 7 PM",
     "models": "Heather and Emily",
     "reason": "my Mom's birthday, out of town birthday celebration with her.",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-15T23:19:34.502Z"
