@@ -588,5 +588,18 @@
     "claimedBy": "752622347433017415",
     "reminderSentAt": "2026-02-15T16:05:01.320Z",
     "timestamp": "2026-02-15T15:12:13.775Z"
+  },
+  {
+    "userId": "1463086333273833631",
+    "name": "Ritchelle",
+    "date": "03/13/2026",
+    "shift": "11 AM to 7 PM",
+    "models": "Heather and Emily",
+    "reason": "my Mom's birthday, out of town birthday celebration with her.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-15T23:19:34.502Z"
   }
 ]
