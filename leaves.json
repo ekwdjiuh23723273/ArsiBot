@@ -766,23 +766,10 @@
     "models": "Heather & Emily",
     "reason": "Stated in TG",
     "status": "Pending",
-    "approverId": null,
-    "claimedBy": null,
+    "approverId": 995962476283842592,
+    "claimedBy": 1238740965846548531,
     "reminderSentAt": null,
     "timestamp": "2026-02-16T14:43:28.494Z"
-  },
-  {
-    "userId": "1188819542529556551",
-    "name": "Nykuluz",
-    "date": "02/18/2026",
-    "shift": "3AM Graveyard, 3AM to 7AM",
-    "models": "Heather & Emily",
-    "reason": "Stated in TG\n(Reserved for arc)",
-    "status": "Pending",
-    "approverId": null,
-    "claimedBy": null,
-    "reminderSentAt": null,
-    "timestamp": "2026-02-16T14:49:50.972Z"
   },
   {
     "userId": "1188819542529556551",
@@ -792,8 +779,8 @@
     "models": "Heather & Emily",
     "reason": "Stated in TG\n\n(Reserved for ritchelle)",
     "status": "Pending",
-    "approverId": null,
-    "claimedBy": null,
+    "approverId": 995962476283842592,
+    "claimedBy": 1463086333273833631,
     "reminderSentAt": null,
     "timestamp": "2026-02-16T14:50:34.929Z"
   }
