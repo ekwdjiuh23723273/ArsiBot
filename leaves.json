@@ -622,8 +622,8 @@
     "shift": "Graveyard, 3AM to 11AM",
     "models": "Kat",
     "reason": "Will have family gathering regarding my aunt’s death",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-16T00:08:12.887Z"
