@@ -640,5 +640,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-16T00:12:38.312Z"
+  },
+  {
+    "userId": "910073115067973642",
+    "name": "Ives",
+    "date": "02/16/2026",
+    "shift": "11am-7pm Day Time",
+    "models": "Fansly, Fanvue",
+    "reason": "Been feeling dehydrated and sick. Will get my blood drawn to be checked tomorrow. Will need rest for today, any help would be appreciated, thank you!",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-16T14:16:44.924Z"
   }
 ]
