@@ -744,5 +744,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-16T14:38:22.595Z"
+  },
+  {
+    "userId": "1188819542529556551",
+    "name": "Nykuluz",
+    "date": "02/18/2026",
+    "shift": "3AM Graveyard, 3AM to 11AM",
+    "models": "Heather & Emily",
+    "reason": "Stated in TG",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-16T14:40:23.972Z"
   }
 ]
