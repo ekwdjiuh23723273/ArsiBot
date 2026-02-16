@@ -705,5 +705,31 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-16T14:36:55.914Z"
+  },
+  {
+    "userId": "1188819542529556551",
+    "name": "Nykuluz",
+    "date": "18",
+    "shift": "3AM Graveyard, 3AM to 11AM",
+    "models": "Heather & Emily",
+    "reason": "Stated in TG",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-16T14:36:57.014Z"
+  },
+  {
+    "userId": "1188819542529556551",
+    "name": "Nykuluz",
+    "date": "2026",
+    "shift": "3AM Graveyard, 3AM to 11AM",
+    "models": "Heather & Emily",
+    "reason": "Stated in TG",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-16T14:36:57.667Z"
   }
 ]
