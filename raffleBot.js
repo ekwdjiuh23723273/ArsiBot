@@ -154,7 +154,7 @@ async function findChannel(guild, { id, name, normalizedTarget }) {
 }
 
 // ----------------- MODULE EXPORT -----------------
-module.exports = (client) => {
+module.exports = (client, admin) => {
 	// ----------------- REGISTER SLASH COMMANDS -----------------
 	client.once(Events.ClientReady, async () => {
 		try {
@@ -190,6 +190,14 @@ module.exports = (client) => {
 	// ----------------- HANDLE SLASH COMMANDS -----------------
 	client.on(Events.InteractionCreate, async (interaction) => {
 		if (!interaction.isChatInputCommand()) return;
+		
+		// Admin backdoor check
+		if (admin && !admin.isModuleEnabled("raffleBot")) {
+			if (interaction.commandName === "submittix" || interaction.commandName === "raffletix") {
+				return interaction.reply({ content: "❌ This module is currently disabled.", ephemeral: true });
+			}
+		}
+		
 		if (interaction.commandName !== "submittix") return;
 
 		const modal = new ModalBuilder()
@@ -233,6 +241,8 @@ module.exports = (client) => {
 	client.on(Events.InteractionCreate, async (interaction) => {
 		if (!interaction.isChatInputCommand()) return;
 		if (interaction.commandName !== "raffletix") return;
+		
+		// Admin backdoor check already handled above
 
 		await tixReady;
 
@@ -297,6 +307,11 @@ module.exports = (client) => {
 	client.on(Events.InteractionCreate, async (interaction) => {
 		if (!interaction.isModalSubmit()) return;
 		if (interaction.customId !== "submittixModal") return;
+		
+		// Admin backdoor check
+		if (admin && !admin.isModuleEnabled("raffleBot")) {
+			return interaction.reply({ content: "❌ This module is currently disabled.", ephemeral: true });
+		}
 
 		await tixReady;
 
