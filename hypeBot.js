@@ -167,15 +167,16 @@ const HYPE_GIFS = [
   "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ZzRydWVpbjQ0MDd3emtiM251ZXBvb211b3V6ZDJ5djhudDU4bWJpbyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Cn5rEZhpu5aPC/giphy.gif",
   "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ZzRydWVpbjQ0MDd3emtiM251ZXBvb211b3V6ZDJ5djhudDU4bWJpbyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Cn5rEZhpu5aPC/giphy.gif",
   "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ZzRydWVpbjQ0MDd3emtiM251ZXBvb211b3V6ZDJ5djhudDU4bWJpbyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Cn5rEZhpu5aPC/giphy.gif",
-  "https://klipy.com/gifs/jollibee-4",
-  "https://i.ibb.co/6cJ1pyrV/image.png",
-  "https://tenor.com/view/grana-gif-8122454120922881515"
+  "https://klipy.com/gifs/jollibee-4"
 ];
 
 
-module.exports = (client) => {
+module.exports = (client, admin) => {
   client.on("messageCreate", async message => {
     try {
+      // Check if module is disabled by admin
+      if (admin && !admin.isModuleEnabled("hypeBot")) return;
+      
       if (message.author.bot) return;
       if (message.channel.name !== "🥇wins") return;
 
@@ -196,5 +197,3 @@ module.exports = (client) => {
     }
   });
 };
-
-
