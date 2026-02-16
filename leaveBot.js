@@ -163,7 +163,7 @@ async function findChannel(guild, { id, name, normalizedTarget }) {
 }
 
 // ----------------- MODULE EXPORT -----------------
-module.exports = (client) => {
+module.exports = (client, admin) => {
   async function getLeaveRequestsChannel() {
     const guild = client.guilds.cache.first();
     const id = LEAVE_REQUESTS_CHANNEL_ID;
