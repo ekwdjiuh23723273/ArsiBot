@@ -706,5 +706,18 @@
     "claimedBy": "1399539430963937436",
     "reminderSentAt": null,
     "timestamp": "2026-02-17T02:49:37.421Z"
+  },
+  {
+    "userId": "1271349076230930474",
+    "name": "Christine",
+    "date": "02/17/2026",
+    "shift": "11:00AM - 7:00PM",
+    "models": "Kylie B Paid, Kylie B Free, Eeviee Paid, Eeviee Free",
+    "reason": "I forgot this was supposed to be today because it wasnt on the roster and I agreed to take my dad to dialysis later and his schedule is at 3:00AM😭 .. can anyone take this instead please?",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-17T08:35:20.326Z"
   }
 ]
