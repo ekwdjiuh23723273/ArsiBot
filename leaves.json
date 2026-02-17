@@ -692,5 +692,18 @@
     "claimedBy": "1399539430963937436",
     "reminderSentAt": null,
     "timestamp": "2026-02-17T02:46:46.342Z"
+  },
+  {
+    "userId": "1420059309412323613",
+    "name": "ARC",
+    "date": "02/19/2026",
+    "shift": "DAY SHIFT ( 5:00 PM - 7:00 PM ) cover",
+    "models": "Kylie Cruz Free/Paid, Naomi",
+    "reason": "Last day in pretest for civil engineering mockboards. Already reserved for Adi.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-17T02:49:37.421Z"
   }
 ]
