@@ -732,5 +732,18 @@
     "claimedBy": "1095288546610397236",
     "reminderSentAt": "2026-02-17T12:00:01.443Z",
     "timestamp": "2026-02-17T09:16:07.946Z"
+  },
+  {
+    "userId": "689385159320928298",
+    "name": "RADU",
+    "date": "02/20/2026",
+    "shift": "Day shift (11AM - 7PM)",
+    "models": "Kat",
+    "reason": "im going with my family on an early birtday ski trip to bulgaria. explained this on tg too. can anyone please help >.<?",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-17T18:47:21.084Z"
   }
 ]
