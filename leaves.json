@@ -771,5 +771,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-17T18:49:45.442Z"
+  },
+  {
+    "userId": "263708200338063373",
+    "name": "Sky",
+    "date": "02/17/2026",
+    "shift": "7pm-3am",
+    "models": "Eeviee free and paid, Kylie B free and paid.",
+    "reason": "I was just notified that there will be a power outage in my area and our generator won't be able to provide backup for more than an hour.  Any help would be appreciated. Thanks",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-17T18:55:45.636Z"
   }
 ]
