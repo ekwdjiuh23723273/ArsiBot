@@ -719,5 +719,18 @@
     "claimedBy": "1095288546610397236",
     "reminderSentAt": "2026-02-17T08:55:02.063Z",
     "timestamp": "2026-02-17T08:35:20.326Z"
+  },
+  {
+    "userId": "759040255902482462",
+    "name": "Alex",
+    "date": "02/17/2026",
+    "shift": "Primetime shift 7PM - 3AM EST",
+    "models": "Claire and Mila",
+    "reason": "Posted on TG. Medical Emergency",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-17T09:16:07.946Z"
   }
 ]
