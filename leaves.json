@@ -674,9 +674,9 @@
     "shift": "Day Shift (11:00 AM - 7:00 PM EST)",
     "models": "Claire, Mila",
     "reason": "Signed up for an event a month ago. This was originally my day off but then swapped so I had to request a leave.",
-    "status": "Approved",
-    "approverId": "760475790248116256",
-    "claimedBy": null,
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": "759040255902482462",
     "reminderSentAt": null,
     "timestamp": "2026-02-17T00:04:05.798Z"
   }
