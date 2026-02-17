@@ -727,8 +727,8 @@
     "shift": "Primetime shift 7PM - 3AM EST",
     "models": "Claire and Mila",
     "reason": "Posted on TG. Medical Emergency",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "760475790248116256",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-17T09:16:07.946Z"
