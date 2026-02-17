@@ -700,9 +700,9 @@
     "shift": "DAY SHIFT ( 5:00 PM - 7:00 PM ) cover",
     "models": "Kylie Cruz Free/Paid, Naomi",
     "reason": "Last day in pretest for civil engineering mockboards. Already reserved for Adi.",
-    "status": "Approved",
-    "approverId": "760475790248116256",
-    "claimedBy": null,
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": "1399539430963937436",
     "reminderSentAt": null,
     "timestamp": "2026-02-17T02:49:37.421Z"
   }
