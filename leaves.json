@@ -798,5 +798,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-18T13:12:30.312Z"
+  },
+  {
+    "userId": "752622347433017415",
+    "name": "trish",
+    "date": "02/18/26",
+    "shift": "11am dayshift, 11am till 7pm",
+    "models": "lexi, sally",
+    "reason": "really bad headache, will appreciate any help 🙏",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-18T13:15:06.723Z"
   }
 ]
