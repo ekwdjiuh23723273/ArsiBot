@@ -832,9 +832,9 @@
     "shift": "11:00 AM - 3:00 PM",
     "models": "Kat",
     "reason": "Reserved for Andre, explained to QA dawood and will chat on TG",
-    "status": "Approved",
-    "approverId": "995962476283842592",
-    "claimedBy": null,
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": "756170719485755417",
     "reminderSentAt": null,
     "timestamp": "2026-02-18T15:56:05.327Z"
   }
