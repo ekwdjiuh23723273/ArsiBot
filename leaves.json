@@ -793,8 +793,8 @@
     "shift": "11am dayshift, 11am till 3pm",
     "models": "Lexi",
     "reason": "doesn’t feel well, will just try and get enough rest. would really appreciate any help 🙏",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "760475790248116256",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-18T13:12:30.312Z"
