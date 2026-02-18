@@ -824,5 +824,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-18T14:38:34.933Z"
+  },
+  {
+    "userId": "1137778224890400840",
+    "name": "Dani",
+    "date": "02/18/2026",
+    "shift": "11:00 AM - 3:00 PM",
+    "models": "Kat",
+    "reason": "Reserved for Andre, explained to QA dawood and will chat on TG",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-18T15:56:05.327Z"
   }
 ]
