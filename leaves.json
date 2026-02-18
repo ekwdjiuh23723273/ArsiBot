@@ -821,7 +821,7 @@
     "reason": "Resubmission. Leave request got deleted for some reason. Already claimed by Alex. Reserved for Alex",
     "status": "Approved",
     "approverId": "760475790248116256",
-    "claimedBy": null,
+    "claimedBy": "759040255902482462",
     "reminderSentAt": null,
     "timestamp": "2026-02-18T14:38:34.933Z"
   },
