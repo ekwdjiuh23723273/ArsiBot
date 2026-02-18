@@ -811,5 +811,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-18T13:15:06.723Z"
+  },
+  {
+    "userId": "1384640380150091816",
+    "name": "Kurt",
+    "date": "02/21/2026",
+    "shift": "Day Shift (11:00 AM - 7:00 PM EST)",
+    "models": "Claire, Mila",
+    "reason": "Resubmission. Leave request got deleted for some reason. Already claimed by Alex. Reserved for Alex",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-18T14:38:34.933Z"
   }
 ]
