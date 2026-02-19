@@ -837,5 +837,18 @@
     "claimedBy": "756170719485755417",
     "reminderSentAt": null,
     "timestamp": "2026-02-18T15:56:05.327Z"
+  },
+  {
+    "userId": "752622347433017415",
+    "name": "trish",
+    "date": "02/19/2026",
+    "shift": "11 am dayshift, 11-1 pm EST",
+    "models": "lexi, sally",
+    "reason": "will just be late for 2hrs, gonna be driving from the province ( reserved for jona)",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-19T13:58:17.362Z"
   }
 ]
