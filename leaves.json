@@ -845,8 +845,8 @@
     "shift": "11 am dayshift, 11-1 pm EST",
     "models": "lexi, sally",
     "reason": "will just be late for 2hrs, gonna be driving from the province ( reserved for jona)",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "760475790248116256",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-19T13:58:17.362Z"
