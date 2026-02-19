@@ -214,5 +214,14 @@
     "tickets": 1,
     "yearMonth": "2026-02",
     "timestamp": "2026-02-19T04:33:51.291Z"
+  },
+  {
+    "chatterName": "Ivan",
+    "modelName": "Sara Paid",
+    "fanName": "Joshua @u552198538",
+    "amount": 928,
+    "tickets": 2,
+    "yearMonth": "2026-02",
+    "timestamp": "2026-02-19T08:13:33.177Z"
   }
 ]
