@@ -858,8 +858,8 @@
     "shift": "3am graveyard, 3am-11am",
     "models": "kylie cruz pages",
     "reason": "have an unforeseen event cant cover anymore (trish)",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-20T02:20:28.380Z"
