@@ -873,8 +873,8 @@
     "shift": "Day Shift ( 4:00 PM - 7:00 PM) cover",
     "models": "Kylie Cruz Free/Paid, Naomi",
     "reason": "Since our pretest in CA civil eng was suspended last 19 then moved this 22, have to clock out early to prep and travel. It has to be 3 hours before the test because that day would be monday here in PHT, and every monday is hell for all commuters.",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "760475790248116256",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-21T03:48:33.058Z"
