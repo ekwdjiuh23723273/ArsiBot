@@ -45,7 +45,7 @@
     "timestamp": "2026-02-06T17:11:37.114Z"
   },
   {
-    "chatterName": "Cucky Flacko",
+    "chatterName": "Flacko",
     "modelName": "sara",
     "fanName": "5.7x5.1 @u492236402",
     "amount": 576,
@@ -234,7 +234,7 @@
     "timestamp": "2026-02-19T19:15:55.308Z"
   },
   {
-    "chatterName": "Flacko baby",
+    "chatterName": "Flacko",
     "modelName": "Sara",
     "fanName": "Pondskum",
     "amount": 517,
@@ -243,11 +243,11 @@
     "timestamp": "2026-02-20T18:33:02.027Z"
   },
   {
-    "chatterName": "Flacko da god",
+    "chatterName": "Flacko",
     "modelName": "sara",
     "fanName": "Duc2012",
-    "amount": 525,
-    "tickets": 1,
+    "amount": 1066,
+    "tickets": 3,
     "yearMonth": "2026-02",
     "timestamp": "2026-02-20T20:06:16.225Z"
   },
@@ -264,8 +264,8 @@
     "chatterName": "Andre",
     "modelName": "Kat",
     "fanName": "🐳Avery",
-    "amount": 510,
-    "tickets": 1,
+    "amount": 780,
+    "tickets": 2,
     "yearMonth": "2026-02",
     "timestamp": "2026-02-21T08:39:18.274Z"
   }
