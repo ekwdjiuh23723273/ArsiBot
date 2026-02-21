@@ -886,8 +886,8 @@
     "shift": "Day Shift 11AM to 3PM",
     "models": "Kat",
     "reason": "have to travel and fetch my grand mother  (reserved for nykuluz)",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "341255017006628865",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-21T08:06:56.533Z"
