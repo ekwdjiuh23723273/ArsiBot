@@ -891,5 +891,18 @@
     "claimedBy": "1188819542529556551",
     "reminderSentAt": "2026-02-21T08:20:01.206Z",
     "timestamp": "2026-02-21T08:06:56.533Z"
+  },
+  {
+    "userId": "756170719485755417",
+    "name": "Andre",
+    "date": "03/01/2026",
+    "shift": "Graveyard 3AM to 11AM",
+    "models": "Kat",
+    "reason": "Attending my aunts funeral already gave a head up on TG last week",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-21T21:28:26.504Z"
   }
 ]
