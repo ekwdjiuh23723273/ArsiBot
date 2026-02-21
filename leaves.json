@@ -878,5 +878,18 @@
     "claimedBy": "1095288546610397236",
     "reminderSentAt": null,
     "timestamp": "2026-02-21T03:48:33.058Z"
+  },
+  {
+    "userId": "756170719485755417",
+    "name": "Andre",
+    "date": "02/21/26",
+    "shift": "Day Shift 11AM to 3PM",
+    "models": "Kat",
+    "reason": "have to travel and fetch my grand mother  (reserved for nykuluz)",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-21T08:06:56.533Z"
   }
 ]
