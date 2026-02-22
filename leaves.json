@@ -904,5 +904,18 @@
     "claimedBy": "759040255902482462",
     "reminderSentAt": null,
     "timestamp": "2026-02-21T21:28:26.504Z"
+  },
+  {
+    "userId": "752622347433017415",
+    "name": "trish",
+    "date": "02/22/2026",
+    "shift": "11am dayshift, 11am till 7pm",
+    "models": "lexi,sally",
+    "reason": "explained on TG (reserved for jona)",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-22T14:53:50.260Z"
   }
 ]
