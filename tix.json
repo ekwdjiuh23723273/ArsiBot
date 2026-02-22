@@ -286,5 +286,14 @@
     "tickets": 2,
     "yearMonth": "2026-02",
     "timestamp": "2026-02-22T04:17:05.484Z"
+  },
+  {
+    "chatterName": "Alex",
+    "modelName": "Claire",
+    "fanName": "Steve(Sgr)",
+    "amount": 526,
+    "tickets": 1,
+    "yearMonth": "2026-02",
+    "timestamp": "2026-02-22T04:17:09.549Z"
   }
 ]
