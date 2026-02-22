@@ -917,5 +917,18 @@
     "claimedBy": "1095288546610397236",
     "reminderSentAt": "2026-02-22T15:20:01.397Z",
     "timestamp": "2026-02-22T14:53:50.260Z"
+  },
+  {
+    "userId": "1420059309412323613",
+    "name": "ARC",
+    "date": "02/22/2026",
+    "shift": "Day Shift ( 11 AM - 4 PM ) cover",
+    "models": "Kylie Cruz Paid/Free, Naomi",
+    "reason": "Im so sick right now, suffering with cough and cold. Been sick for days already and I still have test to attend later. I have to rest for hours. \n\n( This one is reserved for Joe already )",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-22T15:28:06.642Z"
   }
 ]
