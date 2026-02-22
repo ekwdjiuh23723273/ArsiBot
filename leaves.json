@@ -912,8 +912,8 @@
     "shift": "11am dayshift, 11am till 7pm",
     "models": "lexi,sally",
     "reason": "explained on TG (reserved for jona)",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "341255017006628865",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-22T14:53:50.260Z"
