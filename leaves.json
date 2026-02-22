@@ -930,5 +930,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-22T15:28:06.642Z"
+  },
+  {
+    "userId": "1420059309412323613",
+    "name": "ARC",
+    "date": "02/22/2026",
+    "shift": "Day Shift ( 11 AM - 4 PM ) cover",
+    "models": "Kylie Cruz Free/Paid, Naomi",
+    "reason": "I already talked the reason in tg. (This one is reserved for Joe)",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-22T15:41:33.176Z"
   }
 ]
