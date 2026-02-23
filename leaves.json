@@ -1005,7 +1005,7 @@
     "reason": "personal reason sent to qa\n\n(RESERVED FOR FLACKO)",
     "status": "Approved",
     "approverId": "341255017006628865",
-    "claimedBy": null,
+    "claimedBy": "341255017006628865",
     "reminderSentAt": null,
     "timestamp": "2026-02-23T13:59:09.783Z"
   }
