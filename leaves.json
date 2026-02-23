@@ -982,5 +982,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-23T13:56:36.644Z"
+  },
+  {
+    "userId": "1271349076230930474",
+    "name": "Christine",
+    "date": "03/03/2026",
+    "shift": "7:00PM - 3:00AM EST",
+    "models": "Kat",
+    "reason": "personal reason sent to qa\n\n(RESERVED FOR NYKULUZ)",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-23T13:58:12.458Z"
   }
 ]
