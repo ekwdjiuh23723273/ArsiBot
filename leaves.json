@@ -1042,8 +1042,8 @@
     "shift": "GY (Whole Shift)",
     "models": "Sara F/P",
     "reason": "Weekend Vacation",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-23T16:38:04.347Z"
