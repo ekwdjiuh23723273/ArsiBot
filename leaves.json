@@ -977,8 +977,8 @@
     "shift": "7:00PM to 3:00AM EST",
     "models": "Kat",
     "reason": "personal reason sent to qa\n\n(RESERVED FOR DANIELA)",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "341255017006628865",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-23T13:56:36.644Z"
