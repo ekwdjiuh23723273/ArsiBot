@@ -1034,5 +1034,18 @@
     "claimedBy": "1271349076230930474",
     "reminderSentAt": null,
     "timestamp": "2026-02-23T16:23:11.074Z"
+  },
+  {
+    "userId": "457453484636110883",
+    "name": "Ivan",
+    "date": "03/15/2026",
+    "shift": "GY (Whole Shift)",
+    "models": "Sara F/P",
+    "reason": "Weekend Vacation",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-23T16:38:04.347Z"
   }
 ]
