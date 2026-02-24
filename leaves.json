@@ -1060,5 +1060,18 @@
     "claimedBy": "1137778224890400840",
     "reminderSentAt": null,
     "timestamp": "2026-02-23T16:38:05.682Z"
+  },
+  {
+    "userId": "263708200338063373",
+    "name": "Sky",
+    "date": "02/25/2026 and 02/27/2026",
+    "shift": "7pm-3am Est",
+    "models": "Eeveiee free and paid, kylie b free and paid",
+    "reason": "My father has a heart bypass surgery in the morning and i have to stay with him for the next few days at the hospital. Help would be much appreciated.🙏",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-24T18:17:18.275Z"
   }
 ]
