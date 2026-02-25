@@ -1099,5 +1099,18 @@
     "claimedBy": "1095288546610397236",
     "reminderSentAt": null,
     "timestamp": "2026-02-25T01:02:42.026Z"
+  },
+  {
+    "userId": "457453484636110883",
+    "name": "Joe",
+    "date": "02/25/2026",
+    "shift": "Day Shift",
+    "models": "Sara",
+    "reason": "There's an emergency power outage in my area and it is really sudden. I really need someone to cover for my shift please! It would be a great help right now.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-25T15:33:10.170Z"
   }
 ]
