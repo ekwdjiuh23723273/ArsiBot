@@ -1107,8 +1107,8 @@
     "shift": "Day Shift",
     "models": "Sara",
     "reason": "There's an emergency power outage in my area and it is really sudden. I really need someone to cover for my shift please! It would be a great help right now.",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "760475790248116256",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-25T15:33:10.170Z"
