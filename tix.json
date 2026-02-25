@@ -322,5 +322,14 @@
     "tickets": 3,
     "yearMonth": "2026-02",
     "timestamp": "2026-02-25T00:51:09.581Z"
+  },
+  {
+    "chatterName": "JOHN",
+    "modelName": "Sara",
+    "fanName": "JoshPson95@u378748281",
+    "amount": 615,
+    "tickets": 1,
+    "yearMonth": "2026-02",
+    "timestamp": "2026-02-25T02:32:18.913Z"
   }
 ]
