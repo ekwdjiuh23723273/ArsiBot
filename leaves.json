@@ -1164,5 +1164,18 @@
     "claimedBy": "953291810728468501",
     "reminderSentAt": null,
     "timestamp": "2026-02-26T09:02:47.664Z"
+  },
+  {
+    "userId": "1332309766264848387",
+    "name": "Jerick",
+    "date": "2/27/2026 EST",
+    "shift": "PT, 7PM - 3AM",
+    "models": "Fansly + Fanvue",
+    "reason": "House renovations part 1",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-26T09:15:08.401Z"
   }
 ]
