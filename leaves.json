@@ -1112,5 +1112,18 @@
     "claimedBy": "1384640380150091816",
     "reminderSentAt": null,
     "timestamp": "2026-02-25T15:33:10.170Z"
+  },
+  {
+    "userId": "953291810728468501",
+    "name": "Jamina",
+    "date": "03/14/2026",
+    "shift": "GY, 3AM-7AM",
+    "models": "Fansly, Fanvue",
+    "reason": "Vacation (reserved for marijoy)",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-26T08:27:49.608Z"
   }
 ]
