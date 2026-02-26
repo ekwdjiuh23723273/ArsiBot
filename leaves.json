@@ -1018,7 +1018,7 @@
     "reason": "Vacation",
     "status": "Approved",
     "approverId": "760475790248116256",
-    "claimedBy": "484354534379094017",
+    "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-23T16:22:20.832Z"
   },
@@ -1148,7 +1148,7 @@
     "reason": "Vacation",
     "status": "Approved",
     "approverId": "760475790248116256",
-    "claimedBy": "484354534379094017",
+    "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-26T08:29:10.205Z"
   }
