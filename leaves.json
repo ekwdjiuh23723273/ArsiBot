@@ -1146,8 +1146,8 @@
     "shift": "GY, 7AM-11AM",
     "models": "Fansly, Fanvue",
     "reason": "Vacation",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "760475790248116256",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-26T08:29:10.205Z"
