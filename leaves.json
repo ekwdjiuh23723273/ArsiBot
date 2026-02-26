@@ -1159,8 +1159,8 @@
     "shift": "PT, 7AM  - 3PM",
     "models": "Fansly + Fanvue",
     "reason": "House renovation part 1",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "760475790248116256",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-26T09:02:47.664Z"
