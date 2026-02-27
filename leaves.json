@@ -1177,5 +1177,18 @@
     "claimedBy": "953291810728468501",
     "reminderSentAt": null,
     "timestamp": "2026-02-26T09:15:08.401Z"
+  },
+  {
+    "userId": "1420059309412323613",
+    "name": "ARC",
+    "date": "02/27/2026",
+    "shift": "Day Shift ( 5 PM - 7 PM ) cover",
+    "models": "Kylie Cruz Free/Paid, Naomi",
+    "reason": "have to log out early since we'll be having 2nd quiz in review class for CE.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-27T01:28:26.069Z"
   }
 ]
