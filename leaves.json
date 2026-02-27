@@ -1242,5 +1242,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-27T08:54:57.855Z"
+  },
+  {
+    "userId": "1287624675249356896",
+    "name": "John",
+    "date": "04/02/2026",
+    "shift": "7PM-3AM EST",
+    "models": "Sara",
+    "reason": "Vacation",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-27T08:55:45.731Z"
   }
 ]
