@@ -1203,5 +1203,18 @@
     "claimedBy": "1238740965846548531",
     "reminderSentAt": null,
     "timestamp": "2026-02-27T01:30:23.284Z"
+  },
+  {
+    "userId": "1188819542529556551",
+    "name": "Nykuluz",
+    "date": "2/28/2026",
+    "shift": "GY, 7AM-11AM",
+    "models": "Emily,  Kitty",
+    "reason": "Little sister's bday then also need to do some university dropout form completion",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-27T08:09:06.946Z"
   }
 ]
