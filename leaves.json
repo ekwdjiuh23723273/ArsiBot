@@ -1190,5 +1190,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-27T01:28:26.069Z"
+  },
+  {
+    "userId": "1420059309412323613",
+    "name": "ARC",
+    "date": "02/28/2026",
+    "shift": "DAY ( 11 AM - 7 PM)",
+    "models": "Kylie Cruz Free/Paid, Naomi",
+    "reason": "Will be going home in province (Surigao del sur). Already asked this one in TG. Hopefully someone can take this tho.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-27T01:30:23.284Z"
   }
 ]
