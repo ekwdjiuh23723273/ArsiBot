@@ -1198,9 +1198,9 @@
     "shift": "DAY ( 11 AM - 7 PM)",
     "models": "Kylie Cruz Free/Paid, Naomi",
     "reason": "Will be going home in province (Surigao del sur). Already asked this one in TG. Hopefully someone can take this tho.",
-    "status": "Approved",
-    "approverId": "995962476283842592",
-    "claimedBy": null,
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": "1238740965846548531",
     "reminderSentAt": null,
     "timestamp": "2026-02-27T01:30:23.284Z"
   }
