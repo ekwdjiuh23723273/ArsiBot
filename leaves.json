@@ -1250,8 +1250,8 @@
     "shift": "7PM-3AM EST",
     "models": "Sara",
     "reason": "Vacation",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-27T08:55:45.731Z"
