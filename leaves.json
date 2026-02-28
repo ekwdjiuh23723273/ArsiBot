@@ -1333,5 +1333,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-28T07:34:50.744Z"
+  },
+  {
+    "userId": "1188819542529556551",
+    "name": "Nykuluz",
+    "date": "02/28/2026",
+    "shift": "GY, 3AM - 7AM EST",
+    "models": "Emily,Kitty",
+    "reason": "Same reason last leave \n(Reserved for john)",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-28T07:48:48.126Z"
   }
 ]
