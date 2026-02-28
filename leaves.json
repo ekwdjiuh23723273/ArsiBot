@@ -1341,8 +1341,8 @@
     "shift": "GY, 3AM - 7AM EST",
     "models": "Emily,Kitty",
     "reason": "Same reason last leave \n(Reserved for john)",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "760475790248116256",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-28T07:48:48.126Z"
