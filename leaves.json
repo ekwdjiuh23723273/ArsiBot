@@ -1307,5 +1307,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-28T00:07:51.886Z"
+  },
+  {
+    "userId": "1384640380150091816",
+    "name": "Kurt",
+    "date": "02/28/2026",
+    "shift": "Day Shift (11:00 AM - 7:00 PM)",
+    "models": "Claire, Mila, Sophie",
+    "reason": "Visit a plant for my thesis. Supposed to be on my day off but adviser rescheduled.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-02-28T02:53:29.504Z"
   }
 ]
