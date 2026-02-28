@@ -1315,8 +1315,8 @@
     "shift": "Day Shift (11:00 AM - 7:00 PM)",
     "models": "Claire, Mila, Sophie",
     "reason": "Visit a plant for my thesis. Supposed to be on my day off but adviser rescheduled.",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-28T02:53:29.504Z"
