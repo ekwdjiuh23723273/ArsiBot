@@ -1239,7 +1239,7 @@
     "reason": "Vacation",
     "status": "Approved",
     "approverId": "995962476283842592",
-    "claimedBy": null,
+    "claimedBy": "752622347433017415",
     "reminderSentAt": null,
     "timestamp": "2026-02-27T08:54:57.855Z"
   },
@@ -1250,9 +1250,9 @@
     "shift": "7PM-3AM EST",
     "models": "Sara",
     "reason": "Vacation",
-    "status": "Approved",
-    "approverId": "995962476283842592",
-    "claimedBy": "752622347433017415",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-27T08:55:45.731Z"
   },
@@ -1263,8 +1263,8 @@
     "shift": "7PM to 3AM est",
     "models": "Sara",
     "reason": "Vacation",
-    "status": "Declined",
-    "approverId": "995962476283842592",
+    "status": "Pending",
+    "approverId": null,
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-27T08:56:24.472Z"
@@ -1276,8 +1276,8 @@
     "shift": "7pm-3am",
     "models": "sara",
     "reason": "vacation",
-    "status": "Declined",
-    "approverId": "995962476283842592",
+    "status": "Pending",
+    "approverId": null,
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-27T23:57:28.492Z"
@@ -1289,9 +1289,9 @@
     "shift": "7pm - 3am",
     "models": "sara",
     "reason": "Vacation",
-    "status": "Approved",
-    "approverId": "995962476283842592",
-    "claimedBy": "1137778224890400840",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-02-27T23:58:16.961Z"
   }
