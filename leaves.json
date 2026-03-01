@@ -1385,5 +1385,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-01T11:27:07.914Z"
+  },
+  {
+    "userId": "484354534379094017",
+    "name": "Marijoy",
+    "date": "03/01/2026",
+    "shift": "7PM-3AM EST",
+    "models": "Kitty, Emily",
+    "reason": "❗️ I really need someone to cover my shift tomorrow. My internet has been very slow for a while. The nearest internet shop here also has the same internet provider as mine, so it's better to have someone cover the accounts rather than waiting for my internet to get fixed. My mobile data doesn't work as well. I think it's happening around Davao City.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-01T14:22:30.719Z"
   }
 ]
