@@ -1380,8 +1380,8 @@
     "shift": "11AM- 7PM",
     "models": "Kat",
     "reason": "Having issues with my laptop display. Only Team X or Team A can take this.",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "760475790248116256",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-01T11:27:07.914Z"
