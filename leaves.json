@@ -1346,5 +1346,18 @@
     "claimedBy": "1287624675249356896",
     "reminderSentAt": "2026-02-28T07:55:01.508Z",
     "timestamp": "2026-02-28T07:48:48.126Z"
+  },
+  {
+    "userId": "1410323521024037034",
+    "name": "Renen",
+    "date": "03/10/2026",
+    "shift": "Prime Time 7:00PM to 3:00AM EST",
+    "models": "Lexi MYM, Emily MYM",
+    "reason": "Attend a once in a lifetime family reunion",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-01T00:55:13.356Z"
   }
 ]
