@@ -1372,5 +1372,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-01T00:57:49.741Z"
+  },
+  {
+    "userId": "689385159320928298",
+    "name": "Radu",
+    "date": "03/01/2026",
+    "shift": "11AM- 7PM",
+    "models": "Kat",
+    "reason": "Having issues with my laptop display. Only Team X or Team A can take this.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-01T11:27:07.914Z"
   }
 ]
