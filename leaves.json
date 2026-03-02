@@ -1437,5 +1437,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-02T11:08:23.689Z"
+  },
+  {
+    "userId": "1137778224890400840",
+    "name": "Dani",
+    "date": "03/02/2026",
+    "shift": "7:00 PM - 11:00 PM",
+    "models": "Kat",
+    "reason": "Reserved for Flacko, Explained in TG.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-02T20:07:31.296Z"
   }
 ]
