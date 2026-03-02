@@ -1450,5 +1450,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-02T20:07:31.296Z"
+  },
+  {
+    "userId": "484354534379094017",
+    "name": "Marijoy",
+    "date": "3/2/2026",
+    "shift": "7pm-3am est",
+    "models": "Kitty and emily",
+    "reason": "Badly needed someone to cover for me 😥",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-02T23:58:42.016Z"
   }
 ]
