@@ -1432,8 +1432,8 @@
     "shift": "dayshift 11am till 7pm",
     "models": "sally, lexi",
     "reason": "explained over tg",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "760475790248116256",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-02T11:08:23.689Z"
