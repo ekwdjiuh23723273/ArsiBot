@@ -1406,8 +1406,8 @@
     "shift": "11:00AM -7:00 PM EST",
     "models": "Claire, Mila and Sophie",
     "reason": "Explained in TG.",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "760475790248116256",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-02T08:57:29.957Z"
