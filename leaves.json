@@ -1471,8 +1471,8 @@
     "shift": "Graveyard Shift",
     "models": "Kylie C, Kylie C2, Naomi",
     "reason": "Nosebleed and Migraine",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "760475790248116256",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-03T07:36:52.610Z"
