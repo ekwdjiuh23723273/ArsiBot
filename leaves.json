@@ -1484,8 +1484,8 @@
     "shift": "Prime Time",
     "models": "Emily and Lexi MYM",
     "reason": "i forgot to consider that our family reunion will be held at a resort, i might not be home by then to be able to work. i already have an approved leave for 03/13/2026. tysm",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "760475790248116256",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-03T10:48:48.841Z"
