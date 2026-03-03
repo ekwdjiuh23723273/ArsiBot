@@ -1515,5 +1515,18 @@
     "claimedBy": "1095288546610397236",
     "reminderSentAt": null,
     "timestamp": "2026-03-03T11:00:53.409Z"
+  },
+  {
+    "userId": "1287624675249356896",
+    "name": "John",
+    "date": "03/03/2026",
+    "shift": "7pm to 3am est",
+    "models": "Hot Mommah Sara",
+    "reason": "need to attend legal meeting 😇",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-03T13:25:54.269Z"
   }
 ]
