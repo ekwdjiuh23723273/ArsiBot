@@ -1476,5 +1476,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-03T07:36:52.610Z"
+  },
+  {
+    "userId": "1410323521024037034",
+    "name": "Renen",
+    "date": "03/14/2026",
+    "shift": "Prime Time",
+    "models": "Emily and Lexi MYM",
+    "reason": "i forgot to consider that our family reunion will be held at a resort, i might not be home by then to be able to work. i already have an approved leave for 03/13/2026. tysm",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-03T10:48:48.841Z"
   }
 ]
