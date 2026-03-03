@@ -1463,5 +1463,18 @@
     "claimedBy": "790639122284412938",
     "reminderSentAt": null,
     "timestamp": "2026-03-02T23:58:42.016Z"
+  },
+  {
+    "userId": "1463086333273833631",
+    "name": "Ritchelle",
+    "date": "03/03/2026",
+    "shift": "Graveyard Shift",
+    "models": "Kylie C, Kylie C2, Naomi",
+    "reason": "Nosebleed and Migraine",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-03T07:36:52.610Z"
   }
 ]
