@@ -1510,8 +1510,8 @@
     "shift": "Prime Time",
     "models": "Emily and Lexi MYM",
     "reason": "same reason as before, i accidentally put the wrong date because i forgot it was this week’s weekend, not march 13 and 14",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "341255017006628865",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-03T11:00:53.409Z"
