@@ -475,5 +475,14 @@
     "tickets": 2,
     "yearMonth": "2026-03",
     "timestamp": "2026-03-02T16:29:52.310Z"
+  },
+  {
+    "chatterName": "Martina",
+    "modelName": "Claire",
+    "fanName": "Rick (Richard Boland)",
+    "amount": 500,
+    "tickets": 1,
+    "yearMonth": "2026-03",
+    "timestamp": "2026-03-03T05:14:15.980Z"
   }
 ]
