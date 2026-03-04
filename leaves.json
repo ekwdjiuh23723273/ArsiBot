@@ -1541,5 +1541,18 @@
     "claimedBy": "1410323521024037034",
     "reminderSentAt": null,
     "timestamp": "2026-03-04T02:44:39.312Z"
+  },
+  {
+    "userId": "1463086333273833631",
+    "name": "Ritchelle",
+    "date": "03/05/2026",
+    "shift": "Graveyard 3am to 7am",
+    "models": "Kylie Cruz, Kylie C, Naomi",
+    "reason": "Dads Bday and Death Anniversary commemoration",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-04T13:29:53.584Z"
   }
 ]
