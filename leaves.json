@@ -1601,9 +1601,9 @@
     "shift": "DAY SHIFT ( 11 AM - 1 PM ) cover",
     "models": "Kylie C, Naomi",
     "reason": "sent in TG. (already reserved to Ate Jona)",
-    "status": "Approved",
-    "approverId": "1188819542529556551",
-    "claimedBy": null,
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": "1095288546610397236",
     "reminderSentAt": null,
     "timestamp": "2026-03-05T13:00:26.576Z"
   }
