@@ -1562,8 +1562,8 @@
     "shift": "7PM - 3AM EST",
     "models": "Claire, Mila, Sophie",
     "reason": "Medical Reason. Body needs to adjust",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-05T00:20:22.967Z"
