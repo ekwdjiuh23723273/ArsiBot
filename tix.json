@@ -520,5 +520,14 @@
     "tickets": 2,
     "yearMonth": "2026-03",
     "timestamp": "2026-03-05T09:24:20.129Z"
+  },
+  {
+    "chatterName": "Alex",
+    "modelName": "Claire",
+    "fanName": "@seangleason21",
+    "amount": 561,
+    "tickets": 1,
+    "yearMonth": "2026-03",
+    "timestamp": "2026-03-05T09:28:19.831Z"
   }
 ]
