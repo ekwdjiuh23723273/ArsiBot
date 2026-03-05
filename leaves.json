@@ -1577,7 +1577,7 @@
     "reason": "Medical Reason. Body needs time to adjust",
     "status": "Approved",
     "approverId": "995962476283842592",
-    "claimedBy": null,
+    "claimedBy": "1095288546610397236",
     "reminderSentAt": null,
     "timestamp": "2026-03-05T00:22:09.623Z"
   },
