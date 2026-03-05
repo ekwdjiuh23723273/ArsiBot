@@ -1580,5 +1580,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-05T00:22:09.623Z"
+  },
+  {
+    "userId": "759040255902482462",
+    "name": "Alex",
+    "date": "03/07/2026",
+    "shift": "7PM to 3AM EST",
+    "models": "Claire, Mila, Sophie",
+    "reason": "Medical Reason. Body needs time to adjust",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-05T00:23:10.728Z"
   }
 ]
