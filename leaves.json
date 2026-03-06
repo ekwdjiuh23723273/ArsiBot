@@ -1614,8 +1614,8 @@
     "shift": "Dayshift, 11am till 7pm",
     "models": "Lexi, Sally",
     "reason": "have some errands that i need to take care of early in the morning (reserved to jona)",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-06T00:36:27.248Z"
