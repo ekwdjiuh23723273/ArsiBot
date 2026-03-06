@@ -1658,5 +1658,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-06T07:54:35.189Z"
+  },
+  {
+    "userId": "1215704080828080156",
+    "name": "flacko",
+    "date": "03/21/2026",
+    "shift": "day shift (11:00 AM - 7:00 PM EST)",
+    "models": "Sara",
+    "reason": "Will attend a wedding.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-06T07:54:36.328Z"
   }
 ]
