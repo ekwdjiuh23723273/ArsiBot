@@ -1619,5 +1619,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-06T00:36:27.248Z"
+  },
+  {
+    "userId": "752622347433017415",
+    "name": "trish",
+    "date": "03/11/2026",
+    "shift": "graveyard 11am till 7pm",
+    "models": "lexi, sally",
+    "reason": "have some errands that i need to take care of early in the morning (reserved to tine)",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-06T00:37:45.214Z"
   }
 ]
