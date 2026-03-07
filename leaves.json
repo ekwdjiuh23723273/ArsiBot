@@ -1849,8 +1849,8 @@
     "shift": "PT, 7pm - 3am",
     "models": "Fansly + Fanvue",
     "reason": "A bad headache’s been disturbing my sleep, waking me up from time to time. Need to recover.",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-07T19:56:31.507Z"
