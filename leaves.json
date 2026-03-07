@@ -1854,5 +1854,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-07T19:56:31.507Z"
+  },
+  {
+    "userId": "1332309766264848387",
+    "name": "Jerick",
+    "date": "03/07/2026",
+    "shift": "PT, 7pm-3am",
+    "models": "Fansly + Fanvue",
+    "reason": "Bad headache, disturbing my sleep keeping me up and I need to get some sleep and recover.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-07T20:11:21.206Z"
   }
 ]
