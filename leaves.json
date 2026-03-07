@@ -1822,9 +1822,9 @@
     "shift": "Day shift 11AM EST to 7PM EST",
     "models": "Sara",
     "reason": "Claimed by joe",
-    "status": "Approved",
-    "approverId": "760475790248116256",
-    "claimedBy": null,
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": "1238740965846548531",
     "reminderSentAt": null,
     "timestamp": "2026-03-07T11:47:49.397Z"
   }
