@@ -1827,5 +1827,18 @@
     "claimedBy": "1238740965846548531",
     "reminderSentAt": null,
     "timestamp": "2026-03-07T11:47:49.397Z"
+  },
+  {
+    "userId": "1420059309412323613",
+    "name": "Arc",
+    "date": "03/07/2026",
+    "shift": "Day Shift ( 11 AM - 7 PM )",
+    "models": "Kylie Cruz Free/Paid, Naomi",
+    "reason": "reason was already sent on tg. (reserved to ate jona)",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-07T13:29:27.435Z"
   }
 ]
