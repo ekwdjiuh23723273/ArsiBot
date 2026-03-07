@@ -1757,8 +1757,8 @@
     "shift": "3am-11am",
     "models": "Kitty and emily",
     "reason": "There will be a power outage in our apartment, because someone accidentally hit the electric post, now workers are trying to fix it and its not good.",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Declined",
+    "approverId": "1188819542529556551",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-07T06:52:20.676Z"
