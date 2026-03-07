@@ -1762,5 +1762,31 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-07T06:52:20.676Z"
+  },
+  {
+    "userId": "448416324494819328",
+    "name": "Uno",
+    "date": "07",
+    "shift": "3am-11am",
+    "models": "Kitty and emily",
+    "reason": "There will be a power outage in our apartment, because someone accidentally hit the electric post, now workers are trying to fix it and its not good.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-07T06:52:22.085Z"
+  },
+  {
+    "userId": "448416324494819328",
+    "name": "Uno",
+    "date": "26",
+    "shift": "3am-11am",
+    "models": "Kitty and emily",
+    "reason": "There will be a power outage in our apartment, because someone accidentally hit the electric post, now workers are trying to fix it and its not good.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-07T06:52:22.829Z"
   }
 ]
