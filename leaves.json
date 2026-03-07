@@ -1801,5 +1801,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-07T06:56:18.689Z"
+  },
+  {
+    "userId": "448416324494819328",
+    "name": "Uno",
+    "date": "03/07/2026",
+    "shift": "3am-11am",
+    "models": "Kitty and emily",
+    "reason": "Power outage in our apartment due to electrical post being broken",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-07T06:57:51.292Z"
   }
 ]
