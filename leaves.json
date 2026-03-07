@@ -1809,8 +1809,8 @@
     "shift": "3am-11am",
     "models": "Kitty and emily",
     "reason": "Power outage in our apartment due to electrical post being broken",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1188819542529556551",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-07T06:57:51.292Z"
