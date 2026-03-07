@@ -1736,5 +1736,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-07T04:47:53.132Z"
+  },
+  {
+    "userId": "1271349076230930474",
+    "name": "Christine",
+    "date": "03/07/2026",
+    "shift": "7:00PM - 11:00PM",
+    "models": "Kat",
+    "reason": "for Andre 🙏",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-07T04:51:06.891Z"
   }
 ]
