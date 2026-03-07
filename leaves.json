@@ -1796,8 +1796,8 @@
     "shift": "3am-11am",
     "models": "Kitty and  emily",
     "reason": "There’s a power outage here in our apartment due to a broken electrical postcard",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "760475790248116256",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-07T06:56:18.689Z"
