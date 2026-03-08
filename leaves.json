@@ -1880,5 +1880,18 @@
     "claimedBy": "1287624675249356896",
     "reminderSentAt": "2026-03-08T03:35:01.315Z",
     "timestamp": "2026-03-08T03:18:53.401Z"
+  },
+  {
+    "userId": "1300182068768018523",
+    "name": "Bojan",
+    "date": "03.10.2026",
+    "shift": "Prime time",
+    "models": "mym(tba)",
+    "reason": "i have a flight scheduled on that date",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-08T06:29:41.675Z"
   }
 ]
