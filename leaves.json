@@ -1888,8 +1888,8 @@
     "shift": "Prime time",
     "models": "mym(tba)",
     "reason": "i have a flight scheduled on that date",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "760475790248116256",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-08T06:29:41.675Z"
