@@ -1901,8 +1901,8 @@
     "shift": "Day Shift (11:00PM - 7:00AM)",
     "models": "Claire, Mila, Sophie",
     "reason": "Got into an accident. Suffering from concussion so my head really hurts",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1188819542529556551",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-08T08:57:26.981Z"
