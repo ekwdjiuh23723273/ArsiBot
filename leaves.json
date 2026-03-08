@@ -1906,5 +1906,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-08T08:57:26.981Z"
+  },
+  {
+    "userId": "263708200338063373",
+    "name": "Sky",
+    "date": "03/08/2026",
+    "shift": "Prime time 7pm to 3am",
+    "models": "Eeveiee (free and paid), Heather",
+    "reason": "My father will be discharged in the morning and I have to take him home.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-08T09:20:47.828Z"
   }
 ]
