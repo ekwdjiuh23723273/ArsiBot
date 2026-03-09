@@ -1920,5 +1920,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-08T09:20:47.828Z"
+  },
+  {
+    "userId": "448416324494819328",
+    "name": "Uno",
+    "date": "03/09/2026",
+    "shift": "3am-11am",
+    "models": "Kitty and emily",
+    "reason": "Day3 of power outage still waiting for update, currently no money for relocation.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-09T03:28:27.645Z"
   }
 ]
