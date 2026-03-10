@@ -1968,8 +1968,8 @@
     "shift": "Daytime 11AM - 7PM",
     "models": "Kat",
     "reason": "already mentioned in the shift cover channel. won’t be able to make it home for my shift.",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "760475790248116256",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-10T06:28:14.587Z"
