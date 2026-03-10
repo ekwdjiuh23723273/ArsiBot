@@ -1955,8 +1955,8 @@
     "shift": "Prime time",
     "models": "Eevies, Emily and Paris",
     "reason": "I have a flight scheduled, and wouldnt be able to work that day",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-10T01:16:29.144Z"
