@@ -1947,5 +1947,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-09T09:22:04.984Z"
+  },
+  {
+    "userId": "1300182068768018523",
+    "name": "Bojan",
+    "date": "03/10/2026",
+    "shift": "Prime time",
+    "models": "Eevies, Emily and Paris",
+    "reason": "I have a flight scheduled, and wouldnt be able to work that day",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-10T01:16:29.144Z"
   }
 ]
