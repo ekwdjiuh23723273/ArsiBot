@@ -1974,5 +1974,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-10T06:28:14.587Z"
+  },
+  {
+    "userId": "1332309766264848387",
+    "name": "Jerick",
+    "date": "3/13/2026",
+    "shift": "PT, 6PM - 2AM",
+    "models": "Kat",
+    "reason": "Christening of my cousin + fam reunion part 1",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-11T06:31:13.854Z"
   }
 ]
