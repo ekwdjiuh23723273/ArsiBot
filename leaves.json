@@ -1995,8 +1995,8 @@
     "shift": "PT, 6PM - 2AM",
     "models": "Kylie C, Kylie C2, Naomi, Coco Gum",
     "reason": "Fam reunion part 2",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "341255017006628865",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-11T06:32:17.396Z"
