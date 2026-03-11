@@ -1982,8 +1982,8 @@
     "shift": "PT, 6PM - 2AM",
     "models": "Kat",
     "reason": "Christening of my cousin + fam reunion part 1",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "341255017006628865",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-11T06:31:13.854Z"
