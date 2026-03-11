@@ -2013,5 +2013,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-11T11:13:58.888Z"
+  },
+  {
+    "userId": "1420059309412323613",
+    "name": "Arc",
+    "date": "03/15/2026",
+    "shift": "Day Shift ( 11 AM - 7 PM )",
+    "models": "Kylie Cruz, Naomi, Coco Bum",
+    "reason": "Will be going home to province (surigao del sur).",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-11T11:21:45.235Z"
   }
 ]
