@@ -1987,5 +1987,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-11T06:31:13.854Z"
+  },
+  {
+    "userId": "1332309766264848387",
+    "name": "Jerick",
+    "date": "3/14/2026",
+    "shift": "PT, 6PM - 2AM",
+    "models": "Kylie C, Kylie C2, Naomi, Coco Gum",
+    "reason": "Fam reunion part 2",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-11T06:32:17.396Z"
   }
 ]
