@@ -2039,5 +2039,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-11T13:10:46.080Z"
+  },
+  {
+    "userId": "1332309766264848387",
+    "name": "Jerick",
+    "date": "03/13/2026",
+    "shift": "PT, 11am-3am",
+    "models": "Kat",
+    "reason": "Christening of my cousin + fam reunion part 1\n\n2ND half of my 3/13 shift",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-11T13:14:45.616Z"
   }
 ]
