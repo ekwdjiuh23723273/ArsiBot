@@ -2073,8 +2073,8 @@
     "shift": "7pm/11pm",
     "models": "Kylie C, Naomi, Coco",
     "reason": "anyone who can cover the first half of my shift? i need to leave early to get an emission test for my car so i can be first in line and get everything done as early as possible",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1188819542529556551",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-12T11:57:53.269Z"
