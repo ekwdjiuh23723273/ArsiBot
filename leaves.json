@@ -2021,8 +2021,8 @@
     "shift": "Day Shift ( 11 AM - 7 PM )",
     "models": "Kylie Cruz, Naomi, Coco Bum",
     "reason": "Will be going home to province (surigao del sur).",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-11T11:21:45.235Z"
@@ -2034,8 +2034,8 @@
     "shift": "PT, 7pm-11am",
     "models": "Kat",
     "reason": "Christening of my cousin + fam reunion part 1\n\nReserved for: Tine",
-    "status": "Approved",
-    "approverId": "995962476283842592",
+    "status": "Pending",
+    "approverId": null,
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-11T13:10:46.080Z"
