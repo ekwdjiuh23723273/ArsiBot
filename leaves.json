@@ -2052,5 +2052,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-11T13:14:45.616Z"
+  },
+  {
+    "userId": "1420059309412323613",
+    "name": "Arc",
+    "date": "03/16/2026",
+    "shift": "Day Shift ( 11 AM - 7 PM )",
+    "models": "Kylie Cruz, Naomi, Coco Bum",
+    "reason": "explained in telegram already. (reserved for Ate Jona)",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-12T03:39:53.159Z"
   }
 ]
