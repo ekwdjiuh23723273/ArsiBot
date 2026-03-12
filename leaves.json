@@ -2060,8 +2060,8 @@
     "shift": "Day Shift ( 11 AM - 7 PM )",
     "models": "Kylie Cruz, Naomi, Coco Bum",
     "reason": "explained in telegram already. (reserved for Ate Jona)",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-12T03:39:53.159Z"
