@@ -2065,5 +2065,18 @@
     "claimedBy": "1095288546610397236",
     "reminderSentAt": null,
     "timestamp": "2026-03-12T03:39:53.159Z"
+  },
+  {
+    "userId": "1399539430963937436",
+    "name": "Adi",
+    "date": "3/12/2026",
+    "shift": "7pm/11pm",
+    "models": "Kylie C, Naomi, Coco",
+    "reason": "anyone who can cover the first half of my shift? i need to leave early to get an emission test for my car so i can be first in line and get everything done as early as possible",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-12T11:57:53.269Z"
   }
 ]
