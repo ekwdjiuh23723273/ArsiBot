@@ -2156,5 +2156,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-13T22:59:23.556Z"
+  },
+  {
+    "userId": "995962476283842592",
+    "name": "UwU",
+    "date": "03/15/2026",
+    "shift": "7PM to 3AM",
+    "models": "Lexi, Sally",
+    "reason": "QA Assign",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-13T23:02:21.411Z"
   }
 ]
