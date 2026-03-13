@@ -2130,5 +2130,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-13T07:15:20.631Z"
+  },
+  {
+    "userId": "1410323521024037034",
+    "name": "Renen",
+    "date": "03/20/2026",
+    "shift": "Prime Time",
+    "models": "Sophie, Claire, Mila",
+    "reason": "I'm moving to another city, I'll need time to transport and settle.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-13T07:16:17.996Z"
   }
 ]
