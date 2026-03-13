@@ -2143,5 +2143,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-13T07:16:17.996Z"
+  },
+  {
+    "userId": "1420059309412323613",
+    "name": "Arc",
+    "date": "03/15/2026",
+    "shift": "Day Shift ( 11 am - 7 pm )",
+    "models": "Kylie C, Naomi, Coco Bum",
+    "reason": "Already explained why i have to take this leave, just mistakenly put the wrong date. 16th is actually my rest day, it should be 15th. Ate jona is aware of this one already (reserved to ate jona)",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-13T22:59:23.556Z"
   }
 ]
