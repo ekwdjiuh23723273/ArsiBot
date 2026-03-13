@@ -610,5 +610,14 @@
     "tickets": 1,
     "yearMonth": "2026-03",
     "timestamp": "2026-03-13T01:23:59.087Z"
+  },
+  {
+    "chatterName": "Renen",
+    "modelName": "Claire",
+    "fanName": "Stuart McDonald",
+    "amount": 994,
+    "tickets": 2,
+    "yearMonth": "2026-03",
+    "timestamp": "2026-03-13T07:07:44.771Z"
   }
 ]
