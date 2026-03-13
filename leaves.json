@@ -2125,8 +2125,8 @@
     "shift": "Prime Time",
     "models": "Sophie, Claire, Mila",
     "reason": "I'm going to move to another city, I'll need time transport and settle.",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-13T07:15:20.631Z"
