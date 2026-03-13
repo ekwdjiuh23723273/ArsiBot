@@ -2169,5 +2169,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-13T23:02:21.411Z"
+  },
+  {
+    "userId": "1475481041841029321",
+    "name": "Sofia",
+    "date": "03/15/2026",
+    "shift": "Day Shift (11:00 AM EDT to 7:00 PM EDT)",
+    "models": "Emily, Eeviee PAID, Eeviee FREE, Paris",
+    "reason": "I will be travelling and may encounter traffic, which could prevent me from arriving to my shift on time ;(\n(Reserved for Joe)",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-13T23:28:56.832Z"
   }
 ]
