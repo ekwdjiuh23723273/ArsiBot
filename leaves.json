@@ -2182,5 +2182,18 @@
     "claimedBy": "1238740965846548531",
     "reminderSentAt": null,
     "timestamp": "2026-03-13T23:28:56.832Z"
+  },
+  {
+    "userId": "1447559124727365744",
+    "name": "Jerome",
+    "date": "03/30/2026",
+    "shift": "3:00 AM - 11:00 AM",
+    "models": "MYM (LEXI, EMILY, KYLIE C, SARA)",
+    "reason": "Family Reunion | Vacation",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-14T14:14:56.880Z"
   }
 ]
