@@ -2221,5 +2221,18 @@
     "claimedBy": "995962476283842592",
     "reminderSentAt": null,
     "timestamp": "2026-03-14T23:10:28.969Z"
+  },
+  {
+    "userId": "1384640380150091816",
+    "name": "Kurt",
+    "date": "03/25/2026",
+    "shift": "Day Shift",
+    "models": "Claire, Mila, Sophie",
+    "reason": "Rest day after my mom's bday celebration. i need to rest before flying back again to campus the next day",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-14T23:14:47.348Z"
   }
 ]
