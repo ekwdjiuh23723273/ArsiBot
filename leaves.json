@@ -2190,8 +2190,8 @@
     "shift": "3:00 AM - 11:00 AM",
     "models": "MYM (LEXI, EMILY, KYLIE C, SARA)",
     "reason": "Family Reunion | Vacation",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "760475790248116256",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-14T14:14:56.880Z"
