@@ -2312,5 +2312,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-16T07:36:05.926Z"
+  },
+  {
+    "userId": "530044519148814336",
+    "name": "jett",
+    "date": "03/16/26",
+    "shift": "Prime time  (7am - 3 am est)",
+    "models": "claire, mila paid & sophie",
+    "reason": "it  was a late announcement for our group practice for the PE performance task on Wednesday.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-16T09:28:58.580Z"
   }
 ]
