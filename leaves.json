@@ -2307,8 +2307,8 @@
     "shift": "Daytime 11am-7pm",
     "models": "Fansly + Fanvue",
     "reason": "Our organization got picked to be incharge of a community run. I need to be present to give prehabilitation to athletes and runners before it starts.",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "760475790248116256",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-16T07:36:05.926Z"
