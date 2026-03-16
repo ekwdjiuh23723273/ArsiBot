@@ -2281,8 +2281,8 @@
     "shift": "7:00PM - 3:00AM est",
     "models": "Kat",
     "reason": "It's my mom's birthday weekend",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-16T04:19:49.358Z"
