@@ -2359,8 +2359,8 @@
     "shift": "Prime Time",
     "models": "Claire, Sophie",
     "reason": "Same reason as my last leave request, going to move out",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "760475790248116256",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-17T13:06:32.783Z"
