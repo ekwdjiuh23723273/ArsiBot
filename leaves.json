@@ -2333,8 +2333,8 @@
     "shift": "Last 3 hours of GY",
     "models": "Sara F/P",
     "reason": "reason sent in tg. RESERVED FOR MARIJOY.",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "341255017006628865",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-17T08:41:34.006Z"
