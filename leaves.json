@@ -2351,5 +2351,18 @@
     "claimedBy": "1238740965846548531",
     "reminderSentAt": null,
     "timestamp": "2026-03-17T08:44:32.207Z"
+  },
+  {
+    "userId": "1410323521024037034",
+    "name": "Renen",
+    "date": "03/17/2026",
+    "shift": "Prime Time",
+    "models": "Claire, Sophie",
+    "reason": "Same reason as my last leave request, going to move out",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-17T13:06:32.783Z"
   }
 ]
