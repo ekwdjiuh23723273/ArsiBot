@@ -2346,8 +2346,8 @@
     "shift": "GY, 8AM-11AM",
     "models": "Fansly, Fanvue",
     "reason": "Explained in tg, reserved for Tine.",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "341255017006628865",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-17T08:44:32.207Z"
