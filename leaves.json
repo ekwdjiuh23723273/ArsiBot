@@ -2338,5 +2338,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-17T08:41:34.006Z"
+  },
+  {
+    "userId": "953291810728468501",
+    "name": "Jamina",
+    "date": "03/18/2026",
+    "shift": "GY, 8AM-11AM",
+    "models": "Fansly, Fanvue",
+    "reason": "Explained in tg, reserved for Tine.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-17T08:44:32.207Z"
   }
 ]
