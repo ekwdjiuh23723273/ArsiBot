@@ -2403,5 +2403,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-18T01:43:19.669Z"
+  },
+  {
+    "userId": "1399539430963937436",
+    "name": "Adi",
+    "date": "3/18/2026",
+    "shift": "7PM-11PM",
+    "models": "Kylie C Free/Paid",
+    "reason": "Hi everyone, i need someone to cover the first half of my shift, i have to go early to LTO to register my car since its first come, first served, id really appreciate it if anyone can take it thank you so much!",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-18T12:51:24.606Z"
   }
 ]
