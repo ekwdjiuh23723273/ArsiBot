@@ -2416,5 +2416,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-18T12:51:24.606Z"
+  },
+  {
+    "userId": "909809637778399272",
+    "name": "Leaaaaa",
+    "date": "03/17/2026",
+    "shift": "11:00 PM to 1:00 AM",
+    "models": "Lexi",
+    "reason": "already mentioned in tg",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-18T12:59:28.086Z"
   }
 ]
