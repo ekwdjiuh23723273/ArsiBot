@@ -2398,8 +2398,8 @@
     "shift": "7PM-3AM EST",
     "models": "Kitty",
     "reason": "I’ll be celebrating my birthday. 🎉",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-18T01:43:19.669Z"
