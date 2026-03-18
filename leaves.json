@@ -2437,8 +2437,8 @@
     "shift": "1PM to 7PM DST",
     "models": "Lexi",
     "reason": "already mentioned in tg",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1188819542529556551",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-18T13:02:16.189Z"
