@@ -2372,8 +2372,8 @@
     "shift": "Prime time 7pm-3am EST",
     "models": "Heather",
     "reason": "Want to spend Eid with fam <3",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "341255017006628865",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-17T16:41:19.370Z"
