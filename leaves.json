@@ -2442,5 +2442,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-18T13:02:16.189Z"
+  },
+  {
+    "userId": "1332309766264848387",
+    "name": "Jerick",
+    "date": "3/19/2026",
+    "shift": "PT, 7pm-9pm EST",
+    "models": "Kat",
+    "reason": "I have a headache and I still need to pickup my cousin at the airport around 1pm EST, I need to take an extra time for sleep for atleast 2hrs.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-19T14:35:47.069Z"
   }
 ]
