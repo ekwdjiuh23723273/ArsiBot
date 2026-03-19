@@ -2455,5 +2455,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-19T14:35:47.069Z"
+  },
+  {
+    "userId": "759040255902482462",
+    "name": "Alex",
+    "date": "03/19/2026",
+    "shift": "PT 7:00 PM - 3:00 AM",
+    "models": "MYM, COCO GUM, NAOMI AND MILA",
+    "reason": "Reserved for Ate Jona\nExplained in TG",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-19T15:40:10.785Z"
   }
 ]
