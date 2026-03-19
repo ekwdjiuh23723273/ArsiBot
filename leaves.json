@@ -2450,8 +2450,8 @@
     "shift": "PT, 7pm-9pm EST",
     "models": "Kat",
     "reason": "I have a headache and I still need to pickup my cousin at the airport around 1pm EST, I need to take an extra time for sleep for atleast 2hrs.",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1188819542529556551",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-19T14:35:47.069Z"
