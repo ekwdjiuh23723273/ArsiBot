@@ -2463,8 +2463,8 @@
     "shift": "PT 7:00 PM - 3:00 AM",
     "models": "MYM, COCO GUM, NAOMI AND MILA",
     "reason": "Reserved for Ate Jona\nExplained in TG",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1188819542529556551",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-19T15:40:10.785Z"
