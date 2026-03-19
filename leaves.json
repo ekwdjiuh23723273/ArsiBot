@@ -2465,8 +2465,21 @@
     "reason": "Reserved for Ate Jona\nExplained in TG",
     "status": "Approved",
     "approverId": "1188819542529556551",
-    "claimedBy": "1095288546610397236",
+    "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-19T15:40:10.785Z"
+  },
+  {
+    "userId": "689385159320928298",
+    "name": "Radu",
+    "date": "03/27/2026",
+    "shift": "Daytime 11am-7pm",
+    "models": "Kat",
+    "reason": "i have an important family event to attend in that weekend. if anyone wanna make some serious money pls help me with this shift :3",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-19T15:42:25.810Z"
   }
 ]
