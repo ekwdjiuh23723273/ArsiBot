@@ -2494,5 +2494,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-19T15:42:49.483Z"
+  },
+  {
+    "userId": "689385159320928298",
+    "name": "Radu",
+    "date": "03/28/2026",
+    "shift": "Daytime 11am - 7pm",
+    "models": "Kat",
+    "reason": "i have an important family event to attend in that weekend. if anyone wanna make some serious money pls help me with this shift :3",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-19T15:43:20.825Z"
   }
 ]
