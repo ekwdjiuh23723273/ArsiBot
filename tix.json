@@ -682,5 +682,14 @@
     "tickets": 9,
     "yearMonth": "2026-03",
     "timestamp": "2026-03-18T04:10:00.299Z"
+  },
+  {
+    "chatterName": "Lea",
+    "modelName": "Lexi",
+    "fanName": "Jeremy",
+    "amount": 578,
+    "tickets": 1,
+    "yearMonth": "2026-03",
+    "timestamp": "2026-03-20T23:05:50.606Z"
   }
 ]
