@@ -2546,5 +2546,18 @@
     "claimedBy": "1095288546610397236",
     "reminderSentAt": null,
     "timestamp": "2026-03-21T12:57:30.289Z"
+  },
+  {
+    "userId": "263708200338063373",
+    "name": "Sky",
+    "date": "03/21/2026",
+    "shift": "Prime time 7pm-3am est",
+    "models": "Heather",
+    "reason": "Posted on emergency. Lo already took the first half. Can anyone please take the 2nd half of the shift please 🙏",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-21T22:48:12.900Z"
   }
 ]
