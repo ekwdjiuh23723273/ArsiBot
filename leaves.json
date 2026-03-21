@@ -2528,8 +2528,8 @@
     "shift": "Daytime 11am-7pm",
     "models": "kat",
     "reason": "didnt make it home yet and i dont have my laptop with me. already talked with andre he will cover for me",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "760475790248116256",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-21T09:41:47.586Z"
