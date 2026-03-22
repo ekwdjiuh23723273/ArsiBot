@@ -2637,5 +2637,18 @@
     "claimedBy": "790639122284412938",
     "reminderSentAt": null,
     "timestamp": "2026-03-22T09:21:01.387Z"
+  },
+  {
+    "userId": "484354534379094017",
+    "name": "Marijoy",
+    "date": "03/31/2026",
+    "shift": "7PM-11AM EST",
+    "models": "Kitty",
+    "reason": "Celebrating my birthday. 1st half of my shift 🙏🥺",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-22T11:35:37.397Z"
   }
 ]
