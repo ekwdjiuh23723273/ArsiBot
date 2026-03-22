@@ -2619,8 +2619,8 @@
     "shift": "7PM-3AM",
     "models": "Kylie C Paid/Free",
     "reason": "i’m going to the hospital for a follow up checkup for my daughter since she has a dry cough",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "760475790248116256",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-22T07:27:14.359Z"
