@@ -2624,5 +2624,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-22T07:27:14.359Z"
+  },
+  {
+    "userId": "484354534379094017",
+    "name": "Marijoy",
+    "date": "3/31/2026",
+    "shift": "11PM-3AM EST",
+    "models": "Kitty",
+    "reason": "Will be celebrating my birthday. Martina will take this 2nd half ❤️",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-22T09:21:01.387Z"
   }
 ]
