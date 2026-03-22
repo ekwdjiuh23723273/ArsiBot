@@ -2650,5 +2650,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-22T11:35:37.397Z"
+  },
+  {
+    "userId": "1384640380150091816",
+    "name": "Kurt",
+    "date": "03/24/2025",
+    "shift": "Day Shift",
+    "models": "Claire, Sophie",
+    "reason": "Will fly back to my hometown and celebrate my mom's 50th bday. renen could no longer cover ;-;",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-22T23:41:10.095Z"
   }
 ]
