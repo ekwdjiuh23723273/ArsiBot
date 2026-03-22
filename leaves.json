@@ -2658,8 +2658,8 @@
     "shift": "Day Shift",
     "models": "Claire, Sophie",
     "reason": "Will fly back to my hometown and celebrate my mom's 50th bday. renen could no longer cover ;-;",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-22T23:41:10.095Z"
