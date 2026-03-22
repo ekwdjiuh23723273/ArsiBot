@@ -2606,8 +2606,8 @@
     "shift": "Day Shift (11:00AM-7:00PM)",
     "models": "Claire, Sophie",
     "reason": "sprained my wrist, really really need someone to cover later pls",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-22T04:44:17.645Z"
