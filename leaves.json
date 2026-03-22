@@ -2585,5 +2585,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-21T23:00:00.262Z"
+  },
+  {
+    "userId": "1475481041841029321",
+    "name": "Sofia",
+    "date": "03/25/2026",
+    "shift": "Day shift: 11 AM – 7 PM EDT",
+    "models": "Emily, Eeviee PAID, Eeviee FREE, Paris",
+    "reason": "will go on a trip and do some side quests pls 🙏🙏",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-22T00:01:03.760Z"
   }
 ]
