@@ -2697,8 +2697,8 @@
     "shift": "11:00PM to 3:00AM EST",
     "models": "Kat",
     "reason": "moving to a new place\n\n--RESERVED for Andre.",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-23T05:04:23.847Z"
