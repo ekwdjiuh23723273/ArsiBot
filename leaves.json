@@ -2715,5 +2715,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-23T07:30:18.272Z"
+  },
+  {
+    "userId": "756170719485755417",
+    "name": "Andre",
+    "date": "04/04/2026",
+    "shift": "Graveyard 3AM - 11AM EST",
+    "models": "Kat",
+    "reason": "Will have family gathering and celebrate the life of my late aunt (reserve for radu)",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-23T07:31:13.359Z"
   }
 ]
