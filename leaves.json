@@ -2676,5 +2676,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-22T23:42:32.456Z"
+  },
+  {
+    "userId": "790639122284412938",
+    "name": "Martina",
+    "date": "3/23/2026",
+    "shift": "3:00-5:00am EST",
+    "models": "Claire & Sophie",
+    "reason": "Informed in TG already. This is reserved for Marijoy. Thank youu! mwa",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-23T04:12:37.338Z"
   }
 ]
