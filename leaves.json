@@ -2788,8 +2788,8 @@
     "shift": "11 PM - 3 AM EST",
     "models": "Kitty",
     "reason": "My mom was supposed to attend my daughter’s recognition day, but she had a high blood pressure attack, so I really need to be there instead. \n\n2nd half reserve for Ivan",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1410323521024037034",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-24T15:29:05.953Z"
@@ -2816,7 +2816,7 @@
     "reason": "important travel (reserved to Jan)",
     "status": "Approved",
     "approverId": "1410323521024037034",
-    "claimedBy": null,
+    "claimedBy": "1069955852431269928",
     "reminderSentAt": null,
     "timestamp": "2026-03-24T15:32:39.406Z"
   },
