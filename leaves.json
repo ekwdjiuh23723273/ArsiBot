@@ -2819,5 +2819,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-24T15:32:39.406Z"
+  },
+  {
+    "userId": "1463086333273833631",
+    "name": "Ritchelle",
+    "date": "03/27/2026",
+    "shift": "Graveyard 7am to 11am",
+    "models": "Kylie Cruz, Kylie Cruz 2",
+    "reason": "Important travel (reserved Arc)",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-24T15:33:29.918Z"
   }
 ]
