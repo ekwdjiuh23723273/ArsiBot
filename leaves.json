@@ -2741,5 +2741,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-24T06:11:26.811Z"
+  },
+  {
+    "userId": "1214561109122486273",
+    "name": "Juvy",
+    "date": "03/26/2026",
+    "shift": "Primetime (7PM-3AM)",
+    "models": "Sally",
+    "reason": "To attend my daughter’s recognition ceremony",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-24T07:23:05.593Z"
   }
 ]
