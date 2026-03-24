@@ -2780,5 +2780,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-24T13:10:23.927Z"
+  },
+  {
+    "userId": "484354534379094017",
+    "name": "Marijoy",
+    "date": "03/24/2026",
+    "shift": "11 PM - 3 AM EST",
+    "models": "Kitty",
+    "reason": "My mom was supposed to attend my daughter’s recognition day, but she had a high blood pressure attack, so I really need to be there instead. \n\n2nd half reserve for Ivan",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-24T15:29:05.953Z"
   }
 ]
