@@ -2806,5 +2806,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-24T15:30:46.673Z"
+  },
+  {
+    "userId": "1463086333273833631",
+    "name": "Ritchelle",
+    "date": "03/27/2026",
+    "shift": "3am to 7am",
+    "models": "Kylie Cruz, Kylie Cruz 2",
+    "reason": "important travel (reserved to Jan)",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-24T15:32:39.406Z"
   }
 ]
