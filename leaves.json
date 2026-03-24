@@ -2767,5 +2767,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-24T13:09:12.332Z"
+  },
+  {
+    "userId": "1463086333273833631",
+    "name": "Ritchelle",
+    "date": "03/29/2026",
+    "shift": "Graveyard 3am to 11am",
+    "models": "Kylie C, Kylie C 2",
+    "reason": "important travel (reserved for Dre)",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-24T13:10:23.927Z"
   }
 ]
