@@ -2762,8 +2762,8 @@
     "shift": "Graveyard Shift 3AM to 10AM",
     "models": "Kylie C, Kylie C2",
     "reason": "important travel ( reserved for Dre)",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "341255017006628865",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-24T13:09:12.332Z"
