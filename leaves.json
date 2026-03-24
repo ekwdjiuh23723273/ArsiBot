@@ -2834,29 +2834,16 @@
     "timestamp": "2026-03-24T15:33:29.918Z"
   },
   {
-    "userId": "1463086333273833631",
-    "name": "Ritchelle",
-    "date": "03/28/2026",
-    "shift": "Graveyard 3am to 7am",
-    "models": "Kylie Cruz, Kylie Cruz 2",
-    "reason": "Important travel (reserved Jan)",
+    "userId": "760475790248116256",
+    "name": "DOMS",
+    "date": "03/25/26",
+    "shift": "PRIMETIME",
+    "models": "CLAIRE & SOPHIE",
+    "reason": "Had to take a leave because it's my wife's birthday and I have already booked reservations and appointments.\n This is a bit last minute because of the changes in my schedules.\nI'll do you one solid and cover one of your shift if you take this shift 😘",
     "status": "Pending",
     "approverId": null,
     "claimedBy": null,
     "reminderSentAt": null,
-    "timestamp": "2026-03-24T15:34:28.784Z"
-  },
-  {
-    "userId": "1463086333273833631",
-    "name": "Ritchelle",
-    "date": "03/28/2026",
-    "shift": "Graveyard 7am to 11am",
-    "models": "Kylie C, Kylie C2",
-    "reason": "important travel (reserved Arc)",
-    "status": "Pending",
-    "approverId": null,
-    "claimedBy": null,
-    "reminderSentAt": null,
-    "timestamp": "2026-03-24T15:35:17.073Z"
+    "timestamp": "2026-03-24T16:22:44.326Z"
   }
 ]
