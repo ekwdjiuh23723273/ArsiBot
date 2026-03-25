@@ -2879,8 +2879,8 @@
     "shift": "PT, 7pm-11pm",
     "models": "Kitty, Milla",
     "reason": "Will attend cousin’s graduation, will try to go home ASAP.",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-25T13:31:36.351Z"
