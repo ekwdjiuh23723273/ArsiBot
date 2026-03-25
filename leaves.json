@@ -2892,8 +2892,8 @@
     "shift": "Day shift",
     "models": "Kylie C, Kylie C 2, Naomi",
     "reason": "I have a doctors appointment, would be nice if accepted. I would say its pretty important since its about my lungs are damaged due to smoking. No need for the whole shift. Just from  1pm till 3pm. Thank you in advance.",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-25T21:39:07.261Z"
