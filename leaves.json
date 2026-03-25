@@ -2866,8 +2866,8 @@
     "shift": "Daytime first 2 hours (11am-1pm)",
     "models": "Fanslt, Fanvue, MYM",
     "reason": "Got scheduled for an immediate treatment for a patient, any help will be appreciated. Just need someone to cover for the first 2 hours, will be there for the rest of my shift tho.",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1410323521024037034",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-25T11:02:55.377Z"
