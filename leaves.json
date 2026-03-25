@@ -2845,5 +2845,18 @@
     "claimedBy": "790639122284412938",
     "reminderSentAt": null,
     "timestamp": "2026-03-24T16:22:44.326Z"
+  },
+  {
+    "userId": "263708200338063373",
+    "name": "Sky",
+    "date": "03/25/2026",
+    "shift": "Day shift",
+    "models": "sophie, claire",
+    "reason": "claimed kurt's shift by mistake thinking it was graveyard shift",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-25T07:12:03.503Z"
   }
 ]
