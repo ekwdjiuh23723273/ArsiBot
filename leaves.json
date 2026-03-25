@@ -2858,5 +2858,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-25T07:12:03.503Z"
+  },
+  {
+    "userId": "910073115067973642",
+    "name": "Ives",
+    "date": "03/25/26",
+    "shift": "Daytime first 2 hours (11am-1pm)",
+    "models": "Fanslt, Fanvue, MYM",
+    "reason": "Got scheduled for an immediate treatment for a patient, any help will be appreciated. Just need someone to cover for the first 2 hours, will be there for the rest of my shift tho.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-25T11:02:55.377Z"
   }
 ]
