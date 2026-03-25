@@ -2871,5 +2871,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-25T11:02:55.377Z"
+  },
+  {
+    "userId": "1332309766264848387",
+    "name": "Jerick",
+    "date": "3/25/2026",
+    "shift": "PT, 7pm-11pm",
+    "models": "Kitty, Milla",
+    "reason": "Will attend cousin’s graduation, will try to go home ASAP.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-25T13:31:36.351Z"
   }
 ]
