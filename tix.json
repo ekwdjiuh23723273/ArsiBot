@@ -790,5 +790,14 @@
     "tickets": 3,
     "yearMonth": "2026-03",
     "timestamp": "2026-03-25T05:24:16.716Z"
+  },
+  {
+    "chatterName": "John",
+    "modelName": "Sara",
+    "fanName": "Josh",
+    "amount": 600,
+    "tickets": 1,
+    "yearMonth": "2026-03",
+    "timestamp": "2026-03-26T02:30:54.107Z"
   }
 ]
