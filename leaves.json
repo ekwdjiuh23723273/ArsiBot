@@ -2905,8 +2905,8 @@
     "shift": "Day Shift (11:00AM-7:00PM EST)",
     "models": "Claire, Sophie",
     "reason": "my flight got delayed by 8 hours. i have no means of commuting back to campus by that time (already midnight PH time) and i might have to stay overnight at the airport",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1336657724733128756",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-26T09:33:33.990Z"
