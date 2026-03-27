@@ -2944,8 +2944,8 @@
     "shift": "Prime Time (7PM-3AM)",
     "models": "Lexi",
     "reason": "I need to get up early, driving my brother to another country tomorrow",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1336657724733128756",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-27T06:17:56.622Z"
