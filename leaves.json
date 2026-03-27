@@ -2920,7 +2920,7 @@
     "reason": "will be home late from an appointment (reserved to tine)",
     "status": "Approved",
     "approverId": "995962476283842592",
-    "claimedBy": null,
+    "claimedBy": "1271349076230930474",
     "reminderSentAt": null,
     "timestamp": "2026-03-27T04:11:28.550Z"
   }
