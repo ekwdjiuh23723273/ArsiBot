@@ -2936,5 +2936,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-27T04:36:46.808Z"
+  },
+  {
+    "userId": "835064035070312459",
+    "name": "aljosa",
+    "date": "03/27/2026",
+    "shift": "Prime Time (7PM-3AM)",
+    "models": "Lexi",
+    "reason": "I need to get up early, driving my brother to another country tomorrow",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-27T06:17:56.622Z"
   }
 ]
