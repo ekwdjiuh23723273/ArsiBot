@@ -2957,8 +2957,8 @@
     "shift": "Prime time",
     "models": "Heather, coco gum",
     "reason": "Severe muscle spasm and lack of sleep. Really need to rest and recover. Help would be really appreciated.",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1410323521024037034",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-27T19:57:50.817Z"
