@@ -2970,8 +2970,8 @@
     "shift": "7p-3a",
     "models": "sara",
     "reason": "for renen",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-27T23:49:37.502Z"
