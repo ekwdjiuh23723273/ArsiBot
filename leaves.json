@@ -2918,8 +2918,8 @@
     "shift": "GY 3am till 6am",
     "models": "Fanvue, Fansly, MYM",
     "reason": "will be home late from an appointment (reserved to tine)",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-27T04:11:28.550Z"
