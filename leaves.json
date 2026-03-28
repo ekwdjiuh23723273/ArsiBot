@@ -2983,8 +2983,8 @@
     "shift": "Graveyard 3AM-11AM EST",
     "models": "Lexi, Sally",
     "reason": "My brothers birthday, dinner out with the whole family tonight, anyone who can will be appreciated",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-28T01:22:59.354Z"
