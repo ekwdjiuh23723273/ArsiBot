@@ -2996,9 +2996,9 @@
     "shift": "3AM-11AM",
     "models": "KITTY, MILA",
     "reason": "VACATION (reserved for TINE)",
-    "status": "Approved",
-    "approverId": "1188819542529556551",
-    "claimedBy": null,
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": "1271349076230930474",
     "reminderSentAt": null,
     "timestamp": "2026-03-29T07:59:39.950Z"
   }
