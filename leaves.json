@@ -3035,8 +3035,8 @@
     "shift": "11:00 AM - 7:00PM",
     "models": "Lexi / Sally",
     "reason": "already informed in tg (reserved for Joe)",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "341255017006628865",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-29T13:29:12.241Z"
