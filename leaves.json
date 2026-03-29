@@ -3009,10 +3009,23 @@
     "shift": "7:00PM - 3:00AM EST",
     "models": "Kat",
     "reason": "Its my mom's birthday weekend.",
-    "status": "Approved",
-    "approverId": "1336657724733128756",
+    "status": "Pending",
+    "approverId": null,
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-29T12:10:17.958Z"
+  },
+  {
+    "userId": "1271349076230930474",
+    "name": "Christine",
+    "date": "04/19/2026",
+    "shift": "7:00PM to 3:00AM est",
+    "models": "Kat",
+    "reason": "Its my Mom's birthday weekend",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-29T12:11:23.349Z"
   }
 ]
