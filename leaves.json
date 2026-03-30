@@ -3040,5 +3040,18 @@
     "claimedBy": "1238740965846548531",
     "reminderSentAt": "2026-03-29T14:00:01.436Z",
     "timestamp": "2026-03-29T13:29:12.241Z"
+  },
+  {
+    "userId": "1069955852431269928",
+    "name": "Jan",
+    "date": "3/39/2026",
+    "shift": "11AM - 7PM EST",
+    "models": "Claire, Naomi",
+    "reason": "Sorry for the late request but Ive been feeling unwell since earlier. Tried to take a rest hoping it'd get better but I just woke up now feeling worse (fever). I'd really appreciate whoever can cover and ill cover u back if needed <3",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-30T14:36:57.875Z"
   }
 ]
