@@ -3092,5 +3092,18 @@
     "claimedBy": "1410323521024037034",
     "reminderSentAt": null,
     "timestamp": "2026-03-30T21:01:50.075Z"
+  },
+  {
+    "userId": "752622347433017415",
+    "name": "trish",
+    "date": "03/31/26",
+    "shift": "primetime 7pm till 3am",
+    "models": "sara",
+    "reason": "was gonna cover for john but i had a surgery few days ago and will have a follow-up check-up with my doctor on this day. would appreciate if someone can do it instead 🥰",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-30T22:29:25.536Z"
   }
 ]
