@@ -3048,8 +3048,8 @@
     "shift": "11AM - 7PM EST",
     "models": "Claire, Naomi",
     "reason": "Sorry for the late request but Ive been feeling unwell since earlier. Tried to take a rest hoping it'd get better but I just woke up now feeling worse (fever). I'd really appreciate whoever can cover and ill cover u back if needed <3",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1410323521024037034",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-30T14:36:57.875Z"
