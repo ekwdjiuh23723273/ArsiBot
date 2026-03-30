@@ -3066,5 +3066,18 @@
     "claimedBy": "1238740965846548531",
     "reminderSentAt": null,
     "timestamp": "2026-03-30T14:47:10.736Z"
+  },
+  {
+    "userId": "1215704080828080156",
+    "name": "Sara",
+    "date": "03/31/26",
+    "shift": "Day shift 11AM EST to 7PM EST",
+    "models": "Sara",
+    "reason": "For joe",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-30T16:33:47.910Z"
   }
 ]
