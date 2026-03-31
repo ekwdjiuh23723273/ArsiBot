@@ -3157,5 +3157,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-31T19:38:54.050Z"
+  },
+  {
+    "userId": "484354534379094017",
+    "name": "Marijoy",
+    "date": "03/31/2026",
+    "shift": "7 PM - 11 PM EST",
+    "models": "Kitty and Mila",
+    "reason": "It’s my birthday today and I need someone to cover for me since Sky can’t right now. IO’s taking the first half. Anyone up for the second?🥺🙏",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-31T20:01:03.095Z"
   }
 ]
