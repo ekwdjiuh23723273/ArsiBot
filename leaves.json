@@ -3105,5 +3105,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-30T22:29:25.536Z"
+  },
+  {
+    "userId": "1300182068768018523",
+    "name": "Bojan",
+    "date": "4.1.2026.",
+    "shift": "Prime time",
+    "models": "Eeviee, paris, emily",
+    "reason": "need to move to a new apartment",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-03-31T06:02:50.473Z"
   }
 ]
