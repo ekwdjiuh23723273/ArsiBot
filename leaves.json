@@ -3126,8 +3126,8 @@
     "shift": "Prime time",
     "models": "Eeviee, Paris, Emily",
     "reason": "Need to move in new apartment",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-31T11:08:10.085Z"
