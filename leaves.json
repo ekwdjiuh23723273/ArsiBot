@@ -3217,8 +3217,8 @@
     "shift": "PT/ 7PM-3AM",
     "models": "FANSLY/FANVUE/MYM",
     "reason": "In province for holy week",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "341255017006628865",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-02T06:05:13.552Z"
