@@ -3204,8 +3204,8 @@
     "shift": "PT, 7pm - 3am",
     "models": "Kylie C, Kylie C2, Naomi",
     "reason": "In province for holy week family activities",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "341255017006628865",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-02T01:45:48.120Z"
