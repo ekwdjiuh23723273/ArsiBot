@@ -3191,8 +3191,8 @@
     "shift": "PT, 7pm-3am",
     "models": "Kat",
     "reason": "Will go home to province for holy week family activities",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "341255017006628865",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-02T01:44:44.137Z"
