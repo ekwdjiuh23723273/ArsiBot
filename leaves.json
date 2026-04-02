@@ -3209,5 +3209,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-02T01:45:48.120Z"
+  },
+  {
+    "userId": "1414398548979744788",
+    "name": "Dave",
+    "date": "04/02/2026",
+    "shift": "PT/ 7PM-3AM",
+    "models": "FANSLY/FANVUE/MYM",
+    "reason": "In province for holy week",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-02T06:05:13.552Z"
   }
 ]
