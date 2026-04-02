@@ -3196,5 +3196,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-02T01:44:44.137Z"
+  },
+  {
+    "userId": "1332309766264848387",
+    "name": "Jerick",
+    "date": "4/4/2026",
+    "shift": "PT, 7pm - 3am",
+    "models": "Kylie C, Kylie C2, Naomi",
+    "reason": "In province for holy week family activities",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-02T01:45:48.120Z"
   }
 ]
