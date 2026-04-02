@@ -3183,5 +3183,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-03-31T20:03:43.025Z"
+  },
+  {
+    "userId": "1332309766264848387",
+    "name": "Jerick",
+    "date": "4/3/2026",
+    "shift": "PT, 7pm-3am",
+    "models": "Kat",
+    "reason": "Will go home to province for holy week family activities",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-02T01:44:44.137Z"
   }
 ]
