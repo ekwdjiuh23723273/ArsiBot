@@ -3243,8 +3243,8 @@
     "shift": "GY",
     "models": "Sara",
     "reason": "Traveling abroad with family for a vacation",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-03T00:27:52.531Z"
