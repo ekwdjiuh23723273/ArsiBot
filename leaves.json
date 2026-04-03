@@ -3269,8 +3269,8 @@
     "shift": "DAYTIME (11AM - 7PM)",
     "models": "kat",
     "reason": "won't be able to make it for my shift. need to leave the city where i'm studying and go to my hometown. if anyone wants to make some $$$ this shift is for u",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1410323521024037034",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-03T18:04:37.915Z"
