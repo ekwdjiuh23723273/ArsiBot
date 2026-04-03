@@ -3248,5 +3248,18 @@
     "claimedBy": "1410323521024037034",
     "reminderSentAt": null,
     "timestamp": "2026-04-03T00:27:52.531Z"
+  },
+  {
+    "userId": "790639122284412938",
+    "name": "Martina",
+    "date": "04/03/2026",
+    "shift": "3:00-6:00",
+    "models": "Claire & Ava",
+    "reason": "got into a minor accident I need to rest a bit. (reserved for marijoy tysm",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-03T04:04:47.193Z"
   }
 ]
