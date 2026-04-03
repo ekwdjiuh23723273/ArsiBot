@@ -3256,8 +3256,8 @@
     "shift": "3:00-6:00",
     "models": "Claire & Ava",
     "reason": "got into a minor accident I need to rest a bit. (reserved for marijoy tysm",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-03T04:04:47.193Z"
