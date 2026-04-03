@@ -3261,5 +3261,18 @@
     "claimedBy": "484354534379094017",
     "reminderSentAt": "2026-04-03T04:10:01.970Z",
     "timestamp": "2026-04-03T04:04:47.193Z"
+  },
+  {
+    "userId": "689385159320928298",
+    "name": "radu",
+    "date": "04/05/2026",
+    "shift": "DAYTIME (11AM - 7PM)",
+    "models": "kat",
+    "reason": "won't be able to make it for my shift. need to leave the city where i'm studying and go to my hometown. if anyone wants to make some $$$ this shift is for u",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-03T18:04:37.915Z"
   }
 ]
