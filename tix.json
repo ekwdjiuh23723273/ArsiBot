@@ -970,5 +970,14 @@
     "tickets": 1,
     "yearMonth": "2026-04",
     "timestamp": "2026-04-04T04:11:57.379Z"
+  },
+  {
+    "chatterName": "QA Renen",
+    "modelName": "Lexi",
+    "fanName": "Levi",
+    "amount": 1149,
+    "tickets": 3,
+    "yearMonth": "2026-04",
+    "timestamp": "2026-04-04T09:00:05.075Z"
   }
 ]
