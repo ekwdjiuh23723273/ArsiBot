@@ -3274,5 +3274,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-03T18:04:37.915Z"
+  },
+  {
+    "userId": "1238740965846548531",
+    "name": "Joe",
+    "date": "6/4",
+    "shift": "Day time",
+    "models": "Heather, coco",
+    "reason": "Flights rescheduled by airline due to war",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-04T07:23:38.202Z"
   }
 ]
