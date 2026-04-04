@@ -3300,5 +3300,18 @@
     "claimedBy": "1069955852431269928",
     "reminderSentAt": null,
     "timestamp": "2026-04-04T07:24:49.630Z"
+  },
+  {
+    "userId": "1271349076230930474",
+    "name": "Christine",
+    "date": "04/16/2026",
+    "shift": "Primetime",
+    "models": "Kat",
+    "reason": "Mom's Birthday weekend🥹 Pleaseeeeeee someone cover for me.. ill lalamove food to youu!!🥹",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-04T10:38:42.975Z"
   }
 ]
