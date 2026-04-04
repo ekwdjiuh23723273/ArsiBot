@@ -3282,8 +3282,8 @@
     "shift": "Day time",
     "models": "Heather, coco",
     "reason": "Flights rescheduled by airline due to war",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1410323521024037034",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-04T07:23:38.202Z"
