@@ -3378,5 +3378,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-04T21:43:47.833Z"
+  },
+  {
+    "userId": "909809637778399272",
+    "name": "Lea",
+    "date": "04/08/2026",
+    "shift": "11am - 7pm Day shift",
+    "models": "Lexi Lexxi",
+    "reason": "alreadyy informed in tg... reserved for TINE <3",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-04T21:45:28.292Z"
   }
 ]
