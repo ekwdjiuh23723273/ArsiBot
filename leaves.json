@@ -3339,5 +3339,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-04T10:40:37.216Z"
+  },
+  {
+    "userId": "752622347433017415",
+    "name": "trish",
+    "date": "04/04/26",
+    "shift": "prime",
+    "models": "kylie c pages, naomi",
+    "reason": "was supposed to cover but cant anymore, have to travel back to the mnl. (reserved to QA renen)",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-04T20:27:54.313Z"
   }
 ]
