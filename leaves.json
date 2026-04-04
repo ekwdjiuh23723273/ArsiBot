@@ -3297,7 +3297,7 @@
     "reason": "Flights rescheduled",
     "status": "Approved",
     "approverId": "1410323521024037034",
-    "claimedBy": null,
+    "claimedBy": "1069955852431269928",
     "reminderSentAt": null,
     "timestamp": "2026-04-04T07:24:49.630Z"
   }
