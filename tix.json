@@ -988,5 +988,14 @@
     "tickets": 1,
     "yearMonth": "2026-04",
     "timestamp": "2026-04-05T07:14:25.958Z"
+  },
+  {
+    "chatterName": "DOMS",
+    "modelName": "AVA",
+    "fanName": "ineffigy @ineffigy",
+    "amount": 558,
+    "tickets": 1,
+    "yearMonth": "2026-04",
+    "timestamp": "2026-04-05T07:25:00.018Z"
   }
 ]
