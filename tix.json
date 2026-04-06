@@ -1015,5 +1015,14 @@
     "tickets": 1,
     "yearMonth": "2026-04",
     "timestamp": "2026-04-06T12:35:54.648Z"
+  },
+  {
+    "chatterName": "Martina",
+    "modelName": "Claire",
+    "fanName": "Sean @seb",
+    "amount": 800,
+    "tickets": 2,
+    "yearMonth": "2026-04",
+    "timestamp": "2026-04-06T15:50:23.705Z"
   }
 ]
