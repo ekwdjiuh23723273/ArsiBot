@@ -1024,5 +1024,14 @@
     "tickets": 2,
     "yearMonth": "2026-04",
     "timestamp": "2026-04-06T15:50:23.705Z"
+  },
+  {
+    "chatterName": "Flacko zaza",
+    "modelName": "Sara",
+    "fanName": "Josh",
+    "amount": 550,
+    "tickets": 1,
+    "yearMonth": "2026-04",
+    "timestamp": "2026-04-06T21:02:27.582Z"
   }
 ]
