@@ -3417,5 +3417,18 @@
     "claimedBy": "718539997573283861",
     "reminderSentAt": null,
     "timestamp": "2026-04-07T04:00:34.927Z"
+  },
+  {
+    "userId": "263708200338063373",
+    "name": "sky",
+    "date": "04/10/2026",
+    "shift": "Prime Time",
+    "models": "Heather, Coco Gum",
+    "reason": "I have to go to BRTA to submit my fingerprint. Help would be much appreciated. Thanks <3",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-07T06:54:46.251Z"
   }
 ]
