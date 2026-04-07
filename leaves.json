@@ -3451,8 +3451,8 @@
     "shift": "Daytime 11am-12pm (1 hour only)",
     "models": "Fansly, Fanvue, MYM",
     "reason": "Called to attend to a patient. Just asking for 1 hour cover. Any help would be appreciated, thanks!",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "341255017006628865",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-07T11:21:05.532Z"
