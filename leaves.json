@@ -3464,8 +3464,8 @@
     "shift": "PRIMETIME 7:00PM -11:00PM",
     "models": "Claire x Ava",
     "reason": "Mix up with the schedule. Gonna be celebrating my lil bro passing the civil engineering exam.",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1188819542529556551",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-07T14:17:20.763Z"
