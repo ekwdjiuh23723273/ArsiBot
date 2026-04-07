@@ -3430,5 +3430,18 @@
     "claimedBy": "1420059309412323613",
     "reminderSentAt": null,
     "timestamp": "2026-04-07T06:54:46.251Z"
+  },
+  {
+    "userId": "530044519148814336",
+    "name": "jett",
+    "date": "04/07/26",
+    "shift": "daytime",
+    "models": "kylie c , c2 , naomi",
+    "reason": "Reason: I have a PE class tomorrow at 7:30 AM, so I need to sleep early since it takes me 1–2 hours to get to the university.Would really appreciate anyone who can cover my shift 🙏",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-07T10:06:18.656Z"
   }
 ]
