@@ -3438,8 +3438,8 @@
     "shift": "daytime",
     "models": "kylie c , c2 , naomi",
     "reason": "Reason: I have a PE class tomorrow at 7:30 AM, so I need to sleep early since it takes me 1–2 hours to get to the university.Would really appreciate anyone who can cover my shift 🙏",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1188819542529556551",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-07T10:06:18.656Z"
