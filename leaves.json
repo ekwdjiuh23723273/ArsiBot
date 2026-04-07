@@ -3412,8 +3412,8 @@
     "shift": "GY 3am-11am EST",
     "models": "Kitty, Mila",
     "reason": "Was supposed to cover for Joe but I was just informed I have an exam today 😞",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-07T04:00:34.927Z"
