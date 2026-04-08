@@ -3542,8 +3542,8 @@
     "shift": "gy 7am till 11am",
     "models": "kylie c pages, naomi",
     "reason": "still in MNL, waiting for my doctor 😭😭 idk if i can make it on time on my shift…",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1410323521024037034",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-08T07:38:36.779Z"
