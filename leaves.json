@@ -3534,5 +3534,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-08T06:45:48.150Z"
+  },
+  {
+    "userId": "752622347433017415",
+    "name": "trish",
+    "date": "04/07/26",
+    "shift": "gy 7am till 11am",
+    "models": "kylie c pages, naomi",
+    "reason": "still in MNL, waiting for my doctor 😭😭 idk if i can make it on time on my shift…",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-08T07:38:36.779Z"
   }
 ]
