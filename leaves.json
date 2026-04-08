@@ -3495,5 +3495,18 @@
     "claimedBy": "1238740965846548531",
     "reminderSentAt": null,
     "timestamp": "2026-04-08T06:34:05.185Z"
+  },
+  {
+    "userId": "1271349076230930474",
+    "name": "Christine",
+    "date": "04/16/2026",
+    "shift": "11:00AM to 3:00PM",
+    "models": "Kat",
+    "reason": "Mom's birthday\n\n- RESERVED FOR ANDRE",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-08T06:44:14.744Z"
   }
 ]
