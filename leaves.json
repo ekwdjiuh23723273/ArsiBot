@@ -3469,5 +3469,18 @@
     "claimedBy": "1410323521024037034",
     "reminderSentAt": "2026-04-07T21:35:01.890Z",
     "timestamp": "2026-04-07T14:17:20.763Z"
+  },
+  {
+    "userId": "263708200338063373",
+    "name": "sky",
+    "date": "04/10/2026",
+    "shift": "primetime",
+    "models": "heather and coco gum",
+    "reason": "arc took the first half and second half reserved for jona",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-08T00:38:14.053Z"
   }
 ]
