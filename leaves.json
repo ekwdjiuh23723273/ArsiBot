@@ -3560,5 +3560,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-09T12:48:33.082Z"
+  },
+  {
+    "userId": "718539997573283861",
+    "name": "Sam",
+    "date": "04/10/26",
+    "shift": "G.Y 3am - 7am EDT",
+    "models": "EEVIEE PAGES, EMILY, PARIS",
+    "reason": "will get home late due to uni responsibilities, just need the first half of my shift covered 🙏",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-09T15:40:45.862Z"
   }
 ]
