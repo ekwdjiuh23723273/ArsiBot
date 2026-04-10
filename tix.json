@@ -1042,5 +1042,14 @@
     "tickets": 12,
     "yearMonth": "2026-04",
     "timestamp": "2026-04-09T02:27:52.435Z"
+  },
+  {
+    "chatterName": "Sam",
+    "modelName": "EEVIEE PAID",
+    "fanName": "Jesse",
+    "amount": 548,
+    "tickets": 1,
+    "yearMonth": "2026-04",
+    "timestamp": "2026-04-10T07:03:00.777Z"
   }
 ]
