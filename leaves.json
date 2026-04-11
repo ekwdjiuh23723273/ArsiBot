@@ -3612,5 +3612,18 @@
     "claimedBy": "1238740965846548531",
     "reminderSentAt": null,
     "timestamp": "2026-04-11T10:35:34.573Z"
+  },
+  {
+    "userId": "1384640380150091816",
+    "name": "Kurt",
+    "date": "04/11/2026",
+    "shift": "DY (6PM - 7PM EST) Last hour of DY",
+    "models": "Claire, Sally",
+    "reason": "I need to pick up my aunt at the port by 7. Got confused with the schedule hence the late request (forgive me)",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-11T10:41:26.091Z"
   }
 ]
