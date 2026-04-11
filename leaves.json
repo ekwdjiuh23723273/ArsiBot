@@ -3573,5 +3573,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-09T15:40:45.862Z"
+  },
+  {
+    "userId": "752622347433017415",
+    "name": "trish",
+    "date": "03/12/26",
+    "shift": "gy",
+    "models": "heather, cocogum",
+    "reason": "have a fam outing (reserved for tin)",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-11T08:02:45.755Z"
   }
 ]
