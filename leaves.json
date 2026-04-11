@@ -3586,5 +3586,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-11T08:02:45.755Z"
+  },
+  {
+    "userId": "1431161818096861237",
+    "name": "Vigie",
+    "date": "05/03/2026",
+    "shift": "GRAVEYARD 3AM-11PM",
+    "models": "Lexi",
+    "reason": "Celebrating our first anniversary with my gf, we're gonna be having a good time😈",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-11T08:18:09.386Z"
   }
 ]
