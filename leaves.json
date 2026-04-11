@@ -3599,5 +3599,18 @@
     "claimedBy": "756170719485755417",
     "reminderSentAt": null,
     "timestamp": "2026-04-11T08:18:09.386Z"
+  },
+  {
+    "userId": "1332309766264848387",
+    "name": "Jerick",
+    "date": "4/11/2026",
+    "shift": "PT, 7pm-9pm",
+    "models": "Kylie C, C2, Naomi",
+    "reason": "Grandpa’s bday toms, will go to the cemetery to say a quick prayer and commemorate.  \n\nJust 2hrs 🥹",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-11T10:35:34.573Z"
   }
 ]
