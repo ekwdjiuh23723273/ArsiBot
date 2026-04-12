@@ -3633,9 +3633,9 @@
     "shift": "Prime time 7pm-3am est",
     "models": "Heather and Coco Gum",
     "reason": "Severe back pain keeping me awake. Took pain meds but still couldn't sleep yet. Flacko agreed to cover for me for the first half of the shift.",
-    "status": "Approved",
-    "approverId": "1410323521024037034",
-    "claimedBy": null,
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": "1215704080828080156",
     "reminderSentAt": null,
     "timestamp": "2026-04-12T19:15:30.466Z"
   }
