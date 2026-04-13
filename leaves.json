@@ -3638,5 +3638,18 @@
     "claimedBy": "1215704080828080156",
     "reminderSentAt": null,
     "timestamp": "2026-04-12T19:15:30.466Z"
+  },
+  {
+    "userId": "243608963390636032",
+    "name": "Io",
+    "date": "4/25/2026",
+    "shift": "Day Shift",
+    "models": "Kitty",
+    "reason": "Celebrating my Son's 4th birthday and some time with family",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-13T23:12:11.374Z"
   }
 ]
