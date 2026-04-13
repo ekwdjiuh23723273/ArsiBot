@@ -3659,8 +3659,8 @@
     "shift": "Day",
     "models": "Kitty,Ava",
     "reason": "Celebrating my Son's 4th birthday and some time with family",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-13T23:13:06.265Z"
