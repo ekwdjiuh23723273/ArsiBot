@@ -3677,5 +3677,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-14T04:31:18.061Z"
+  },
+  {
+    "userId": "243608963390636032",
+    "name": "Io",
+    "date": "4/26/26",
+    "shift": "Day",
+    "models": "Kitty, Ava",
+    "reason": "Celebrating my son's 4th Birthday and spending some time with my family, maj no click plis",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-14T04:32:45.928Z"
   }
 ]
