@@ -1132,5 +1132,14 @@
     "tickets": 4,
     "yearMonth": "2026-04",
     "timestamp": "2026-04-13T23:08:30.246Z"
+  },
+  {
+    "chatterName": "ARC",
+    "modelName": "LEXXI",
+    "fanName": "toejamjoe",
+    "amount": 2220,
+    "tickets": 7,
+    "yearMonth": "2026-04",
+    "timestamp": "2026-04-14T14:57:16.729Z"
   }
 ]
