@@ -3703,5 +3703,18 @@
     "claimedBy": "756170719485755417",
     "reminderSentAt": "2026-04-15T11:40:05.910Z",
     "timestamp": "2026-04-15T11:34:14.223Z"
+  },
+  {
+    "userId": "1069955852431269928",
+    "name": "Jan",
+    "date": "04/15/2026",
+    "shift": "Dayshift 3PM-7PM EST",
+    "models": "Kat",
+    "reason": "I have to attend a school event early tomorrow. Would really appreciate anyone who can finish the last 4 hours of the shift 🙏",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-15T11:43:20.969Z"
   }
 ]
