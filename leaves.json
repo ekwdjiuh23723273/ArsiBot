@@ -3716,5 +3716,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-15T11:43:20.969Z"
+  },
+  {
+    "userId": "1475481041841029321",
+    "name": "Sofia",
+    "date": "04/19/2026",
+    "shift": "Day Shift (11 AM - 7 PM EDT)",
+    "models": "Coco Gum, Eeviee PAID, Eeviee FREE, Paris",
+    "reason": "will travel with fam to another city [Reserved for Joe]",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-15T15:49:47.871Z"
   }
 ]
