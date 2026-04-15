@@ -3711,8 +3711,8 @@
     "shift": "Dayshift 3PM-7PM EST",
     "models": "Kat",
     "reason": "I have to attend a school event early tomorrow. Would really appreciate anyone who can finish the last 4 hours of the shift 🙏",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1188819542529556551",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-15T11:43:20.969Z"
