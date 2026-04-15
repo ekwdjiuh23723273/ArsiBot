@@ -3724,8 +3724,8 @@
     "shift": "Day Shift (11 AM - 7 PM EDT)",
     "models": "Coco Gum, Eeviee PAID, Eeviee FREE, Paris",
     "reason": "will travel with fam to another city [Reserved for Joe]",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1410323521024037034",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-15T15:49:47.871Z"
