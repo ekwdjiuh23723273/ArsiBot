@@ -1186,5 +1186,14 @@
     "tickets": 2,
     "yearMonth": "2026-04",
     "timestamp": "2026-04-16T03:23:41.028Z"
+  },
+  {
+    "chatterName": "Sky",
+    "modelName": "Heather",
+    "fanName": "S Fulton",
+    "amount": 609,
+    "tickets": 1,
+    "yearMonth": "2026-04",
+    "timestamp": "2026-04-16T06:48:07.732Z"
   }
 ]
