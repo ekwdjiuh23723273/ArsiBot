@@ -3742,5 +3742,18 @@
     "claimedBy": "530044519148814336",
     "reminderSentAt": null,
     "timestamp": "2026-04-16T12:30:36.296Z"
+  },
+  {
+    "userId": "1463086333273833631",
+    "name": "Ritchelle",
+    "date": "04/18/2026",
+    "shift": "Graveyard Shift 3pm to 11pm",
+    "models": "Heather, Coco",
+    "reason": "Reason on TG (reserved for Vnce)",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-16T17:49:42.086Z"
   }
 ]
