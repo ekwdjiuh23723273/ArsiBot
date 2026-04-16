@@ -3729,5 +3729,18 @@
     "claimedBy": "1238740965846548531",
     "reminderSentAt": null,
     "timestamp": "2026-04-15T15:49:47.871Z"
+  },
+  {
+    "userId": "530044519148814336",
+    "name": "jett",
+    "date": "04/16/2026",
+    "shift": "day time",
+    "models": "kylie c ,kylie c2, naomi",
+    "reason": "could someone please cover my shift later day time? I’m not feeling well today due to lack of sleep, which is giving me a headache. I also just finished setting up my computer after moving back from my  current place to our house, so I’m feeling pretty exhausted.\n \n@arc is willing to take the first 4 hours 🥲🤍",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-16T12:30:36.296Z"
   }
 ]
