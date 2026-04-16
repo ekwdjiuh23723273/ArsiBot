@@ -1177,5 +1177,14 @@
     "tickets": 1,
     "yearMonth": "2026-04",
     "timestamp": "2026-04-15T15:04:58.317Z"
+  },
+  {
+    "chatterName": "Aljosa",
+    "modelName": "Lexi",
+    "fanName": "Alex",
+    "amount": 890,
+    "tickets": 2,
+    "yearMonth": "2026-04",
+    "timestamp": "2026-04-16T03:23:41.028Z"
   }
 ]
