@@ -3765,7 +3765,7 @@
     "reason": "Reason on TG (reserved for Ren)",
     "status": "Approved",
     "approverId": "1410323521024037034",
-    "claimedBy": null,
+    "claimedBy": "1410323521024037034",
     "reminderSentAt": null,
     "timestamp": "2026-04-16T17:50:35.243Z"
   }
