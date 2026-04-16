@@ -3755,5 +3755,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-16T17:49:42.086Z"
+  },
+  {
+    "userId": "1463086333273833631",
+    "name": "Ritchelle",
+    "date": "04/19/2026",
+    "shift": "Graveyard 3am to 11am",
+    "models": "Heather and Coco",
+    "reason": "Reason on TG (reserved for Ren)",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-16T17:50:35.243Z"
   }
 ]
