@@ -3768,5 +3768,18 @@
     "claimedBy": "1410323521024037034",
     "reminderSentAt": "2026-04-18T19:00:01.800Z",
     "timestamp": "2026-04-16T17:50:35.243Z"
+  },
+  {
+    "userId": "243608963390636032",
+    "name": "Io",
+    "date": "April 22  2026",
+    "shift": "Day",
+    "models": "Kitty  and Ava",
+    "reason": "Son's 4th Birthday, And family bonding. Moved it to weekdays since no one was taking the first request, I would really appreciate it 🥺",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-18T23:55:02.296Z"
   }
 ]
