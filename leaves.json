@@ -3859,5 +3859,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-19T11:51:50.922Z"
+  },
+  {
+    "userId": "1420059309412323613",
+    "name": "Arc",
+    "date": "04/20/2026",
+    "shift": "Graveyard (full shift)",
+    "models": "Lexxi and Snack Six",
+    "reason": "Follow-up check, I might be going home late",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-19T23:11:05.968Z"
   }
 ]
