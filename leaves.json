@@ -3820,5 +3820,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-19T07:08:19.818Z"
+  },
+  {
+    "userId": "457453484636110883",
+    "name": "Ivan",
+    "date": "05/01/2026",
+    "shift": "Graveyard",
+    "models": "Sara",
+    "reason": "Going to vacation with my family",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-19T09:15:01.878Z"
   }
 ]
