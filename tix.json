@@ -1222,5 +1222,14 @@
     "tickets": 5,
     "yearMonth": "2026-04",
     "timestamp": "2026-04-17T23:14:20.722Z"
+  },
+  {
+    "chatterName": "ARC",
+    "modelName": "LEXXI",
+    "fanName": "DALLAS",
+    "amount": 521,
+    "tickets": 1,
+    "yearMonth": "2026-04",
+    "timestamp": "2026-04-19T09:08:25.241Z"
   }
 ]
