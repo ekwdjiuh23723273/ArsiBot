@@ -3867,8 +3867,8 @@
     "shift": "Graveyard (full shift)",
     "models": "Lexxi and Snack Six",
     "reason": "Follow-up check, I might be going home late",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-19T23:11:05.968Z"
