@@ -3846,5 +3846,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-19T11:35:11.018Z"
+  },
+  {
+    "userId": "1069955852431269928",
+    "name": "Jan",
+    "date": "04/19/2026",
+    "shift": "Dayshift 11AM - 3PM",
+    "models": "Kat",
+    "reason": "Examination early tomorrow. Gonna spend the night studying and will need to get up early. Reserved for Andre 🐐",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-19T11:51:50.922Z"
   }
 ]
