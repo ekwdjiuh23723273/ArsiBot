@@ -3807,5 +3807,18 @@
     "claimedBy": "1095288546610397236",
     "reminderSentAt": null,
     "timestamp": "2026-04-19T01:57:25.995Z"
+  },
+  {
+    "userId": "756170719485755417",
+    "name": "Andre",
+    "date": "4/20/2026",
+    "shift": "Graveyard 3AM - 11AM",
+    "models": "Kat",
+    "reason": "Will take a rest after a week full of covers RESERVE FOR TINE",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-19T07:08:19.818Z"
   }
 ]
