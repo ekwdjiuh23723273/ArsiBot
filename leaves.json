@@ -3885,5 +3885,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-20T15:22:58.944Z"
+  },
+  {
+    "userId": "1404205280803426466",
+    "name": "Vince",
+    "date": "4/21/2026",
+    "shift": "Prime Time",
+    "models": "Kitty, Ava",
+    "reason": "Meeting my partner's family for the first time.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-21T12:00:46.024Z"
   }
 ]
