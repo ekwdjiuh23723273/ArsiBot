@@ -3898,5 +3898,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-21T12:00:46.024Z"
+  },
+  {
+    "userId": "1215704080828080156",
+    "name": "Flacko",
+    "date": "4/20/2026",
+    "shift": "Day shift 11 AM EST",
+    "models": "Sara",
+    "reason": "haven't got sleep all day, joe will cover my shift",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-21T14:48:04.748Z"
   }
 ]
