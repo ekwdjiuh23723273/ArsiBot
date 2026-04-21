@@ -3893,8 +3893,8 @@
     "shift": "Prime Time",
     "models": "Kitty, Ava",
     "reason": "Meeting my partner's family for the first time.",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-21T12:00:46.024Z"
