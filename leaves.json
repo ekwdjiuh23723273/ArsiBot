@@ -3911,5 +3911,18 @@
     "claimedBy": "1238740965846548531",
     "reminderSentAt": null,
     "timestamp": "2026-04-21T14:48:04.748Z"
+  },
+  {
+    "userId": "263708200338063373",
+    "name": "Sky",
+    "date": "04/21/2026",
+    "shift": "Prime time",
+    "models": "Heather and Emily",
+    "reason": "I've been vomiting and have digestive issues from the heat waves. Miks will cover first half and Arc second half. Thanks guys for saving me 🙏",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-21T22:59:40.169Z"
   }
 ]
