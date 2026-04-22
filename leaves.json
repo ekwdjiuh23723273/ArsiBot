@@ -4002,5 +4002,18 @@
     "claimedBy": "1238740965846548531",
     "reminderSentAt": null,
     "timestamp": "2026-04-22T07:09:07.981Z"
+  },
+  {
+    "userId": "263708200338063373",
+    "name": "Sky",
+    "date": "4/22/2026",
+    "shift": "Prime time 7pm - 3am EST",
+    "models": "Heather and Emily",
+    "reason": "I have been really sick since yesterday. It would really mean a lot if u can please cover my shift.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-22T19:35:53.026Z"
   }
 ]
