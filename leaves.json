@@ -4010,8 +4010,8 @@
     "shift": "Prime time 7pm - 3am EST",
     "models": "Heather and Emily",
     "reason": "I have been really sick since yesterday. It would really mean a lot if u can please cover my shift.",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-22T19:35:53.026Z"
