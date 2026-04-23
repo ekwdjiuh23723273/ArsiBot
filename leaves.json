@@ -4015,5 +4015,18 @@
     "claimedBy": "375169492269006870",
     "reminderSentAt": null,
     "timestamp": "2026-04-22T19:35:53.026Z"
+  },
+  {
+    "userId": "1420059309412323613",
+    "name": "Arc",
+    "date": "04/25/2026",
+    "shift": "Graveyard shift",
+    "models": "Lexxi and Snack Six",
+    "reason": "Yearly family reunion. Reserved for QA Renen <3",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-23T12:56:33.948Z"
   }
 ]
