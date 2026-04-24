@@ -4119,5 +4119,18 @@
     "claimedBy": "1300182068768018523",
     "reminderSentAt": "2026-04-24T16:20:00.932Z",
     "timestamp": "2026-04-24T15:34:14.709Z"
+  },
+  {
+    "userId": "1475481041841029321",
+    "name": "Sofia",
+    "date": "05/03/2026",
+    "shift": "Day Shift 11:00 AM - 7:00 PM",
+    "models": "Eeviee PAID, Eeeviee FREE, Coco Gum",
+    "reason": "will go to the province with family [Reserved for Joe]",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-24T16:27:25.204Z"
   }
 ]
