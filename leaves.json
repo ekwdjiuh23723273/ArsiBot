@@ -4080,5 +4080,18 @@
     "claimedBy": "1384640380150091816",
     "reminderSentAt": "2026-04-24T09:20:01.583Z",
     "timestamp": "2026-04-24T09:10:55.388Z"
+  },
+  {
+    "userId": "530044519148814336",
+    "name": "jett",
+    "date": "05/01/2026",
+    "shift": "day shift",
+    "models": "kyile C , naomi",
+    "reason": "gonna  attend my cousin’s 18th birthday, and I’ll be away for two days with the family",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-24T12:48:29.428Z"
   }
 ]
