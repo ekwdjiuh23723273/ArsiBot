@@ -4101,8 +4101,8 @@
     "shift": "daytime",
     "models": "kylie , naomi",
     "reason": "gonna attend my cousin’s 18th birthday, and I’ll be away for two days with the family",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1188819542529556551",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-24T12:53:52.396Z"
