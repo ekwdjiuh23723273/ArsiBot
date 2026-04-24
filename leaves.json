@@ -4041,5 +4041,18 @@
     "claimedBy": "1410323521024037034",
     "reminderSentAt": null,
     "timestamp": "2026-04-23T12:59:13.337Z"
+  },
+  {
+    "userId": "1095288546610397236",
+    "name": "Jona",
+    "date": "05/03/2026",
+    "shift": "Graveyard Shift 3AM-11AM",
+    "models": "Kylie C's & Naomi",
+    "reason": "It's my Birthday 🫣",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-24T00:33:50.203Z"
   }
 ]
