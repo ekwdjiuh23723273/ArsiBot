@@ -4140,8 +4140,8 @@
     "shift": "Day Shift 11:00 AM - 7:00 PM",
     "models": "Eeviee PAID, Eeviee FREE, Coco Gum",
     "reason": "will go to the province with family [Reserved for Jan]",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1410323521024037034",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-24T16:45:26.186Z"
