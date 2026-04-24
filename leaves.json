@@ -4049,8 +4049,8 @@
     "shift": "Graveyard Shift 3AM-11AM",
     "models": "Kylie C's & Naomi",
     "reason": "It's my Birthday 🫣",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-24T00:33:50.203Z"
