@@ -1276,5 +1276,14 @@
     "tickets": 1,
     "yearMonth": "2026-04",
     "timestamp": "2026-04-24T14:59:20.177Z"
+  },
+  {
+    "chatterName": "Arc",
+    "modelName": "Snack Six",
+    "fanName": "Ross McDonald",
+    "amount": 689,
+    "tickets": 1,
+    "yearMonth": "2026-04",
+    "timestamp": "2026-04-24T15:10:41.398Z"
   }
 ]
