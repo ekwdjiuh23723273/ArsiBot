@@ -4106,5 +4106,18 @@
     "claimedBy": "1238740965846548531",
     "reminderSentAt": null,
     "timestamp": "2026-04-24T12:53:52.396Z"
+  },
+  {
+    "userId": "263708200338063373",
+    "name": "Sky",
+    "date": "04/24/2026",
+    "shift": "Prime time 7pm-3am EST",
+    "models": "Heather and Emily",
+    "reason": "Just one more day so i can get better i swear i will join on time from tomorrow no matter what. Kurt is willing to take my first half just need someone to take the second half.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-24T15:34:14.709Z"
   }
 ]
