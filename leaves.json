@@ -4145,5 +4145,18 @@
     "claimedBy": "1069955852431269928",
     "reminderSentAt": null,
     "timestamp": "2026-04-24T16:45:26.186Z"
+  },
+  {
+    "userId": "1300182068768018523",
+    "name": "Bojan",
+    "date": "04/25/2026",
+    "shift": "prime",
+    "models": "eevie, coco",
+    "reason": "not feeling well",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-25T15:18:15.912Z"
   }
 ]
