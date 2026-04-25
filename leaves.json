@@ -4153,8 +4153,8 @@
     "shift": "prime",
     "models": "eevie, coco",
     "reason": "not feeling well",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1336657724733128756",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-25T15:18:15.912Z"
