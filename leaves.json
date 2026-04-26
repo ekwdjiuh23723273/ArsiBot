@@ -4166,8 +4166,8 @@
     "shift": "Day Shift",
     "models": "Heather, Emily",
     "reason": "close relative passed away, gonna travel later to visit",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-26T00:36:23.540Z"
