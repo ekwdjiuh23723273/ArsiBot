@@ -4171,5 +4171,18 @@
     "claimedBy": "1238740965846548531",
     "reminderSentAt": null,
     "timestamp": "2026-04-26T00:36:23.540Z"
+  },
+  {
+    "userId": "790639122284412938",
+    "name": "Martina",
+    "date": "04/26/2026",
+    "shift": "8:00-11:00",
+    "models": "Claire and Sally",
+    "reason": "Informed in TG already. Reserved for John",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-26T11:53:43.687Z"
   }
 ]
