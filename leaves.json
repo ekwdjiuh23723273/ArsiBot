@@ -4158,5 +4158,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-25T15:18:15.912Z"
+  },
+  {
+    "userId": "1147471360671633438",
+    "name": "Mika",
+    "date": "04/26/2026",
+    "shift": "Day Shift",
+    "models": "Heather, Emily",
+    "reason": "close relative passed away, gonna travel later to visit",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-26T00:36:23.540Z"
   }
 ]
