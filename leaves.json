@@ -4179,8 +4179,8 @@
     "shift": "8:00-11:00",
     "models": "Claire and Sally",
     "reason": "Informed in TG already. Reserved for John",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1188819542529556551",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-26T11:53:43.687Z"
