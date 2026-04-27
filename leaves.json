@@ -4197,5 +4197,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-27T07:12:20.067Z"
+  },
+  {
+    "userId": "1300182068768018523",
+    "name": "Bojan",
+    "date": "05.05.2026",
+    "shift": "prime time",
+    "models": "Eevie, coco",
+    "reason": "flight to thailand. need 2 days off",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-27T07:14:32.234Z"
   }
 ]
