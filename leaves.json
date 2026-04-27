@@ -4192,8 +4192,8 @@
     "shift": "Prime time",
     "models": "Eevie, coco",
     "reason": "flight back to thailand :)",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1336657724733128756",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-27T07:12:20.067Z"
