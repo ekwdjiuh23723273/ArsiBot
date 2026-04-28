@@ -1330,5 +1330,14 @@
     "tickets": 1,
     "yearMonth": "2026-04",
     "timestamp": "2026-04-27T15:30:02.632Z"
+  },
+  {
+    "chatterName": "Io",
+    "modelName": "Kitty",
+    "fanName": "Husband Kevin",
+    "amount": 833,
+    "tickets": 2,
+    "yearMonth": "2026-04",
+    "timestamp": "2026-04-28T03:04:28.390Z"
   }
 ]
