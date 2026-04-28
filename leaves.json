@@ -4236,5 +4236,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-28T05:08:39.716Z"
+  },
+  {
+    "userId": "1271349076230930474",
+    "name": "Christine",
+    "date": "05/02/2026",
+    "shift": "7:00PM - 11:00AM EST",
+    "models": "Kat",
+    "reason": "It's my nephew's graduation. His mom is MIA and dad is working in another city. I cant let him go alone. He's only 7. Can anyone cover please?🥺 even just half?",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-28T05:23:38.821Z"
   }
 ]
