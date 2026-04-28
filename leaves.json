@@ -4249,5 +4249,18 @@
     "claimedBy": "1069955852431269928",
     "reminderSentAt": null,
     "timestamp": "2026-04-28T05:23:38.821Z"
+  },
+  {
+    "userId": "484354534379094017",
+    "name": "Marijoy",
+    "date": "04/28/2026",
+    "shift": "7 PM - 9 PM EST",
+    "models": "Sally, Claire",
+    "reason": "i’ll be on my way back home and might be late since my first trip is in the morning. i just need at least a 2 hr allowance, Kurt will cover for me.",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-28T16:18:42.093Z"
   }
 ]
