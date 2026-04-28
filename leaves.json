@@ -4210,5 +4210,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-27T07:14:32.234Z"
+  },
+  {
+    "userId": "790639122284412938",
+    "name": "Martina",
+    "date": "May 3",
+    "shift": "3:00am-11:00am",
+    "models": "Claire & Sally",
+    "reason": "It's my other godchild's 1st birthday and christening. Can someone cover for me please? Any help will be appreciated. 🥹 Thank you!",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-28T05:08:37.710Z"
   }
 ]
