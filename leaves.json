@@ -4262,5 +4262,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-28T16:18:42.093Z"
+  },
+  {
+    "userId": "1399539430963937436",
+    "name": "Adi",
+    "date": "05/03/26",
+    "shift": "7pm-3am",
+    "models": "Sally, Emily",
+    "reason": "It's my daughter's 3rd birthday",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-28T23:29:42.645Z"
   }
 ]
