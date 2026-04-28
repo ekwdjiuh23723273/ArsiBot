@@ -1339,5 +1339,14 @@
     "tickets": 2,
     "yearMonth": "2026-04",
     "timestamp": "2026-04-28T03:04:28.390Z"
+  },
+  {
+    "chatterName": "Adi",
+    "modelName": "Ava",
+    "fanName": "MyKing/Peter",
+    "amount": 600,
+    "tickets": 1,
+    "yearMonth": "2026-04",
+    "timestamp": "2026-04-28T07:03:44.770Z"
   }
 ]
