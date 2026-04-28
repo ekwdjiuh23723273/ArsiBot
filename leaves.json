@@ -4270,8 +4270,8 @@
     "shift": "7pm-3am",
     "models": "Sally, Emily",
     "reason": "It's my daughter's 3rd birthday",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-28T23:29:42.645Z"
