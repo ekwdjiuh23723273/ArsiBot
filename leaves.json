@@ -4288,5 +4288,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-29T02:41:13.741Z"
+  },
+  {
+    "userId": "1069955852431269928",
+    "name": "Jan",
+    "date": "4/29/2026",
+    "shift": "Dayshift 11AM-3PM",
+    "models": "Kat",
+    "reason": "I might get home late later. Would really appreciate anyone who can cover just the first half 🥺",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-29T04:46:15.725Z"
   }
 ]
