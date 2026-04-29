@@ -4296,8 +4296,8 @@
     "shift": "Dayshift 11AM-3PM",
     "models": "Kat",
     "reason": "I might get home late later. Would really appreciate anyone who can cover just the first half 🥺",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-29T04:46:15.725Z"
