@@ -4314,5 +4314,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-30T00:29:05.725Z"
+  },
+  {
+    "userId": "1271349076230930474",
+    "name": "Christine",
+    "date": "05/02/2026",
+    "shift": "11:00PM - 3:00AM EST",
+    "models": "Kat",
+    "reason": "it's nephew's graduation, and no one else can chaperone. Jan is covering the first half. Can someone help cover the second half of my shift please?🥺... I can cover your shifts in May if u need it🥺",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-30T02:00:11.824Z"
   }
 ]
