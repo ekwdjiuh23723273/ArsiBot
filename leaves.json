@@ -4301,5 +4301,18 @@
     "claimedBy": "1069955852431269928",
     "reminderSentAt": "2026-04-29T11:55:01.485Z",
     "timestamp": "2026-04-29T04:46:15.725Z"
+  },
+  {
+    "userId": "457453484636110883",
+    "name": "Ivann",
+    "date": "04/30/2026",
+    "shift": "GY 7AM-11AM EST",
+    "models": "Sara",
+    "reason": "Our trip was adjusted early",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-04-30T00:29:05.725Z"
   }
 ]
