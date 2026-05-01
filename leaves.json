@@ -4340,5 +4340,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-30T11:01:55.922Z"
+  },
+  {
+    "userId": "790639122284412938",
+    "name": "Martina",
+    "date": "05/03/2026",
+    "shift": "3:00am-7:00am",
+    "models": "Claire and Ava",
+    "reason": "Sky will cover first half, can someone cover 2nd half please? :((",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-05-01T07:20:04.919Z"
   }
 ]
