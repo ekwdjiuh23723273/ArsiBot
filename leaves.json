@@ -4374,8 +4374,8 @@
     "shift": "7PM-3AM",
     "models": "Sally, Emily",
     "reason": "we’ve already booked a staycation for my daughter’s birthday, is there anyone who can take this shift i’d really appreciate it 🥺",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-05-01T07:30:46.583Z"
