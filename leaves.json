@@ -4335,8 +4335,8 @@
     "shift": "Gy 7am - 11 am",
     "models": "Sara",
     "reason": "I claimed Ivan's shift my mistake thinking it was right after my shift. Now im not home and cannot take over. Someone please cover on Sara and save me from getting fined please 🥺 🙏",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1188819542529556551",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-04-30T11:01:55.922Z"
