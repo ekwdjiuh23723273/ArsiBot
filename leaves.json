@@ -4348,8 +4348,8 @@
     "shift": "3:00am-7:00am",
     "models": "Claire and Ava",
     "reason": "Sky will cover first half, can someone cover 2nd half please? :((",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1188819542529556551",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-05-01T07:20:04.919Z"
