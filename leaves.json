@@ -4405,5 +4405,18 @@
     "claimedBy": "375169492269006870",
     "reminderSentAt": "2026-05-03T11:20:02.833Z",
     "timestamp": "2026-05-03T08:28:23.767Z"
+  },
+  {
+    "userId": "1271349076230930474",
+    "name": "Christine",
+    "date": "05/05/2026",
+    "shift": "7:00PM to 3:00AM EST",
+    "models": "Kat",
+    "reason": "just found out my grandma died. i need to go back to cebu with my family. cheapest flight is on the 6th \n\ncan anyone help cover please? i would really appreciate it. ill cover your leaves in may if needed",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-05-03T23:46:07.947Z"
   }
 ]
