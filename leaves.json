@@ -4387,8 +4387,8 @@
     "shift": "Day shift 11:00 AM to 7:00 PM EST",
     "models": "Sara",
     "reason": "stomach fucking up, ate something bad and i can't stop going to the bathroom.",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1188819542529556551",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-05-03T08:25:42.383Z"
