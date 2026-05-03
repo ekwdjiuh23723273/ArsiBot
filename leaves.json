@@ -4426,8 +4426,8 @@
     "shift": "11:00PM to 3:00AM",
     "models": "Kat",
     "reason": "its my grandma's burial .. i only need someone to cover half please",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-05-03T23:50:34.061Z"
