@@ -4504,8 +4504,8 @@
     "shift": "Day Shift 11AM-7PM",
     "models": "CLAIRE AVA",
     "reason": "I feel unwell and would love to take the day off to rest. Covered a lot of hours and I hope you guys will cover me too. <3",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "341255017006628865",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-05-04T11:27:38.123Z"
