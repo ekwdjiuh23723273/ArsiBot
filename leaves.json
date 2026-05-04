@@ -4431,5 +4431,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-05-03T23:50:34.061Z"
+  },
+  {
+    "userId": "1271349076230930474",
+    "name": "Christine",
+    "date": "05/05/2026",
+    "shift": "11:00PM to 3:00AM",
+    "models": "Kat",
+    "reason": "my grandma died and i need to go home to cebu\n\n-- reserved for Martina .. she will cover the latter half of my shift <3",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-05-04T04:02:34.447Z"
   }
 ]
