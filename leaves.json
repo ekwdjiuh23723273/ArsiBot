@@ -4465,8 +4465,8 @@
     "shift": "Dayshift 11AM-3PM EST",
     "models": "Kat",
     "reason": "Might get home late. Reserved for Andre",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-05-04T04:50:34.402Z"
