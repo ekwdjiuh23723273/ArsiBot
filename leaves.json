@@ -4483,5 +4483,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-05-04T04:52:02.493Z"
+  },
+  {
+    "userId": "1069955852431269928",
+    "name": "Jan",
+    "date": "5/4/26",
+    "shift": "Dayshift 3PM-7PM EST",
+    "models": "Kat",
+    "reason": "Might get home late. First half already covered  by Andre. Reserved for Tine",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-05-04T07:20:46.544Z"
   }
 ]
