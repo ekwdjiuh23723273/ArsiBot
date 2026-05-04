@@ -4444,5 +4444,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-05-04T04:02:34.447Z"
+  },
+  {
+    "userId": "1271349076230930474",
+    "name": "Christine",
+    "date": "05/05/2026",
+    "shift": "7:00PM to 11:00PM",
+    "models": "Kat",
+    "reason": "latter half is already covered.. can anyone help cover the first half of my shift please?",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-05-04T04:16:57.348Z"
   }
 ]
