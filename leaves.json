@@ -4530,8 +4530,8 @@
     "shift": "Day Shift",
     "models": "Heather",
     "reason": "i'll be travelling back to my hometown to take care of something",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1410323521024037034",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-05-05T18:22:19.528Z"
