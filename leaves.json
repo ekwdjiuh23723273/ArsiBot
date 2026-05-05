@@ -4517,8 +4517,8 @@
     "shift": "Prime time",
     "models": "Heather",
     "reason": "Have to sign important paperwork for my mother's will. Joe will cover for me. Thanks a lot man!",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "1336657724733128756",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-05-05T18:17:40.054Z"
