@@ -4522,5 +4522,18 @@
     "claimedBy": "1238740965846548531",
     "reminderSentAt": null,
     "timestamp": "2026-05-05T18:17:40.054Z"
+  },
+  {
+    "userId": "1147471360671633438",
+    "name": "Mika",
+    "date": "05/09/2026",
+    "shift": "Day Shift",
+    "models": "Heather",
+    "reason": "i'll be travelling back to my hometown to take care of something",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-05-05T18:22:19.528Z"
   }
 ]
