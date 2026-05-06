@@ -4608,8 +4608,8 @@
     "shift": "DY (11AM-7PM EST)",
     "models": "Claire, Ava",
     "reason": "I need to prepare for our finals. Please help a brother out <3",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "341255017006628865",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-05-06T13:08:39.055Z"
