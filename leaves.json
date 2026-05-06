@@ -4574,5 +4574,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-05-06T05:05:48.665Z"
+  },
+  {
+    "userId": "756170719485755417",
+    "name": "Andre",
+    "date": "05/05/2026",
+    "shift": "Graveyard",
+    "models": "Kat",
+    "reason": "Body is sore been travelling a lot to get medicines JOE GOT ME",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-05-06T05:18:54.130Z"
   }
 ]
