@@ -4587,5 +4587,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-05-06T05:18:54.130Z"
+  },
+  {
+    "userId": "375169492269006870",
+    "name": "Bernie",
+    "date": "05/10/2026",
+    "shift": "GY Shift 3am-11am",
+    "models": "FANVUE FANSLY MYM",
+    "reason": "I need to accompany my grandma in her upcoming chemotherapy",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-05-06T06:50:05.187Z"
   }
 ]
