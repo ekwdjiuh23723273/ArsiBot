@@ -4595,8 +4595,8 @@
     "shift": "GY Shift 3am-11am",
     "models": "FANVUE FANSLY MYM",
     "reason": "I need to accompany my grandma in her upcoming chemotherapy",
-    "status": "Pending",
-    "approverId": null,
+    "status": "Approved",
+    "approverId": "995962476283842592",
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-05-06T06:50:05.187Z"
