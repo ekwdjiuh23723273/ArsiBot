@@ -4548,5 +4548,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-05-06T00:11:30.486Z"
+  },
+  {
+    "userId": "1420059309412323613",
+    "name": "Arc",
+    "date": "05/19/2026",
+    "shift": "Graveyard - 3 am to 7 am only",
+    "models": "Lexxi and Snack",
+    "reason": "COMPREHENSIVE EXAM FOR CIVIL ENGINEERING. BROTHEEERS NEED HELP!",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-05-06T05:00:53.774Z"
   }
 ]
