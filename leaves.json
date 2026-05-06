@@ -4561,5 +4561,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-05-06T05:00:53.774Z"
+  },
+  {
+    "userId": "457453484636110883",
+    "name": "Ivann",
+    "date": "05/07/2026",
+    "shift": "GY FIRST HALF (3-7am)",
+    "models": "Sara",
+    "reason": "I need to accompany my father on his weekly check up, only need 1-2 hrs tbh but it might be better to have some time allowance. Reserved for joe my man! Thank brother",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-05-06T05:05:48.665Z"
   }
 ]
