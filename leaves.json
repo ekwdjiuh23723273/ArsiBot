@@ -4600,5 +4600,18 @@
     "claimedBy": null,
     "reminderSentAt": null,
     "timestamp": "2026-05-06T06:50:05.187Z"
+  },
+  {
+    "userId": "1384640380150091816",
+    "name": "Kurt",
+    "date": "05/07/2026",
+    "shift": "DY (11AM-7PM EST)",
+    "models": "Claire, Ava",
+    "reason": "I need to prepare for our finals. Please help a brother out <3",
+    "status": "Pending",
+    "approverId": null,
+    "claimedBy": null,
+    "reminderSentAt": null,
+    "timestamp": "2026-05-06T13:08:39.055Z"
   }
 ]
